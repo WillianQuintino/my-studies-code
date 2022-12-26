@@ -15,16 +15,14 @@
 @endphp
 
 @isset($fornecedores)
-    @php $i = 0 @endphp
-    @while (isset($fornecedores[$i]))
-        Fornecedor: {{ $fornecedores[$i]['nome'] }}
+    @foreach ($fornecedores as $indice => $fornecedor)
+        Fornecedor: {{ $fornecedor['nome'] }}
         <br>
-        Status: {{ $fornecedores[$i]['status'] }}
+        Status: {{ $fornecedor['status'] }}
         <br>
-        CNPJ: {{ $fornecedores[$i]['cnpj'] ?? 'Dado não foi preenchido' }}
+        CNPJ: {{ $fornecedor['cnpj'] ?? 'Dado não foi preenchido' }}
         <br>
-        Telefone: ({{ $fornecedores[$i]['ddd'] ?? '' }}) {{ $fornecedores[1]['telefone'] ?? '' }}
+        Telefone: ({{ $fornecedor['ddd'] ?? '' }}) {{ $fornecedores[1]['telefone'] ?? '' }}
         <hr>
-        @php $i++ @endphp
-    @endwhile
+    @endforeach
 @endisset
