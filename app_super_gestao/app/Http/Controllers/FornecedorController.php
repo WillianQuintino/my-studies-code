@@ -31,13 +31,7 @@ class FornecedorController extends Controller
                 'telefone' => '0000-0000'
             ]
         ];
-        
-        /*
-        condica ? se verdadeiro : se falso;
-        condica ? se verdadeiro : (condica ? se verdadeiro : se falso;);
-        */
-        $msg = isset($fornecedores[0]['cnpj']) ? 'CNPJ informado' : 'CNPJ não informado';
-        echo $msg;        
+             
         return view('app.fornecedor.index', compact('fornecedores'));
     }
 }
