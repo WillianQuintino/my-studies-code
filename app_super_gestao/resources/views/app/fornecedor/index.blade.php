@@ -15,14 +15,14 @@
 @endphp
 
 @isset($fornecedores)
-    Fornecedor: {{ $fornecedores[0]['nome'] }}
+    Fornecedor: {{ $fornecedores[1]['nome'] }}
     <br>
-    Status: {{ $fornecedores[0]['status'] }}
+    Status: {{ $fornecedores[1]['status'] }}
     <br>
-    @isset($fornecedores[0]['cnpj'])
-        CNPJ: {{ $fornecedores[0]['cnpj'] }}
-        @empty($fornecedores[0]['cnpj'])
-            -Vazio
-        @endempty
-    @endisset
+    CNPJ {{ $fornecedores[1]['cnpj'] ?? 'Dado não foi preenchido' }}
+    <!--
+        $variável testada não tiver definida (isset)
+        ou
+        $variável testada possuir um valor null 
+    -->
 @endisset
