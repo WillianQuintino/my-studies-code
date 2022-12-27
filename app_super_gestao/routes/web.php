@@ -23,7 +23,7 @@ Route::get('/sobre-nos', 'SobreNosController@sobreNos')->name('site.sobrenos');
 Route::get('/contato', 'ContatoController@contato')->name('site.contato');
 Route::get('/login', function(){return 'Login';})->name('site.login');
 
-Route::prefix('/app')->group(function(){
+Route::prefix('/app')->group(function() {
     Route::get('/clientes', function(){return 'Clientes';})->name('app.clientes');
     Route::get('/fornecedores', 'FornecedorController@index')->name('app.fornecedores');
     Route::get('/produtos', function(){return 'produtos';})->name('app.produtos');
