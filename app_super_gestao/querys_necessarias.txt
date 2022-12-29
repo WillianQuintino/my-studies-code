@@ -6,3 +6,31 @@ insert into site_contatos(nome, telefone, email, motivo_contato, mensagem)values
 insert into site_contatos(nome, telefone, email, motivo_contato, mensagem)values('André', '(88) 95555-6666', 'andre@contato.com.br', 2, 'Parabéns pela ferramenta, estou obtendo ótimos resultados!');
 insert into site_contatos(nome, telefone, email, motivo_contato, mensagem)values('Ana', '(33) 96666-7777', 'ana@contato.com.br', 3, 'Não gostei muito das cores, consigo mudar de tema?');
 insert into site_contatos(nome, telefone, email, motivo_contato, mensagem)values('Helena', '(11) 97777-8888', 'helena@contato.com.br', 2, 'Consigo controlar toda a minha empresa de modo fácil e prático.');
+
+create database sg;
+use sg;
+
+describe migrations;
+select * from migrations;
+
+describe fornecedores;
+select * from fornecedores;
+
+describe site_contatos;
+select * from site_contatos;
+/* where (comparação) operadorares lógicos (comparação)
+>
+>=
+<=
+<>
+==
+like
+*/
+describe produtos;
+select * from produtos;
+
+describe produto_detalhes;
+select * from produto_detalhes;
+
+describe unidades;
+select * from unidades;
