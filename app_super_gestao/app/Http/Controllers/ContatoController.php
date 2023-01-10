@@ -2,21 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Facade\Ignition\DumpRecorder\Dump;
 use Illuminate\Http\Request;
-use App\SiteContato;
-use PhpParser\Builder\Function_;
+use App\MotivoContato;
 
 class ContatoController extends Controller
 {
     public function contato(Request $request)
     {
 
-        $motivo_contatos = [
-            '1' => 'Dúvida',
-            '2' => 'Elogio',
-            '3' => 'Reclamação'
-        ];
+        $motivo_contatos = MotivoContato::all();
 
         return view('site.contato', ['titulo' => 'Contato (teste)', 'motivo_contatos' => $motivo_contatos]);
     }
