@@ -2,7 +2,6 @@
 
 use Illuminate\Database\Seeder;
 use App\Fornecedor;
-use Illuminate\Support\Facades\DB;
 
 class FornecedorSeeder extends Seeder
 {
@@ -22,7 +21,7 @@ class FornecedorSeeder extends Seeder
         $fornecedor->save();
 
         //o método create (atenção para o atributo fillable da classe)
-        Fornecedor::create([ 
+        Fornecedor::create([
             'nome' => 'Fornecedor 200',
             'site' => 'fornecedor200.com.br',
             'uf' => 'RS',

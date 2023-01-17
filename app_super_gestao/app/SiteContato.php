@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 //Site_Contato
 //site_contato
-//Site_Contatos
+//site_contatos
 
 class SiteContato extends Model
 {
