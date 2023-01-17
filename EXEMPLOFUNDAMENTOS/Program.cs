@@ -1,3 +1,7 @@
 ﻿using EXEMPLOFUNDAMENTOS.Models;
 
-Pessoa p = new Pessoa();
+Pessoa pessoa1 = new Pessoa();
+
+pessoa1.Nome = "buta";
+pessoa1.Idade =26;
+pessoa1.Apresentar(); 
