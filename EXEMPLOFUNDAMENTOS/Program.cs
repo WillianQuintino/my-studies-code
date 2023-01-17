@@ -1,10 +1,45 @@
 ﻿using EXEMPLOFUNDAMENTOS.Models;
 
 
+string a = "15-";
 
-double a = 4 / (2 + 2);
+//int b = 0;
 
-Console.WriteLine(a);
+int.TryParse(a, out int b);
+
+
+Console.WriteLine(b);
+Console.WriteLine("Conversão realizada com sucesso!");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// double a = 4 / (2 + 2);
+
+// Console.WriteLine(a);
 
 
 
