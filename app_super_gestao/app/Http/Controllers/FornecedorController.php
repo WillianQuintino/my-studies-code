@@ -14,14 +14,13 @@ class FornecedorController extends Controller
 
     public function listar(Request $request)
     {
-        
         $fornecedores = Fornecedor::where('nome', 'like', '%'.$request->input('nome').'%')
             ->where('site', 'like', '%'.$request->input('site').'%')
             ->where('uf', 'like', '%'.$request->input('uf').'%')
             ->where('email', 'like', '%'.$request->input('email').'%')
-            ->get();
-            
-        return view('app.fornecedor.listar', ['fornecedores' => $fornecedores]);
+            ->paginate(2);
+
+        return view('app.fornecedor.listar', ['fornecedores' => $fornecedores, 'request' => $request->all() ]);
     }
 
     public function adicionar(Request $request)
@@ -29,7 +28,7 @@ class FornecedorController extends Controller
         $msg = '';
 
         //inclução
-        if ($request->input('_token') != '' && $request->input('id') == '' ) {
+        if ($request->input('_token') != '' && $request->input('id') == '') {
             //validacao
             $regras = [
                 'nome' => 'required|min:3|max:40',
@@ -63,7 +62,7 @@ class FornecedorController extends Controller
             $fornecedor = Fornecedor::find($request->input('id'));
             $update = $fornecedor->update($request->all());
 
-            if($update){
+            if ($update) {
                 $msg = 'Atualização realizado com sucesso';
             } else {
                 $msg = 'Erro ao tentar atualizar o registro';
@@ -74,8 +73,8 @@ class FornecedorController extends Controller
         return view('app.fornecedor.adicionar', ['msg' => $msg]);
     }
 
-    public function editar($id, $msg = '') {
-
+    public function editar($id, $msg = '')
+    {
         $fornecedor = Fornecedor::find($id);
 
         return view('app.fornecedor.adicionar', ['fornecedor' => $fornecedor, 'msg' => $msg]);
