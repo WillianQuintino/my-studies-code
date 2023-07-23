@@ -42,7 +42,7 @@ Route::middleware('autenticacao:padrao,visitante,p3,p4')->prefix('/app')->group(
     Route::resource('produto', 'ProdutoController');
 
     //produtos detalhes
-    Route::resource('produto-datalhe', 'ProdutoDetalheController');
+    Route::resource('produto-detalhe', 'ProdutoDetalheController');
 });
 
 Route::get('/teste/{p1}/{p2}', 'TesteController@teste')->name('site.teste');
