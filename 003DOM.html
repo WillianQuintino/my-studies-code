@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aulas de jQuery</title>
+</head>
+<body>
+    <h1>O jQuery pode manipular o DOM</h1>
+    <h2>Dom = Documento Object Model (Modelo de Objeto de Documento)</h2>
+    <p>Em outras palavras é a árvore de elementos do nosso código. O jQuery pode acessar e atualizar dinamicament o conteúdo, a
+    estrutura e o estilo de um documento. <br> Tudo pode ser modificado, adicionado ou removido usando jQuery.</p>
+
+    <input id="texto" type="text" placeholder="Digite algo">
+    <br><br>
+    <a id="link" href="https://google.com.br">Link para o Google</a>
+
+    <button id="botao">Verificar link</button>
+    <script src="js/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function(){
+            //var textoH1 = $('h1').html();
+            //alert(textoH1);
+            //var textoP = $('p').text();
+            //alert(textoP);
+            //$('#texto').blur(function(){
+            //    var valor = $(this).val();
+            //    alert('Foi digitado: ' + valor);
+            //});
+            $('#botao').click(function(){
+                var link = $('#link').attr('href');
+                alert('O link vai para: ' + link);
+            });
+        });
+    </script>
+</body>
+</html>

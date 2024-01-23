@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método no conflict</title>
+    <style>
+        button {
+            padding: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Método no conflict</h1>
+
+    <button> CLIQUE AQUI</button>
+    <p></p>
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script>
+        var jq = $.noConflict();
+        jq(document).ready(function(){
+            jq('button').click(function(){
+                jq('p').text('Adicionou texto com o botão');
+            });
+        });
+    </script>
+</body>
+</html>

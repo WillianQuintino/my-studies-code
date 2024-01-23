@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <style>
+        h2 > strong {
+            color: red;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Conhecendo o AJAX</h1>
+    <h2><strong>A</strong>synchronous <strong>J</strong>avaScript <strong>A</strong>nd <strong>X</strong>ML</h2>
+    <p>Resumindamente, o AJAX trata de carregar dados em segundo plano e xibi-los na página da web, sem recarregar a página inteira.</p>
+
+    <div id="teste">
+        <p>Um conteudo inicial</p>
+    </div>
+
+    <br>
+
+    <button id="botao">Clique aqui para carregar conteúdo externo</button>
+
+    <hr>
+    <br><br>
+
+    <input id="cep" type="number" placeholder="Digite o seu CEP"><br><br>
+    <input id="cidade" type="text" placeholder="Cidade"><br><br>
+    <input id="uf" type="text" placeholder="UF"><br><br>
+
+    <script src="js/jquery-3.7.1.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            //$('#botao').click(function(){
+            //    $('#teste').load('teste.txt');
+            //});
+
+            $("#cep").blur(function(){
+                var valor = $(this).val();
+                $.ajax({
+                    url: 'https://viacep.com.br/ws/'+ valor +'/json/',
+                    type: "GET",
+                    success: function(dados, status){
+                        $("#cidade").val(dados.localidade);
+                        $("#uf").val(dados.uf);
+                    },
+                    error: function(){
+                        alert('CEP não encontrado')
+                    }
+                });
+                //$.get('https://viacep.com.br/ws/'+ valor +'/json/', function(dados,status){
+                //    console.log(status);
+                //    if (status == 'success') {
+                //        $("#cidade").val(dados.localidade);
+                //        $("#uf").val(dados.uf);
+                //    } else {
+                //        alert('CEP não encontrado');
+                //    }
+                //});
+            });
+            //$.post("https://seusite.com.br", {nome: "Dimitri",idade:38}, function(data,status){
+
+            //});
+
+        });
+    </script>
+</body>
+</html>
