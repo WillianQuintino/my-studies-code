@@ -1,0 +1,109 @@
+[
+    {
+        "username": "ThiagoRamon",
+        "password": "123",
+        "profile": {
+            "first_name": "Thiago",
+            "last_name": "Pinto"
+        },
+        "contato": {
+            "email": [
+                "Thiago@hotmail.com",
+                "Thiago@hotmail.br"
+            ],
+            "phone": [
+                "555-5555-555",
+                "21-2121-212"
+            ]
+        }
+    },
+    {
+        "username": "ThiagoRamon2",
+        "password": "123",
+        "profile": {
+            "first_name": "Thiago",
+            "last_name": "Pinto"
+        },
+        "contato": {
+            "email": [
+                "2@hotmail.com",
+                "2@hotmail.br"
+            ],
+            "phone": [
+                "555-5555-555",
+                "21-2121-212"
+            ]
+        }
+    },
+    {
+        "username": "ThiagoRamon3",
+        "password": "123",
+        "profile": {
+            "first_name": "Thiago",
+            "last_name": "Pinto"
+        },
+        "contato": {
+            "email": [
+                "2@hotmail.com",
+                "2@hotmail.br"
+            ],
+            "phone": [
+                "555-5555-555",
+                "21-2121-212"
+            ]
+        }
+    },
+    {
+        "username": "ThiagoRamon4",
+        "password": "123",
+        "profile": {
+            "first_name": "Thiago",
+            "last_name": "Pinto"
+        },
+        "contato": {
+            "email": [
+                "2@hotmail.com",
+                "2@hotmail.br"
+            ],
+            "phone": [
+                "555-5555-555",
+                "21-2121-212"
+            ]
+        }
+    },
+    {
+        "username": "ThiagoRamon5",
+        "password": "123",
+        "profile": {
+            "first_name": "Thiago",
+            "last_name": "Pinto"
+        },
+        "contato": {
+            "email": [
+                "2@hotmail.com",
+                "2@hotmail.br"
+            ],
+            "phone": [
+                "555-5555-555",
+                "21-2121-212"
+            ]
+        }
+    },{
+        "username": "ThiagoRamon6",
+        "password": "123",
+        "profile": {
+            "first_name": "Thiago",
+            "last_name": "Pinto"
+        },
+        "contato": {
+            "email": [
+                "2@hotmail.com",
+                "2@hotmail.br"
+            ],
+            "phone": [
+                "555-5555-555",
+                "21-2121-212"
+            ]
+        }
+    }
+]
