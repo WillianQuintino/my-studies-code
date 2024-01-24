@@ -1,0 +1,37 @@
+[{
+    "_comment1": "atributo : valor",
+    "time": "Corinthians",
+
+    "_comment2": "objeto",
+    "estadio": {
+        "_comment3": "string",
+        "nome": "Neo Química Arena",
+        "_comment4": "numb",        
+        "publico_recorde": 63267,
+        "_comment5": "null",      
+        "capacidade": null
+    },
+    
+    "_comment6": "array",
+    "jogadores": [{
+        "_comment7": "string",
+        "nome": "Cássio",
+        "_comment8": "numb",
+        "idade": 33,
+        "_comment9": "boolean",
+        "titular": true,
+        "_comment10": "array",
+        "times": ["Grêmio", "PSV", "Corinthians"]
+    },
+    {
+        "_comment11": "string",
+        "nome": "Luan",
+        "_comment12": "numb",
+        "idade": 27,
+        "_comment13": "boolean",
+        "titular": false,
+        "_comment14": "array",
+        "times": ["Grêmio", "Corinthians"]
+    }],
+    "_comment15": "Site para validar o JSON: https://jsonlint.com/"
+}]
