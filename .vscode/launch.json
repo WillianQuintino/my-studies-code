@@ -1,7 +1,6 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -9,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/fatec-americana/jogos-digitais/1o-semestre",
-      "program": "/workspaces/fatec-americana/jogos-digitais/1o-semestre/build/Debug/outDebug",
+      "cwd": "/workspaces/fatec-americana/jogos-digitais/1o-semestre/programacao-ii",
+      "program": "/workspaces/fatec-americana/jogos-digitais/1o-semestre/programacao-ii/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

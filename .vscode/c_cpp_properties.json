@@ -1,18 +1,17 @@
 {
   "configurations": [
-    {
-      "name": "linux-gcc-x64",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "compilerPath": "/usr/bin/gcc",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "linux-gcc-x64",
-      "compilerArgs": [
-        ""
-      ]
-    }
+      {
+          "name": "MinGW",
+          "includePath": [
+              "${workspaceFolder}/**",
+              "/workspaces/fatec-americana/jogos-digitais/1o-semestre/programacao-ii/mingw64/include"
+          ],
+          "defines": [],
+          "compilerPath": "/workspaces/fatec-americana/jogos-digitais/1o-semestre/programacao-ii/mingw64/bin/g++.exe",
+          "cStandard": "c11",
+          "cppStandard": "c++17",
+          "intelliSenseMode": "gcc-x64"
+      }
   ],
   "version": 4
 }
