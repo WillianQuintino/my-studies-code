@@ -2,5 +2,5 @@
 
 ## Aula 1
 
-Breve resumo da história da programação e computadores.[CLick Aqui](Aula001/REDME.md)
+Breve resumo da história da programação e computadores.[CLick Aqui](Aula001/README.md)
 
