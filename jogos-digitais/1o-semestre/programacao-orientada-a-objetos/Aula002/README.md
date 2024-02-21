@@ -74,3 +74,21 @@ Pode ser acessada de qualquer ponto do programa. Uma classe pública precisa  es
 **omitido ->** Padrão.
 **protect ->** Acesso no mesmo pacote e pelas clases descendentes.
 **private ->** Só a própria classe acessa.
+
+#### Declaração
+
+Atributos:
+
+```java copy
+    //NívelDeAcesso Tipo/Classe nome = valor;
+    private double salario;
+
+    //NívelDeAcesso Tipo/Classe nome (parametros)
+    //{
+        //código
+    //}
+    public int main()
+    {
+        //Código
+    }
+```
