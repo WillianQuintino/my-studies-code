@@ -1,0 +1,1 @@
+//33. Crie uma função que irá converter uma string em um array contendo os códigos ASCII de cada caractere

@@ -1,0 +1,1 @@
+//26. Crie uma função que irá adicionar dois números positivos de tamanho indefinido. Os números são recebidos como strings e o resultado também deve ser fornecido como string.

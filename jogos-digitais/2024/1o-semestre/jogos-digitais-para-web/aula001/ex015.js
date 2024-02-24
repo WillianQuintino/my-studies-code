@@ -1,0 +1,1 @@
+//15. Crie uma função que retornará um booleano especificando se um número é primo

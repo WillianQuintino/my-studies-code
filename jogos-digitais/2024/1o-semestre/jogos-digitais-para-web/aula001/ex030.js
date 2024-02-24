@@ -1,0 +1,1 @@
+//30. Crie uma função que retorne um array com palavras dentro de um texto.

@@ -1,0 +1,1 @@
+//22. Crie uma função que receberá dois arrays de números como argumentos e retornará um array composto por todos os números que estão no primeiro ou no segundo array matriz, mas não em ambos

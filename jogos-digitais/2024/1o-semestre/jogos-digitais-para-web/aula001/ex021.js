@@ -1,0 +1,1 @@
+//21. Crie uma função que irá mesclar dois arrays e retornar o resultado como um novo array

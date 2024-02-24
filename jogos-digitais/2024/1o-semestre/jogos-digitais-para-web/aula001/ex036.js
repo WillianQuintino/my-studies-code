@@ -1,0 +1,1 @@
+//36. Encontre a frequência das letras em uma string. Retorne o resultado como uma matriz de matrizes. Cada subarray possui 2 elementos: letra e número de ocorrências.

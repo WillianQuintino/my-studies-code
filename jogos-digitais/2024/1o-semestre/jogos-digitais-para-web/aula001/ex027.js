@@ -1,0 +1,1 @@
+//27. Crie uma função que retornará a quantidade de palavras de um texto
