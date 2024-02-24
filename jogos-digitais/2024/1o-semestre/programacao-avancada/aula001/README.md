@@ -68,7 +68,7 @@ Sub -> substitui uma nota ->Toda a Materia.
 > A declaração acima aloca espaço de memoria somente para as variavel do tipo ponteiro ocupa 4 bytes de memoria.
 > Observe que na declaração do tipo ponteiro é especificado o tipo de estrutura que pode ser apontador por uma variavel ponteiro no exemplo acima, uma variavel do tipo ponteiro, pode refêrenciar ou apontar para uma estrura do tipo nó.
 
-![Esquema da declaração](esquema-declaracao.drawio)
+![Esquema da declaração](esquema-declaracao.svg)
 
 > A declaração das variáveis, A, B, C, não é inicializada, isto é, nenhum valor é armazenado em A, B e C na memória, e não existe nenhum struct estabelecida na memória.
 > Para criar/estavelecer uma referência é preciso obter uma certa quantidade de espaço de memória.
