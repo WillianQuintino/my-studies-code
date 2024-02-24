@@ -5,6 +5,6 @@
 
 ## Aulas
 
-20/02/2024 - [Aula 001](Aula001/README.md) Breve resumo da história da programação e computadores.
-21/02/2024 - [Aula 002](Aula002/README.md) 
+20/02/2024 - [Aula 001](Aula001/README.md) - Breve resumo da história da programação e computadores.
+21/02/2024 - [Aula 002](Aula002/README.md) - Como java copila, tipos de variaveis, permições, classes e metodos.
 
