@@ -3,7 +3,7 @@
 
 19/02/2024 - [Aula 001](aula001/README.md) - Apresentação do plano de ensino e Conceitos e Fudamentos.
 
-//2024 - [Aula 002](aula002/README.md) - Operações de ponteiro.
+26/02/2024 - [Aula 002](aula002/README.md)
 
 //2024 - [Aula 003](aula003/README.md) - Função de Ponteiro.
 

@@ -2,6 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "(Windows) Iniciar",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "console": "externalTerminal"
+    },
+    {
       "type": "java",
       "name": "App",
       "request": "launch",
@@ -14,9 +25,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/workspaces/fatec-americana/jogos-digitais/1o-semestre/programacao-ii",
-      "program": "/workspaces/fatec-americana/jogos-digitais/1o-semestre/programacao-ii/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "c:/Users/0040962323006/Documents/Code/fatec-americana/jogos-digitais/2024/1o-semestre/programacao-avancada/aula002",
+      "program": "c:/Users/0040962323006/Documents/Code/fatec-americana/jogos-digitais/2024/1o-semestre/programacao-avancada/aula002/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
