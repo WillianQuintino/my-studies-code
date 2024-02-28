@@ -1,5 +1,5 @@
 [🔝](../README.md)
-# Aula 002 -  21/02/2024 - Como java copila, tipos de variaveis, permições, classes e metodos.
+# 21/02/2024 - Aula 002 -  Como Java copila, tipos de variáveis, permissões, classes e métodos.
 
 Prof. Perrotti
 POO
