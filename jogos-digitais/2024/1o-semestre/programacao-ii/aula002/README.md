@@ -50,7 +50,6 @@ Resultado:
 ** 
 * 
 ```
-
 ```TEXT COPY
 Digite um número: 6 
 Resultado: 
@@ -60,13 +59,4 @@ Resultado:
 *** 
 ** 
 * 
-```
-
-6)Utilizando o mesmo conceito anterior, solicite ao usuário um número e com este número construa um quadrado conforme exemplo abaixo:[ex006](ex006/src/main.c)
-
-```TEXT COPY
-Digite um número: 5 
-Resultado: 
-O-----O -     - -     -     - - 
-O-----O 
 ```
