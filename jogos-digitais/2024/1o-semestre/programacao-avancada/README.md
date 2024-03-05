@@ -5,7 +5,7 @@
 
 26/02/2024 - [Aula 002](aula002/README.md)
 
-//2024 - [Aula 003](aula003/README.md) - Função de Ponteiro.
+04/03/2024 - [Aula 003](aula003/README.md) - Função de Ponteiro.
 
 //2024 - [Aula 004](aula004/README.md) - Tecnica de encadeamento.
 

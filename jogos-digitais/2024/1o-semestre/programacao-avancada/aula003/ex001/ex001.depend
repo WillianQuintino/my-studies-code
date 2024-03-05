@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1709593576 source:c:\users\0040962323006\documents\code\fatec-americana\jogos-digitais\2024\1o-semestre\programacao-avancada\aula003\ex001\main.c
+	<stdio.h>
+	<stdlib.h>
+

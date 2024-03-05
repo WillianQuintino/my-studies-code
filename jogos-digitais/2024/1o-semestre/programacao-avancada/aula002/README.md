@@ -226,3 +226,5 @@
         return 0;
     }
 ```
+
+[Exemplo 001](exemplo002/exemplo002.c)
