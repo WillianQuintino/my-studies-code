@@ -4,13 +4,13 @@
 
 int main(){
 
-    setlocale(LC_CTYPE, "portuguese");// Configuração acento
+    setlocale(LC_CTYPE, "portuguese");// Configuraï¿½ï¿½o acento
 
-    //declaração de Variável
+    //declaraï¿½ï¿½o de Variï¿½vel
     int num;
 
     // Dados de Entrada
-    printf ("Digite um número: ");
+    printf ("Digite um nï¿½mero: ");
     scanf ("%i", &num);
 
     for (int linha = 1; linha < num; linha++)
