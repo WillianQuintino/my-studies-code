@@ -14,6 +14,9 @@ struct no *auxiliar, *corrente, *inicio;
 
 void Enterdata()
 {
+    while (auxiliar != NULL){
+        auxiliar=auxiliar->next;
+    }
     printf("\n informe o codigo: ");
     scanf("%d", &corrente -> codigo);
 
@@ -43,7 +46,12 @@ void Insert()
 
 void Show()
 {
+    corrente = inicio;
 
+    while(corrente != NULL) {
+        printf("\nCodigo: %d | Nome: %s", corrente->codigo, corrente->nome);
+        corrente = corrente->next;
+    }
 }
 
 void Search()
@@ -76,6 +84,56 @@ void Search()
         {
             printf("\n Registro não costa na lista...");
             system("pause");
+        }
+    }
+}
+
+void removed()
+{
+    char nome[30];
+    int achou;
+
+    if (inicio==NULL)
+    {
+        printf("\n Lista vazia");
+
+        system("pause");
+    } else {
+        auxiliar=inicio;
+        achou=0;
+        printf("\n Informe o nome a ser Removido: ");
+        scanf("%s", &nome);
+        if(strcmp(auxiliar->nome, nome)==0)
+        {
+            inicio = inicio->next;
+            free(auxiliar);
+            printf("\n Removido registro no inicio da Lista");
+            system("pause");
+            achou=1;
+        }else{
+            corrente=auxiliar;
+            auxiliar=corrente->next;
+            while (auxiliar != NULL)
+            {
+                if(strcmp(auxiliar->nome,nome)==0)
+                {
+                 corrente->next = auxiliar->next;
+                 free(auxiliar);
+                 printf("\n Removido no meio da lista / Fim com sucesso");
+                 system("pause");
+                 achou=1;
+                 break;
+                } else {
+                    auxiliar=auxiliar->next;
+                    corrente=corrente->next;
+                }
+            }
+
+            if (achou==0)
+            {
+                printf("\n Registro não costa na lista...");
+                system("pause");
+            }
         }
     }
 }
@@ -113,8 +171,7 @@ int main()
             Search();
             break;
         case 4:
-            printf("\n Função a ser desenvolvida \n");
-            system("pause");
+            removed();
             break;
         case 5:
             break;
