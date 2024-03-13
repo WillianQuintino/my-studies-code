@@ -1,6 +1,6 @@
 [🔝](../README.md)
 
-# 12/03/2024 - Aula 005
+# 12/03/2024 - Aula 005 - Construtor de cópias, Sobreposição, Assinatura e Exercícios
 
 Prof. Perrotti
 POO

@@ -19,6 +19,8 @@
 
 05/03/2024 - [Aula 004](Aula004/README.md) - Projeto de empresa
 
-12/03/2024 - [Aula 005](Aula005/README.md) -
+12/03/2024 - [Aula 005](Aula005/README.md) - Construtor de cópias, Sobreposição e Assinatura
+
+13/03/2024 - [Aula 006](Aula006/README.md) - 
 
 [EXTRAS](extras/README.md)
