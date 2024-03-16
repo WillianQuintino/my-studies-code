@@ -44,11 +44,9 @@ Classes contém um conjunto de definições que são aplicadas aos objetos const
 Essas definições incluem, os atributos dos objetos as ações que eles executam, os métodos que ativam ou controlam essas ações e a maneira com que os objetos são construídos.
 
 ### Método
-
 É o que ativa ou controla uma ação do objeto. Pode existir vários métodos para a mesma ação mas cada ação exige pelo menos um método.
 
 ### Atributos
-
 São informações reacionados ao objeto e que são inerentes ao objeto, ou seja, existem porque o objeto existe.
 
 ### Decalação de classes
