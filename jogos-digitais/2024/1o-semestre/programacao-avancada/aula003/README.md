@@ -29,7 +29,7 @@ Conhecido pelo nome de "Next".
 
 ## Exemplo 003
 
-```c copy
+```c
 #include <stdio.h>
 #include <stdlib.h>
 

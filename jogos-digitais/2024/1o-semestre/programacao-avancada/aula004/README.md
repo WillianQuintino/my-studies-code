@@ -3,6 +3,7 @@
 # 11/03/2024 - Aula 004
 
 ## Remoção
+
 > Este modulo/função. possui.
 > três Etapas:
 >   I Etapa: Elemento na Lista

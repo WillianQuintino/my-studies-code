@@ -1,11 +1,12 @@
 [🔝](../README.md)
+
 # 26/02/2024 - Aula 002
 
 ## Comando Malloc
 
 > O procedimento Malloc tem como parámetro uma variável do tipo ponteiro e, quando ativada, aloca espaço de memória de acordo com a declaração do tipo do ponteiro.
 
-```c copy
+```c
     A = (no*) malloc (seziof(no));
 ```
 
@@ -17,9 +18,9 @@
 > A váriavel "A" contém o endereço dessa estrutura, permitindo o acesso através do comando printf.
 > Podemos operar os dados da mesma forma que as operações estáticos. Para operar dados usando ponteiro adapta-se o concatenador "->", conforme exemplo abaixo:
 
-```c copy
+```c
     A -> codigo =1;
-    
+
     scanf("%s", &A->nome);
 
     A -> valor += salario;
@@ -36,7 +37,7 @@
 
 **Exemplo:**
 
-```c copy
+```c
     A=Null;
     B=Null;
 ```
@@ -45,7 +46,7 @@
 
 > Quando necessitamos apagar um nó, ou devolver este endereço de memória ao Sistema Operacional, utiliza-se o comando FREE(), que corresponde Remover/Apagar um dado que está ocupando endereço de memória.
 
-```c copy
+```c
     #include<studio.h>
     #include<stdlib.h>
 
@@ -108,6 +109,7 @@
         FREE(C);
     }
 ```
+
 1) Az
 2) Az Bz
 3) Az Bz Cz
@@ -117,15 +119,15 @@
     A->[7][?]
 6) Bz Cz
     A->[7][Wilson]
-7)  B-|-> [7][Wilson]
-    A-|
-    Cz
-8)  B-|
-    C-|-> [7][Wilson]
-    A-|
-9)  A-|-> [7][Wilson]
-    C-|
-    B->[?][?]
+7) B-|-> [7][Wilson]
+   A-|
+   Cz
+8) B-|
+   C-|-> [7][Wilson]
+   A-|
+9) A-|-> [7][Wilson]
+   C-|
+   B->[?][?]
 10) A-|-> [7][Wilson]
     C-|
     B->[10][]
@@ -162,7 +164,7 @@
 
 **Vejamos Exemplo - "struct"**
 
-```c copy
+```c
     type def struct no
     {
         int codigo;
@@ -181,7 +183,7 @@
 
 ![Encadeamento](encadeamento.drawio.svg)
 
-```c text
+```c
     A->next = B;
     B->next = Null;
 ```
@@ -190,7 +192,7 @@
 
 **Vejamos Exemplo - "struct"**
 
-```c text
+```c
     #include<stdio.h>
     #include<stdlib.h>
 

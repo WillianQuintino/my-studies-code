@@ -9,7 +9,7 @@
 
 11/03/2024 - [Aula 004](aula004/README.md) - Tecnica de encadeamento.
 
-//2024 - [Aula 005](aula005/README.md) - Alocação e remoção de endereço.
+18/03/2024 - [Aula 005](aula005/README.md) - Alocação e remoção de endereço.
 
 //2024 - [Aula 006](aula006/README.md) - Estrutura simplemente encadeada.
 
