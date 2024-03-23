@@ -1,4 +1,5 @@
 [🔝](../README.md)
+
 # 19/02/2024 - Aula 000 - Breve resumo da história da programação e computadores.
 
 Prof. Perrotti

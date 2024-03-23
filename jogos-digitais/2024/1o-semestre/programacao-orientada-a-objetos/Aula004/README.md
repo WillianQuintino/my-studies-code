@@ -9,7 +9,7 @@ POO
 
 > É uma referencia ai objeto que existe dentro de todos os objetos. Só pode ser acessada dentro da classe Através do [this] é possível acessar atributos e métodos em classes da mesma hierarquia.
 
-```java copy
+```java
     Pessoa p = new Pessoa();
         // T
         //
@@ -26,7 +26,7 @@ POO
     }
 ```
 
-## exercicio
+## Exercicio
 
 > Novo projeto: Empresa
 > Classe: Vendedor.
