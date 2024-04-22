@@ -1,4 +1,5 @@
 [🔝](../README.md)
+
 # 19/02/2024 - Aula 001 - Apresentação do plano de ensino e Conceitos e Fudamentos.
 
 ## Plano de Ensino
@@ -41,16 +42,16 @@ Sub -> substitui uma nota ->Toda a Materia.
 
 > As variaveis dinâmicas que veremos a seguir não são criadas em tempo de copilação isso significa que o copilador não faz alocação de memoria para as variáveis dinâmicas.
 > Durante a execução do programa podemos alocar o espaço desejado ou dispor dele quando nescessario.
->As variaveis dinâmicas não são declaradas explicitamente na partes de declarações do programa, nem tem nome.
+> As variaveis dinâmicas não são declaradas explicitamente na partes de declarações do programa, nem tem nome.
 > A forma de se fazer referência a uma variável dinâmica é atravás da estrutura dinâmica. Essa variável é do tipo ponteiro.
 
 ### Ponteiro
 
 > Os valores do tipo ponteiro são endereço, de memória das estruturas dinamicas.
 > Uma variáveis do tipo Ponteiro é definido pelo simbolo *\** segundo do tipo da variável dinâmica que pode ser referenciada por esse ponteiro.
->Exemplo:
+> Exemplo:
 
-```C COPY
+```C
     int *A;
     char *nome;
     float* salario;

@@ -2,19 +2,19 @@
 
 # (08/03/2024) - Aula 4 - Modularização/Função
 
-```c copy
+```c
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
 
 int potencial (int base, int expoente) {
-    
+
     int res = 1;
-    
+
     for (int i = 1, i <= expoente, i++) {
         res = res * base;
     }
-    
+
     return res;
 
 }
@@ -22,15 +22,15 @@ int potencial (int base, int expoente) {
 int main (){
     
     setlocale(LC_CTYPE, "portuguese");// Configuração acento
-    
+
     int num, exp, r;
-    
+
     printf("Digite um numero: ");
     scanf("%i", &num);
-    
+
     printf("Digite o expoente: ");   
     scanf("%i", &exp);
-    
+
     r = potencia(num, exp);
 
 }

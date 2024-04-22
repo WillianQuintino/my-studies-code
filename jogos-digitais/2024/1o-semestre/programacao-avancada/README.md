@@ -1,4 +1,5 @@
 [🔝](../README.md)
+
 # Programação Avançada
 
 19/02/2024 - [Aula 001](aula001/README.md) - Apresentação do plano de ensino e Conceitos e Fudamentos.
@@ -13,9 +14,9 @@
 
 //2024 - [Aula 006](aula006/README.md) - Estrutura simplemente encadeada.
 
-//2024 - [Aula 007](aula007/README.md) - Estrutura duplamente encadeada.
+01/04/2024 - [Aula 007](aula007/README.md) - Estrutura duplamente encadeada.
 
-//2024 - [Aula 008](aula008/README.md) - Circular
+22/04/2024 - [Aula 008](aula008/README.md) - Circular
 
 //2024 - [Aula 009](aula009/README.md) - Pilha
 

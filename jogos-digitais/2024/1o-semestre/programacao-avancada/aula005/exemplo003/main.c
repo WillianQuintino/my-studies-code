@@ -1,0 +1,354 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <locale.h>
+
+typedef struct no
+{
+    int codigo;
+    char nome[30];
+    struct no *next, *back;
+}no;
+
+struct no *auxiliar, *auxiliar2, *corrente, *inicio, *fim;
+
+void Enterdata()
+{
+    printf("\n informe o codigo: ");
+    scanf("%d", &corrente -> codigo);
+
+    printf("\n informe o nome: ");
+    scanf("%s", &corrente -> nome);
+}
+
+void Insert()
+{
+    if (inicio == NULL)
+    {
+        corrente=(no*)malloc(sizeof(no));
+        auxiliar=corrente;
+        inicio=corrente;
+        corrente->next = NULL;
+        Enterdata();
+    }
+    else
+    {
+        corrente=(no*)malloc(sizeof(no));
+        auxiliar -> next = corrente;
+        corrente -> next = NULL;
+        auxiliar = corrente;
+        Enterdata();
+    }
+}
+
+void Sort()
+{
+   int Achou = 0;
+
+   corrente = (no*)malloc(sizeof(no));
+   Enterdata();
+   Achou = 0;
+
+   if(inicio == NULL)
+   {
+       auxiliar = corrente;
+       inicio = corrente;
+       corrente->next=NULL;
+       Achou = 1;
+       printf("\n Inserido o Primeiro Elemento na Lista");
+       system("pause");
+   } else {
+        if(strcmp(corrente->nome, auxiliar->nome)<0)
+        {
+            corrente->next=auxiliar;
+            inicio = corrente;
+            Achou = 1;
+            printf("\n Registro antecede o primeiro Elemento na Lista");
+            system("pause");
+        } else {
+            auxiliar2 = auxiliar;
+            auxiliar=auxiliar->next;
+            while (auxiliar != NULL)
+            {
+                if((strcmp(corrente->nome, auxiliar2->nome)<=0) && (strcmp(corrente->nome, auxiliar->nome)<=0))
+                {
+                    auxiliar2->next=corrente;
+                    corrente->next=auxiliar;
+                    Achou = 1;
+                    printf("\n Registro inserido no meio da lista");
+                    system("pause");
+                    break;
+                } else {
+                    auxiliar2 = auxiliar2->next;
+                    auxiliar = auxiliar->next;
+                }
+            }
+            if (Achou == 0 && (strcmp(corrente->nome, auxiliar2->nome)>0))
+            {
+                auxiliar2->next=corrente;
+                corrente->next=NULL;
+                printf("\n Registro inserido no final da Lista");
+                system("pause");
+            }
+        }
+   }
+}
+
+void InsertTwo()
+{
+    if (inicio == NULL)
+    {
+        corrente = (no*)malloc(sizeof(no));
+        inicio = corrente;
+        auxiliar = corrente;
+        corrente->next = NULL;
+        corrente->back = NULL;
+        fim=corrente;
+        Enterdata();
+    } else {
+        corrente = (no*)malloc(sizeof(no));
+        auxiliar->next = corrente;
+        corrente->back = auxiliar;
+        auxiliar = corrente;
+        fim = corrente;
+        corrente->next = NULL;
+        Enterdata();
+    }
+}
+
+void Show()
+{
+    corrente = inicio;
+
+    while(corrente != NULL) {
+        printf("\nCodigo: %d | Nome: %s", corrente->codigo, corrente->nome);
+        corrente = corrente->next;
+    }
+}
+
+void Search()
+{
+    char nome[30];
+    int achou;
+
+    if(inicio == NULL)
+    {
+        printf("\n Lista vazia...");
+        system("pause");
+    }else{
+        auxiliar = inicio;
+        printf("\n informe o nome a ser pesquisado: ");
+        scanf("%s", &nome);
+        achou=0;
+        while (auxiliar != NULL){
+            if(strcmp(auxiliar->nome,nome)==0)
+            {
+                printf("\n Codigo ...: %d", auxiliar->codigo);
+                printf("\n Nome .....: %s", auxiliar->nome);
+                system("pause");
+                achou=1;
+                break;
+            }else{
+                auxiliar=auxiliar->next;
+            }
+        }
+        if (achou==0)
+        {
+            printf("\n Registro não costa na lista...");
+            system("pause");
+        }
+    }
+}
+
+void SearchTwo(){
+    int Achou;
+    char nome[30];
+    if(inicio == NULL)
+    {
+        printf("\n Lista vazia");
+        system("pause");
+    }
+    auxiliar = fim; // inicio
+    Achou = 0;
+    printf("\n Informe o nome a ser Pesquisado: ");
+    scanf("%s", &nome);
+    while(auxiliar!=NULL)
+    {
+        if(strcmp(nome, auxiliar->nome) == 0)
+        {
+            printf("\n Registro encontrado com Sucesso");
+            system("pause");
+            Achou = 1;
+            break;
+        } else {
+            auxiliar: auxiliar->back;//next
+        }
+    }
+    if (Achou == 0)
+    {
+        printf("\n Registro não foi encontrado na Lista");
+        system("pause");
+    }
+}
+
+void Removed()
+{
+    char nome[30];
+    int achou;
+
+    if (inicio==NULL)
+    {
+        printf("\n Lista vazia");
+
+        system("pause");
+    } else {
+        auxiliar=inicio;
+        achou=0;
+        printf("\n Informe o nome a ser Removido: ");
+        scanf("%s", &nome);
+        if(strcmp(auxiliar->nome, nome)==0)
+        {
+            inicio = inicio->next;
+            free(auxiliar);
+            printf("\n Removido registro no inicio da Lista");
+            system("pause");
+            achou=1;
+        }else{
+            corrente=auxiliar;
+            auxiliar=corrente->next;
+            while (auxiliar != NULL)
+            {
+                if(strcmp(auxiliar->nome,nome)==0)
+                {
+                 corrente->next = auxiliar->next;
+                 free(auxiliar);
+                 printf("\n Removido no meio da lista / Fim com sucesso");
+                 system("pause");
+                 achou=1;
+                 break;
+                } else {
+                    auxiliar=auxiliar->next;
+                    corrente=corrente->next;
+                }
+            }
+
+            if (achou==0)
+            {
+                printf("\n Registro não costa na lista...");
+                system("pause");
+            }
+        }
+    }
+}
+
+void RemovedTwo()
+{
+    int Achou;
+    char nome[30];
+    if(inicio == NULL)
+    {
+        printf("\n Lista vazia");
+        system("pause");
+    } else {
+        auxiliar = inicio;
+        Achou = 0;
+        printf("\n informe o nome a ser Remeviso...");
+        scanf("%s", &nome);
+        if(strcmp(nome, auxiliar->nome) == 0)
+        {
+            inicio = inicio -> next;
+            free(auxiliar);
+            inicio -> back = NULL;
+            printf("\n Removido o Registro no inicio da  Lista");
+            system("pause");
+            Achou = 1;
+        } else {
+            auxiliar2 = auxiliar->next;
+            while (auxiliar2->next != NULL)
+            {
+                 if (strcmp(nome, auxiliar2->nome) == 0)
+                 {
+                     auxiliar2 = auxiliar2->next;
+                     auxiliar2->back = auxiliar;
+                     auxiliar2 = auxiliar->next;
+                     auxiliar->next = auxiliar2->next;
+                     free(auxiliar2);
+                     printf("\n Removico com sucesso no meio da Lista");
+                     system("pause");
+                     Achou = 1;
+                     break;
+                 }else{
+                    auxiliar = auxiliar->next;
+                    auxiliar2 = auxiliar2->next;
+                 }
+            }
+            if(Achou == 0 && (strcmp(nome, auxiliar2->nome)==0))
+            {
+                auxiliar->next=NULL;
+                free(auxiliar2);
+                free(auxiliar2);
+                printf("\n Removico no ultimo posição da Lista");
+                system("pause");
+            }
+            if(Achou == 0)
+            {
+                printf("\n Registro não encontrado... tente novamente");
+                system("pause");
+            }
+        }
+    }
+}
+
+int main()
+{
+    setlocale(LC_CTYPE, "portuguese");// Configuração acento
+    corrente = NULL;
+    inicio = NULL;
+    auxiliar = NULL;
+
+    int op;
+
+    do
+    {
+        printf("\n******** Lista Simplesmente Encadeada *******");
+        printf("\n [1] Inserindo Registro na Lista");
+        printf("\n [2] Exibindo os Registros da Lista");
+        printf("\n [3] Pesquisa os Registros da Lista");
+        printf("\n [4] Removendo Registros da Lista");
+        printf("\n [5] Sair");
+
+        printf("\n Escolha a Opção: ");
+        scanf("%d", &op);
+
+        switch (op)
+        {
+        case 1:
+            //Insert();
+            //Sort();
+            InsertTwo();
+            break;
+        case 2:
+            Show();
+            break;
+        case 3:
+            //Search();
+            SearchTwo();
+            break;
+        case 4:
+            //Removed();
+            RemovedTwo();
+            break;
+        case 5:
+            break;
+        default:
+            printf("\n Função não encontrada.. tente novamente");
+            system("pause");
+        }
+    }while(op != 5);
+
+    system("cls");
+    printf("\n Final de processamento \n");
+    system("pause");
+
+    return 0;
+}
