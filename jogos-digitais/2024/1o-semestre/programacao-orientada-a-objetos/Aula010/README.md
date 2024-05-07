@@ -11,7 +11,7 @@ São classes que não podem ser instanciadas. Ou porque não tem definições su
 
 Classes abstratas servem apenas para ser ancestrais de outras classes. Em java, a classe é declarada abstrata com o uso da palavra reservada <u>abstract</u>
 
-![](D:\Documents\code\fatec-americana\jogos-digitais\2024\1o-semestre\programacao-orientada-a-objetos\Aula010\DiagramaClassAbstract.svg)
+![DiagramaClassAbstract](DiagramaClassAbstract.svg)
 
 ## Métodos Abstratos
 
@@ -19,7 +19,7 @@ São métodos que são declarados, mas não são implementados, ou seja, têm as
 
 Só podem ser declarados em classes abstratas. A implementação deve ser feita pelas classes descendentes. Quando uma classe descendente herdada métodos abstratos de uma classe ancestral, herda também a obrigação de implementar esses métodos fazendo uma sobreposição.
 
-![](D:\Documents\code\fatec-americana\jogos-digitais\2024\1o-semestre\programacao-orientada-a-objetos\Aula010\DiagramaMethodAbstract.svg)
+![DiagramaMethodAbstract](DiagramaMethodAbstract.svg)
 
 **Classe e método Abstrata:**
 

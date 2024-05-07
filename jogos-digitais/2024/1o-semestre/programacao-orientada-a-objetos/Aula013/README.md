@@ -5,7 +5,7 @@
 Prof. Perrotti
 POO
 
-## Arrays (Matrizes)]
+## Arrays (Matrizes)
 
 Arrays são coleção de dados de mesmo tipo, organizado em uma estrutura indexada. A posição de cada elemento é indicada por um índice. Podem ter uma ou mais dimensões. Para cada dimensão é necessário um conjunto de índices. Em Java, arrays são objetos e precisam ser construídos antes do uso. Pelo fato de serem objetos, os arrays contém internamento atributos e métodos. um atributo especialmente útil é o __Length__, que informa o comprimento (qtd de posições) no Array.
 
