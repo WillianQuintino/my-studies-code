@@ -33,7 +33,7 @@ typedef struct tipopessoa {
     int id[10];
     char nome[50];
     char sexo[2];
-    char email[99];
+    char email[199];
     char senha[50];
     int dia[3];
     int mes[3];
@@ -41,6 +41,7 @@ typedef struct tipopessoa {
     char cidade[10];
     char estado[3];
     char pais[10];
+    int pontos;
     struct tipopessoa *next, *back;
 } tipopessoa;
 
@@ -61,7 +62,7 @@ int game = 0,
     player = 0,
     machine = 0,
     end = 0,
-    pontos =0,
+    pontos = 0,
     matrix[3][3] = {
     {0, 0, 0},
     {0, 0, 0},
@@ -71,7 +72,6 @@ char *leaderboardFile = "leaderboard.dat",
      *pessoasFile = "pessoas.dat";
 
 
-void inserirNaLeaderboard(const char *nome, int pontos);
 void inserirNaLeaderboard(const char *nome, int pontos);
 void listarDadosUsuarioAtual(char *email, char *senha);
 void listarDadosUsuario(char *email, char *senha);
@@ -95,7 +95,7 @@ void HeadLine();
 void EndGame();
 void White();
 int compararPontuacao(const void *a, const void *b);
-int verificarEmail(char email[99]);
+int verificarEmail(char email[199]);
 int verificarSenha(char senha[50]);
 int MaquinaJoga();
 int Ganhou();
@@ -105,12 +105,13 @@ int main()
     setlocale(LC_CTYPE, "portuguese");// Configuração acento
 
     //inserirNaLeaderboard("João", 12);
-    char email[99], senha[50];
+    char email[199], senha[50];
     int op, vezes, auth=0;
 
     corrente = NULL;
     inicio = NULL;
     auxiliar = NULL;
+
     printf("Informe o email: ");
     scanf("%s", email);
     while (getchar() != '\n'); // Limpar o buffer de entrada
@@ -200,6 +201,7 @@ int main()
             listarTodosDados();
             break;
         case 6:
+            exit(0);
             break;
         case 99:
             removerArquivosDat();
@@ -351,6 +353,7 @@ void PrintOptions()
         player++;
         end = 1;
         PrintGame(0);
+        corrente->pontos += pontos;
         printf("\nPrint o %s ganho desta vez!!!!\n", corrente->nome);
         EndGame();
     }
@@ -520,7 +523,7 @@ void EndGame()
         }
         game++;
         end=0;
-        pontos += 14 - soma + game;
+        pontos = 14 - soma + game;
         Continuar();
     }
 
@@ -585,7 +588,7 @@ void Continuar()
     int stop;
 
     while (1) {
-        printf("\nPlacar do jogo %i\nJogador: %i\nMáquina: %i\nPontos do Jogador: %i\n", game, player, machine, pontos);
+        printf("\nPlacar do jogo %i\nJogador: %i\nMáquina: %i\nPontos do Jogador: %i\n", game, player, machine, corrente->pontos);
         printf("\nDeseja continuar?\n1: para sim\n2: para não\nDigite a opção: ");
 
         if (scanf("%d", &stop) != 1) {
@@ -604,7 +607,7 @@ void Continuar()
     }
 
     if (stop == 2) {
-        inserirNaLeaderboard(corrente->nome, pontos);
+        inserirNaLeaderboard(corrente->nome, corrente->pontos);
         main();
     }
 }
@@ -703,7 +706,7 @@ void recuperarLeaderboard() {
 void Enterdata()
 {
     printf("\n Informe o seu email: ");
-    scanf("%98s", &corrente->email);
+    scanf("%198s", &corrente->email);
     while (getchar() != '\n'); // Limpar o buffer de entrada
 
     printf("\n Informe a sua senha: ");
@@ -760,7 +763,20 @@ void Enterdata()
 
 void salvarPessoa() {
     // Abrir o arquivo para escrita no modo binário
+    int x;
+    x=0;
+    tipopessoa pessoa;
+    corrente = inicio;
+
     FILE *arquivo = fopen(pessoasFile, "ab+");
+
+    while(fread(&pessoa,sizeof(tipopessoa), 1, arquivo))
+    {
+        x++;
+    }
+
+    *corrente->id=x;
+
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo.\n");
         return;
@@ -770,8 +786,6 @@ void salvarPessoa() {
     ordenarPorNome(inicio);
 
     // Escrever os registros no arquivo
-    tipopessoa pessoa;
-    corrente = inicio;
     while (corrente != NULL) {
         pessoa = *corrente; // Copiar o conteúdo do nó atual para a variável pessoa
         fwrite(&pessoa, sizeof(tipopessoa), 1, arquivo);
@@ -782,7 +796,7 @@ void salvarPessoa() {
     fclose(arquivo);
 }
 
-int verificarEmail(char email[99]) {
+int verificarEmail(char email[199]) {
     FILE *arquivo = fopen(pessoasFile, "rb");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo.\n");
@@ -821,37 +835,100 @@ int verificarSenha(char senha[50]) {
 }
 
 void editarDados(char *email, char *senha) {
+    // Variável para armazenar um registro lido do arquivo
+    tipopessoa pessoa;
+    int c = 0;
+
     // Abrir o arquivo para leitura e escrita no modo binário
     FILE *arquivo = fopen(pessoasFile, "rb+");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo.\n");
         return;
     }
+    else {
+        while (fread(&pessoa, sizeof(tipopessoa), 1, arquivo) == 1) {
+            if (strcmp(pessoa.email, email) == 0 && strcmp(pessoa.senha, senha) == 0) {
+                // Usuário encontrado, permitir a edição dos dados
+                printf("Digite os novos dados:\n");
 
-    // Variável para armazenar um registro lido do arquivo
-    tipopessoa pessoa;
+                printf("\n Nome ........:%s", pessoa.nome);
+                printf("\n Redigite o Nome ..... :");
+                scanf("%49s", pessoa.nome); // Use %49s to prevent buffer overflow
+                while (getchar() != '\n'); // Limpar o buffer de entrada
 
-    // Ler e buscar o usuário no arquivo
-    while (fread(&pessoa, sizeof(tipopessoa), 1, arquivo) == 1) {
-        if (strcmp(pessoa.email, email) == 0 && strcmp(pessoa.senha, senha) == 0) {
-            // Usuário encontrado, permitir a edição dos dados
-            printf("Digite os novos dados:\n");
-            Enterdata(); // Função para inserir os novos dados
+                printf("\n Sexo ........:%s", pessoa.sexo);
+                printf("\n Redigite o Sexo ..... :");
+                scanf("%1s", pessoa.sexo); // Use %1s to prevent buffer overflow
+                while (getchar() != '\n'); // Limpar o buffer de entrada
 
-            // Posicionar o ponteiro do arquivo para a posição de escrita correta
-            fseek(arquivo, -sizeof(tipopessoa), SEEK_CUR);
+                printf("\n Email........:%s", pessoa.email);
+                printf("\n Redigite o Email .... :");
+                scanf("%98s", pessoa.email); // Use %98s to prevent buffer overflow
+                while (getchar() != '\n'); // Limpar o buffer de entrada
 
-            // Escrever os novos dados no arquivo
-            fwrite(&pessoa, sizeof(tipopessoa), 1, arquivo);
+                printf("\n Senha........:%s", pessoa.senha);
+                printf("\n Redigite o Senha .... :");
+                scanf("%49s", pessoa.senha); // Use %49s to prevent buffer overflow
+                while (getchar() != '\n'); // Limpar o buffer de entrada
 
-            printf("Dados do usuário editados com sucesso.\n");
-            fclose(arquivo);
-            return; // Sai da função após editar os dados
+                printf("\n Dia .........:%d", pessoa.dia[0]);
+                printf("\n Redigite o Dia ...... :");
+                while (scanf("%d", &pessoa.dia[0]) != 1) {
+                    printf("\nValor inválido. Insira um número inteiro: ");
+                    int c;
+                    while ((c = getchar()) != '\n' && c != EOF);
+                }
+
+                printf("\n Mês .........:%d", pessoa.mes[0]);
+                printf("\n Redigite a Mês ...... :");
+                while (scanf("%d", &pessoa.mes[0]) != 1) {
+                    printf("\nValor inválido. Insira um número inteiro: ");
+                    int c;
+                    while ((c = getchar()) != '\n' && c != EOF);
+                }
+
+                printf("\n Ano .........:%d", pessoa.ano[0]);
+                printf("\n Redigite a Ano ...... :");
+                while (scanf("%d", &pessoa.ano[0]) != 1) {
+                    printf("\nValor inválido. Insira um número inteiro: ");
+                    int c;
+                    while ((c = getchar()) != '\n' && c != EOF);
+                }
+
+                printf("\n Cidade.......:%s", pessoa.cidade);
+                printf("\n Redigite o Cidade ... :");
+                scanf("%9s", pessoa.cidade); // Use %9s to prevent buffer overflow
+                while (getchar() != '\n'); // Limpar o buffer de entrada
+
+                printf("\n Estado.......:%s", pessoa.estado);
+                printf("\n Redigite o Estado ... :");
+                scanf("%2s", pessoa.estado); // Use %2s to prevent buffer overflow
+                while (getchar() != '\n'); // Limpar o buffer de entrada
+
+                printf("\n Pais.........:%s", pessoa.pais);
+                printf("\n Redigite o Pais ..... :");
+                scanf("%9s", pessoa.pais); // Use %9s to prevent buffer overflow
+                while (getchar() != '\n'); // Limpar o buffer de entrada
+
+                // Posicionar o ponteiro de arquivo no local correto antes de escrever
+                fseek(arquivo, -sizeof(tipopessoa), SEEK_CUR);
+
+                // Escrever os novos dados no arquivo
+                fwrite(&pessoa, sizeof(tipopessoa), 1, arquivo);
+                printf("Dados do usuário editados com sucesso.\n");
+                system("pause");
+                break;
+            }
+            c++;
+        }
+        if (c == 0) {
+            printf("\n Registro não consta na Base de Dados");
+            printf("\n\n");
+            system("pause");
         }
     }
-
-    printf("Usuário não encontrado.\n");
     fclose(arquivo);
+    main();
 }
 
 void listarDadosUsuario(char *email, char *senha) {
@@ -869,6 +946,7 @@ void listarDadosUsuario(char *email, char *senha) {
     while (fread(&pessoa, sizeof(tipopessoa), 1, arquivo) == 1) {
         if (strcmp(pessoa.email, email) == 0 && strcmp(pessoa.senha, senha) == 0) {
             // Usuário encontrado, imprimir os dados
+            printf("ID: %s\n", pessoa.id);
             printf("Nome: %s\n", pessoa.nome);
             printf("Email: %s\n", pessoa.email);
             printf("Senha: %s\n", pessoa.senha);
@@ -899,6 +977,7 @@ void listarTodosDados() {
 
     // Ler e imprimir todos os registros do arquivo
     while (fread(&pessoa, sizeof(tipopessoa), 1, arquivo) == 1) {
+        printf("ID: %s\n", pessoa.id);
         printf("Nome: %s\n", pessoa.nome);
         printf("Email: %s\n", pessoa.email);
         printf("Senha: %s\n", pessoa.senha);

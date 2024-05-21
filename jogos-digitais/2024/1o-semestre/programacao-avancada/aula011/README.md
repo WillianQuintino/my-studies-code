@@ -56,4 +56,3 @@ Nesta organizar não é aceita, chave em duplicada.
 Exemplo: Aplicado AB
 
 ![Arvore de Busca Binária](arvore-busca-binaria.svg)
-

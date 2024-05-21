@@ -12,19 +12,19 @@
 
 18/03/2024 - [Aula 005](aula005/README.md) - Alocação e remoção de endereço.
 
-//2024 - [Aula 006](aula006/README.md) - Estrutura simplemente encadeada.
+11/04/2024 - [Aula 006](aula006/README.md) - Estrutura simplemente encadeada.
 
 01/04/2024 - [Aula 007](aula007/README.md) - Estrutura duplamente encadeada.
 
 22/04/2024 - [Aula 008](aula008/README.md) - Circular
 
-//2024 - [Aula 009](aula009/README.md) - Pilha
+29/04/2024 - [Aula 009](aula009/README.md) - Pilha
 
-//2024 - [Aula 010](aula010/README.md) - Notação Polonesa
+06/05/2024 - [Aula 010](aula010/README.md) - Notação Polonesa
 
-//2024 - [Aula 011](aula011/README.md) - Fila
+13/05/2024 - [Aula 011](aula011/README.md) - Fila
 
-//2024 - [Aula 012](aula012/README.md) - Arvore
+20/05/2024 - [Aula 012](aula012/README.md) - Arvore
 
 //2024 - [Aula 013](aula013/README.md) - Árvore binário
 
