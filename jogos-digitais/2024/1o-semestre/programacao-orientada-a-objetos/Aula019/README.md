@@ -7,7 +7,7 @@ POO
 
 ## Thread
 
-É uma linha de processamento dentro do programa. Dentro de uma thread, os comandos são executados em sequência, um comando só vai inicar sua execução quando o anterior dor finalizado. O programa pode abrir vários threads, nesse caso, elas serão executadas em paralelo, uma independente das outras. Mas pelomentos uma thread é obrigatória a thread principal que comtém a função main(). 
+É uma linha de processamento dentro do programa. Dentro de uma thread, os comandos são executados em sequência, um comando só vai inicar sua execução quando o anterior dor finalizado. O programa pode abrir vários threads, nesse caso, elas serão executadas em paralelo, uma independente das outras. Mas pelomentos uma thread é obrigatória a thread principal que comtém a função main().
 
 ## Pilha de execução (stack)
 
