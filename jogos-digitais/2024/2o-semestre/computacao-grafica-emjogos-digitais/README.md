@@ -6,10 +6,10 @@
 
 (05/08/2024) - [Aula 001](fatec-americana/aula001/README) - Apresentação da Disciplina.
 
-() - [Aula 002](aula002/README.md) - 
+(08/08/2024) - [Aula 002]() - 
 
-() - [Aula 003](aula003/README.md) - 
+(15/08/2024) - [Aula 003](aula003/CG3-processimengem1.ipynb) - 
 
-() - [Aula 004](aula004/README.md) - 
+(19/08/2024) - [Aula 004](aula004/CG3-processimengem1.ipynb#Aula 004 - 19/08/2024) - 
 
 () - [Aula 005](aula005/README.md) - 
