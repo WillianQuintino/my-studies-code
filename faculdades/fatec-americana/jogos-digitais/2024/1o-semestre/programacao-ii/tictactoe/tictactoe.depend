@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1716245434 source:d:\documents\code\fatec-americana\jogos-digitais\2024\1o-semestre\programacao-ii\tictactoe\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	<string.h>
+	<time.h>
+

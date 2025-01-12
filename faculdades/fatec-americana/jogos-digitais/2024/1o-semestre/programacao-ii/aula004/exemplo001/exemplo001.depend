@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1709945382 source:d:\documents\code\fatec-americana\jogos-digitais\2024\1o-semestre\programacao-ii\aula004\exemplo001\matematica.c
+
+1709946227 source:d:\documents\code\fatec-americana\jogos-digitais\2024\1o-semestre\programacao-ii\aula004\exemplo001\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
