@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  h1, h2, h3, h4, h5, h6 {
+    @apply
+    font-serif
+  }
+
+  h1 {
+    @apply
+    font-black
+    text-4xl
+  }
+
+  h2 {
+    @apply
+    font-extrabold
+    text-3xl
+  }
+
+  h3 {
+    @apply
+    font-bold
+    text-2xl
+  }
+
+  h4 {
+    @apply
+    font-semibold
+    text-xl
+  }
+
+  h5 {
+    @apply
+    font-medium
+    text-lg
+  }
+
+  h6 {
+    @apply 
+    font-normal
+    text-base
+  }
+
+  ul {
+    @apply
+    ps-2
+  }
+
+  input[type="text"] {
+    @apply
+    shadow 
+    appearance-none 
+    border 
+    rounded 
+    w-full
+    text-gray-700 
+    leading-tight
+  }
+
+  input[type="text"]:focus {
+    @apply outline-none border-orange-500;
+    @layer shadow-outline
+  }
+  
+  .svg-btn {
+    @apply
+    stroke-orange-500
+    fill-transparent
+  }
+
+  .svg-btn:hover{
+    @apply
+    stroke-orange-700
+    fill-orange-300
+  }
+}
