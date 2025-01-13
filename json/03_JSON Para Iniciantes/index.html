@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basico json</title>
+</head>
+<body>
+    <ol id="users">
+
+    </ol>
+    <button id="bt_update">Update</button>
+    <!-- <script type="text/javascript">
+        var user = [
+            {
+                username : "ThiagoRamon",
+                password : "123",
+                profile : {first_name:"Thiago", last_name:"Pinto"},
+                contato: {email: ["Thiago@hotmail.com", "Thiago@hotmail.br"],
+                phone: ["555-5555-555", "21-2121-212"]} 
+            },
+            {
+                username : "ThiagoRamon2",
+                password : "123",
+                profile : {first_name:"Thiago", last_name:"Pinto"},
+                contato: {email: ["2@hotmail.com", "2@hotmail.br"],
+                phone: ["555-5555-555", "21-2121-212"]} 
+            },
+            {
+                username : "ThiagoRamon3",
+                password : "123",
+                profile : {first_name:"Thiago", last_name:"Pinto"},
+                contato: {email: ["2@hotmail.com", "2@hotmail.br"],
+                phone: ["555-5555-555", "21-2121-212"]}
+            },
+            {
+                username : "ThiagoRamon4",
+                password : "123",
+                profile : {first_name:"Thiago", last_name:"Pinto"},
+                contato: {email: ["2@hotmail.com", "2@hotmail.br"],
+                phone: ["555-5555-555", "21-2121-212"]}
+            }
+        ]
+        var output = "";
+        for (var i = 0; i < user.length; i++) {
+            output += "<li>" + user[i].username + "</li>";
+        }
+
+        document.getElementById("users").innerHTML = output;
+        console.log(user.contato.phone[0]);
+        //console.log(JSON.stringify(user));
+    </script> -->
+    <script>
+        users_update = function(){
+            var x = new XMLHttpRequest();
+            x.onreadystatechange = function(){
+                output = "";
+                if (this.readyState == 4 && this.status == 200) {
+                    let response = x.responseText;
+                    let user = JSON.parse(response);
+                    //console.log(response);
+                    for (var i = 0; i < user.length; i++) {
+                        output += "<li>" + user[i].username + "</li>";
+                        document.getElementById("users").innerHTML = output;
+                    }
+                }
+            };
+            x.open("GET", "http://127.0.0.1:5500/03_JSON%20Para%20Iniciantes/data.json", true);
+            x.send();
+    }
+    var bt = document.getElementById("bt_update");
+    bt.addEventListener("click",users_update())
+    </script>
+</body>
+</html>
