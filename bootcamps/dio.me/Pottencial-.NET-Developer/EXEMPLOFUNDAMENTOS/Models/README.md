@@ -3,8 +3,16 @@
 ## MÓDULOS
 
 
+
 <!-- módulos:start -->
-| Módulo Nº | Nome do Módulo | Status |
+| Módulo | Aulas Completas | Status |
 |---|---|---|
 <!-- módulos:end -->
 
+
+
+## ESTRUTURA-TRILHA
+
+<!-- estrutura-trilha:start -->
+
+<!-- estrutura-trilha:end -->

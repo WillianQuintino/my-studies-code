@@ -3,9 +3,18 @@
 ## MÓDULOS
 
 
+
 <!-- módulos:start -->
-| Módulo Nº | Nome do Módulo | Status |
+| Módulo | Aulas Completas | Status |
 |---|---|---|
-| 1 | Debug | 🔄 Em andamento |
+| Debug | 0/0 | ⏳ A iniciar |
 <!-- módulos:end -->
 
+
+
+## ESTRUTURA-TRILHA
+
+<!-- estrutura-trilha:start -->
+┗ 📂 Debug
+  ┗ 📂 net7.0
+<!-- estrutura-trilha:end -->

@@ -11,3 +11,21 @@
 | 3 | obj | 🧩 Em progresso |
 <!-- grupos:end -->
 
+
+## ESTRUTURA-BOOTCAMP
+
+<!-- estrutura-bootcamp:start -->
+┣ 📂 Models
+┣ 📂 PessoaCopia
+┗ 📂 obj
+  ┗ 📂 Debug
+    ┗ 📂 net7.0
+<!-- estrutura-bootcamp:end -->
+
+## PROGRESSO
+
+<!-- progresso:start -->
+| Trilha | Módulo | Aulas Completas | Status |
+|---|---|---|---|
+| obj | Debug | 0/0 | ⏳ A iniciar |
+<!-- progresso:end -->

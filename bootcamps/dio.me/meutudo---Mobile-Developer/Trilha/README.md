@@ -73,3 +73,16 @@ Este conteúdo é baseado nos materiais do bootcamp **[Nome do Bootcamp]** da [D
 ---
 
 > _"Cada grupo representa uma nova etapa da jornada. Continue evoluindo."_ 🚀
+
+## ESTRUTURA-BOOTCAMP
+
+<!-- estrutura-bootcamp:start -->
+┗ 📂 Aula 1
+<!-- estrutura-bootcamp:end -->
+
+## PROGRESSO
+
+<!-- progresso:start -->
+| Trilha | Módulo | Aulas Completas | Status |
+|---|---|---|---|
+<!-- progresso:end -->
