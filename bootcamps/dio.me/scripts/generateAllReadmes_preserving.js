@@ -98,7 +98,8 @@ function updateBootcampReadme(bootcampPath) {
     });
 
     const status = total === 0 ? '⏳ A iniciar' : (done === total ? '✅ Concluído' : '🔄 Em andamento');
-    return [trilha, modulos.length.toString(), `${done}/${total}`, status];
+    const trilhaLink = `[${trilha}](${encodeURI(trilha + '/README.md')})`;
+    return [trilhaLink, modulos.length.toString(), `${done}/${total}`, status];
   });
 
   const estrutura = formatTree(bootcampPath);
@@ -119,7 +120,8 @@ function updateGrupoReadme(trilhaPath) {
     const modPath = path.join(trilhaPath, modulo);
     const { total, done } = countCompleted(modPath);
     const status = total === 0 ? '⏳ A iniciar' : (done === total ? '✅ Concluído' : '🔄 Em andamento');
-    return [modulo, `${done}/${total}`, status];
+    const moduloLink = `[${modulo}](${encodeURI(modulo + '/README.md')})`;
+    return [moduloLink, `${done}/${total}`, status];
   });
 
   let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
@@ -140,7 +142,8 @@ function updateModuloReadme(moduloPath) {
     const readmePath = path.join(moduloPath, aula, 'README.md');
     const isDone = fs.existsSync(readmePath) && fs.readFileSync(readmePath, 'utf-8').includes('[X] Aula assistida');
     if (isDone) count.done++;
-    return [i + 1, aula, isDone ? '✅ Concluída' : '⏳ A iniciar', ''];
+    const aulaLink = `[${aula}](${encodeURI(aula + '/README.md')})`;
+    return [i + 1, aulaLink, isDone ? '✅ Concluída' : '⏳ A iniciar', ''];
   });
 
   let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';

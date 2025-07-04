@@ -60,7 +60,7 @@ Cada **Grupo** contém um conjunto de **Módulos**, e cada módulo está subdivi
 
 ## 📅 Duração Estimada
 
-📌 Início: [dd/mm/aaaa]  
+📌 Início: [dd/mm/aaaa] 
 📌 Previsão de conclusão: [dd/mm/aaaa]
 
 ---
