@@ -2,9 +2,6 @@
 const fs = require('fs');
 const path = require('path');
 
-const startMarker = '<!-- aulas:start -->';
-const endMarker = '<!-- aulas:end -->';
-
 function walk(dir, depth = 0) {
   let results = [];
   fs.readdirSync(dir).forEach(file => {
@@ -24,61 +21,84 @@ function extractSection(content, start, end) {
   return (iStart !== -1 && iEnd !== -1) ? content.slice(iStart, iEnd + end.length) : null;
 }
 
+function updateSection(content, sectionId, generatedContent) {
+  const sectionStart = `<!-- ${sectionId}:start -->`;
+  const sectionEnd = `<!-- ${sectionId}:end -->`;
+  const fullSection = `\n${sectionStart}\n${generatedContent}\n${sectionEnd}\n`;
+
+  const oldSection = extractSection(content, sectionStart, sectionEnd);
+  if (oldSection) {
+    return content.replace(oldSection, fullSection);
+  } else {
+    return content + `\n## ${sectionId.toUpperCase()}\n` + fullSection;
+  }
+}
+
+function formatTree(dir, prefix = '') {
+  const items = fs.readdirSync(dir).filter(f =>
+    fs.statSync(path.join(dir, f)).isDirectory()
+  );
+
+  return items.map((item, i) => {
+    const isLast = i === items.length - 1;
+    const branch = isLast ? '┗' : '┣';
+    const nextPrefix = prefix + (isLast ? '  ' : '┃ ');
+    const subtree = formatTree(path.join(dir, item), nextPrefix);
+    return `${prefix}${branch} 📂 ${item}` + (subtree.length ? '\n' + subtree : '');
+  }).join('\n');
+}
+
 function buildTable(headers, rows) {
   const head = `| ${headers.join(' | ')} |`;
   const sep = `|${headers.map(() => '---').join('|')}|`;
   return [head, sep, ...rows.map(r => `| ${r.join(' | ')} |`)].join('\n');
 }
 
-function updateReadme(targetPath, sectionId, headers, rows) {
-  const readmePath = path.join(targetPath, 'README.md');
-  const sectionStart = `<!-- ${sectionId}:start -->`;
-  const sectionEnd = `<!-- ${sectionId}:end -->`;
-  const sectionContent = `\n${sectionStart}\n${buildTable(headers, rows)}\n${sectionEnd}\n`;
+function updateBootcampReadme(bootcampPath) {
+  const readmePath = path.join(bootcampPath, 'README.md');
+  const grupos = fs.readdirSync(bootcampPath).filter(f =>
+    fs.statSync(path.join(bootcampPath, f)).isDirectory()
+  );
 
-  let content = '';
-  const defaultHeader = `# ${path.basename(targetPath)}\n\nEste é o diretório de **${path.basename(targetPath)}**.\n`;
-  if (fs.existsSync(readmePath)) {
-    content = fs.readFileSync(readmePath, 'utf-8');
-    const oldSection = extractSection(content, sectionStart, sectionEnd);
-    if (oldSection) {
-      content = content.replace(oldSection, sectionContent);
-    } else {
-      content += `\n\n## ${sectionId.toUpperCase()}\n${sectionContent}`;
-    }
-  } else {
-    content = `# ${path.basename(targetPath)}\n\n## ${sectionId.toUpperCase()}\n${sectionContent}`;
-  }
+  const progressTable = grupos.map(grupo => {
+    const grupoPath = path.join(bootcampPath, grupo);
+    const modulos = fs.readdirSync(grupoPath).filter(f =>
+      fs.statSync(path.join(grupoPath, f)).isDirectory()
+    );
+    return modulos.map(mod => [grupo, mod, '0/0', '⏳ A iniciar']);
+  }).flat();
 
-  fs.writeFileSync(readmePath, content || defaultHeader + `\n## ${sectionId.toUpperCase()}\n` + sectionContent);
+  const estrutura = formatTree(bootcampPath);
+  let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
+
+  content = updateSection(content, 'estrutura-bootcamp', estrutura);
+  content = updateSection(content, 'progresso', buildTable(['Trilha', 'Módulo', 'Aulas Completas', 'Status'], progressTable));
+
+  fs.writeFileSync(readmePath, content);
+}
+
+function updateGrupoReadme(grupoPath) {
+  const readmePath = path.join(grupoPath, 'README.md');
+  const modulos = fs.readdirSync(grupoPath).filter(f =>
+    fs.statSync(path.join(grupoPath, f)).isDirectory()
+  );
+
+  const estrutura = formatTree(grupoPath);
+  const progresso = modulos.map(modulo => [modulo, '0/0', '⏳ A iniciar']);
+
+  let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
+
+  content = updateSection(content, 'estrutura-trilha', estrutura);
+  content = updateSection(content, 'módulos', buildTable(['Módulo', 'Aulas Completas', 'Status'], progresso));
+
+  fs.writeFileSync(readmePath, content);
 }
 
 const basePath = './';
 const structure = walk(basePath);
 
-// Atualiza cada módulo
-structure.filter(x => x.depth === 3).forEach(({ path: modulePath }) => {
-  const aulas = fs.readdirSync(modulePath).filter(f =>
-    fs.statSync(path.join(modulePath, f)).isDirectory()
-  );
-  const rows = aulas.map((aula, i) => [i + 1, aula, '⏳ A iniciar', '']);
-  updateReadme(modulePath, 'aulas', ['Aula Nº', 'Nome da Aula', 'Status', 'Observações'], rows);
-});
+// Atualiza README dos bootcamps
+structure.filter(x => x.depth === 1).forEach(({ path }) => updateBootcampReadme(path));
 
-// Atualiza cada grupo
-structure.filter(x => x.depth === 2).forEach(({ path: groupPath }) => {
-  const modulos = fs.readdirSync(groupPath).filter(f =>
-    fs.statSync(path.join(groupPath, f)).isDirectory()
-  );
-  const rows = modulos.map((mod, i) => [i + 1, mod, '🔄 Em andamento']);
-  updateReadme(groupPath, 'módulos', ['Módulo Nº', 'Nome do Módulo', 'Status'], rows);
-});
-
-// Atualiza cada bootcamp
-structure.filter(x => x.depth === 1).forEach(({ path: bootcampPath }) => {
-  const grupos = fs.readdirSync(bootcampPath).filter(f =>
-    fs.statSync(path.join(bootcampPath, f)).isDirectory()
-  );
-  const rows = grupos.map((grupo, i) => [i + 1, grupo, '🧩 Em progresso']);
-  updateReadme(bootcampPath, 'grupos', ['Grupo Nº', 'Nome do Grupo', 'Status'], rows);
-});
+// Atualiza README dos grupos/trilhas
+structure.filter(x => x.depth === 2).forEach(({ path }) => updateGrupoReadme(path));
