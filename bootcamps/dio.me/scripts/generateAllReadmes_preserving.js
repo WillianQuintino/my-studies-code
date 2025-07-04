@@ -56,15 +56,16 @@ function buildTable(headers, rows) {
   return [head, sep, ...rows.map(r => `| ${r.join(' | ')} |`)].join('\n');
 }
 
-function countCompleted(path) {
-  const aulas = fs.readdirSync(path).filter(f =>
-    fs.statSync(path.join(path, f)).isDirectory()
+function countCompleted(targetPath) {
+  const aulas = fs.readdirSync(targetPath).filter(f =>
+    fs.statSync(path.join(targetPath, f)).isDirectory()
   );
+
   let total = aulas.length;
   let done = 0;
 
   aulas.forEach(aula => {
-    const readmePath = path.join(path, aula, 'README.md');
+    const readmePath = path.join(targetPath, aula, 'README.md');
     if (fs.existsSync(readmePath)) {
       const content = fs.readFileSync(readmePath, 'utf-8');
       if (content.includes('[X] Aula assistida') && content.includes('[X] Exercício concluído')) {
@@ -75,6 +76,7 @@ function countCompleted(path) {
 
   return { total, done };
 }
+
 
 function updateBootcampReadme(bootcampPath) {
   const readmePath = path.join(bootcampPath, 'README.md');
