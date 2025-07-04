@@ -19,13 +19,20 @@ Este módulo tem como objetivo:
 
 ## 🗂️ Estrutura do Módulo
 
+
 <!-- estrutura-modulo:start -->
 
 ```
 ┗ 📂 Aula 1
+
+```
+
+```
+
 ```
 
 <!-- estrutura-modulo:end -->
+
 
 
 ---
@@ -33,11 +40,13 @@ Este módulo tem como objetivo:
 ## 📘 Aulas do Módulo
 
 
+
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
-| 1 | Aula 1 | ⏳ A iniciar |  |
+| 1 | Aula 1 | ✅ Concluída |  |
 <!-- aulas:end -->
+
 
 
 > Atualize a tabela conforme for completando as aulas.
@@ -86,3 +95,11 @@ Se quiser, posso gerar automaticamente esse `README.md` com os dados reais de se
 |---|---|---|---|
 | 1 | Aula 1 | ⏳ A iniciar |  |
 
+
+## PROGRESSO
+
+<!-- progresso:start -->
+| Aulas Completas | Status |
+|---|---|
+| 1/1 | ✅ Concluído |
+<!-- progresso:end -->

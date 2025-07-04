@@ -33,19 +33,22 @@
 ## ESTRUTURA TRILHA
 
 
+
 <!-- estrutura-trilha:start -->
 
 ```
 ┣ 📂 Models
-```
-
 
 ```
+
+```
+
 ┣ 📂 PessoaCopia
-```
-
 
 ```
+
+```
+
 ┗ 📂 obj
 
 ```
@@ -53,12 +56,23 @@
 
 ```
     ┗ 📂 net7.0
+
+```
+
+```
+
+```
+
+```
+
 ```
 
 <!-- estrutura-trilha:end -->
 
 
+
 ## MÓDULOS
+
 
 
 <!-- módulos:start -->
@@ -66,6 +80,7 @@
 |---|---|---|
 | Models | 0/0 | ⏳ A iniciar |
 | PessoaCopia | 0/0 | ⏳ A iniciar |
-| obj | 0/0 | ⏳ A iniciar |
+| obj | 0/1 | 🔄 Em andamento |
 <!-- módulos:end -->
+
 

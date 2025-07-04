@@ -29,6 +29,7 @@
 ## ESTRUTURA TRILHA
 
 
+
 <!-- estrutura-trilha:start -->
 
 ```
@@ -39,17 +40,29 @@
 
 ```
     ┗ 📂 net7.0
+
+```
+
+```
+
+```
+
+```
+
 ```
 
 <!-- estrutura-trilha:end -->
 
 
+
 ## MÓDULOS
+
 
 
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
-| obj | 0/0 | ⏳ A iniciar |
+| obj | 0/1 | 🔄 Em andamento |
 <!-- módulos:end -->
+
 

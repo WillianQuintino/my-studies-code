@@ -27,6 +27,7 @@ Algumas das principais tecnologias que fazem parte deste bootcamp incluem:
 
 
 
+
 <!-- estrutura-bootcamp:start -->
 
 ```
@@ -37,9 +38,19 @@ Algumas das principais tecnologias que fazem parte deste bootcamp incluem:
 
 ```
     ┗ 📂 Aula 1
+
+```
+
+```
+
+```
+
+```
+
 ```
 
 <!-- estrutura-bootcamp:end -->
+
 
 
 
@@ -51,11 +62,13 @@ Cada **Grupo** contém um conjunto de **Módulos**, e cada módulo está subdivi
 
 
 
+
 <!-- progresso:start -->
-| Trilha | Módulo | Aulas Completas | Status |
+| Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| Trilha | Modulo | 0/0 | ⏳ A iniciar |
+| Trilha | 1 | 1/1 | ✅ Concluído |
 <!-- progresso:end -->
+
 
 
 

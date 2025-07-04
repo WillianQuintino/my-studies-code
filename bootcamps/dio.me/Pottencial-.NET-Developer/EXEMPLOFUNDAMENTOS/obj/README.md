@@ -22,6 +22,7 @@
 ## ESTRUTURA MODULO
 
 
+
 <!-- estrutura-modulo:start -->
 
 ```
@@ -29,12 +30,21 @@
 
 ```
   ┗ 📂 net7.0
+
+```
+
+```
+
+```
+
 ```
 
 <!-- estrutura-modulo:end -->
 
 
+
 ## AULAS
+
 
 
 <!-- aulas:start -->
@@ -43,3 +53,12 @@
 | 1 | Debug | ⏳ A iniciar |  |
 <!-- aulas:end -->
 
+
+
+## PROGRESSO
+
+<!-- progresso:start -->
+| Aulas Completas | Status |
+|---|---|
+| 0/1 | 🔄 Em andamento |
+<!-- progresso:end -->

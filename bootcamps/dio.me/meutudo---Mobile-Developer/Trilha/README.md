@@ -22,6 +22,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 
 
 
+
 <!-- estrutura-trilha:start -->
 
 ```
@@ -29,9 +30,17 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 
 ```
   ┗ 📂 Aula 1
+
+```
+
+```
+
+```
+
 ```
 
 <!-- estrutura-trilha:end -->
+
 
 
 
@@ -41,11 +50,13 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 
 
 
+
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
-| Modulo | 0/0 | ⏳ A iniciar |
+| Modulo | 1/1 | ✅ Concluído |
 <!-- módulos:end -->
+
 
 
 

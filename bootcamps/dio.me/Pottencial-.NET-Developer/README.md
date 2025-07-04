@@ -4,6 +4,7 @@
 ## ESTRUTURA BOOTCAMP
 
 
+
 <!-- estrutura-bootcamp:start -->
 
 ```
@@ -11,15 +12,17 @@
 
 ```
 ┃ ┣ 📂 Models
-```
-
 
 ```
+
+```
+
 ┃ ┣ 📂 PessoaCopia
-```
-
 
 ```
+
+```
+
 ┃ ┗ 📂 obj
 
 ```
@@ -27,10 +30,17 @@
 
 ```
 ┃     ┗ 📂 net7.0
-```
-
 
 ```
+
+```
+
+```
+
+```
+
+```
+
 ┗ 📂 EXEMPLOFUNDAMENTOSBKP
 
 ```
@@ -41,20 +51,32 @@
 
 ```
       ┗ 📂 net7.0
+
+```
+
+```
+
+```
+
+```
+
+```
+
 ```
 
 <!-- estrutura-bootcamp:end -->
 
 
+
 ## PROGRESSO
 
 
+
 <!-- progresso:start -->
-| Trilha | Módulo | Aulas Completas | Status |
+| Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| EXEMPLOFUNDAMENTOS | Models | 0/0 | ⏳ A iniciar |
-| EXEMPLOFUNDAMENTOS | PessoaCopia | 0/0 | ⏳ A iniciar |
-| EXEMPLOFUNDAMENTOS | obj | 0/0 | ⏳ A iniciar |
-| EXEMPLOFUNDAMENTOSBKP | obj | 0/0 | ⏳ A iniciar |
+| EXEMPLOFUNDAMENTOS | 3 | 0/1 | 🔄 Em andamento |
+| EXEMPLOFUNDAMENTOSBKP | 1 | 0/1 | 🔄 Em andamento |
 <!-- progresso:end -->
+
 
