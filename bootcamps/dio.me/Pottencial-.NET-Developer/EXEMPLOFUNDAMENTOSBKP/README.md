@@ -28,16 +28,28 @@
 
 ## ESTRUTURA TRILHA
 
+
 <!-- estrutura-trilha:start -->
+
+```
 ┗ 📂 obj
+
+```
   ┗ 📂 Debug
+
+```
     ┗ 📂 net7.0
+```
+
 <!-- estrutura-trilha:end -->
 
+
 ## MÓDULOS
+
 
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
 | obj | 0/0 | ⏳ A iniciar |
 <!-- módulos:end -->
+

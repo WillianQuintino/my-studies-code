@@ -19,13 +19,17 @@
 
 ## ESTRUTURA MODULO
 
+
 <!-- estrutura-modulo:start -->
 
 <!-- estrutura-modulo:end -->
 
+
 ## AULAS
+
 
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
 <!-- aulas:end -->
+

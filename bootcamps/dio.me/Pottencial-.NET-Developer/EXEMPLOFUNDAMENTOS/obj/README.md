@@ -21,15 +21,25 @@
 
 ## ESTRUTURA MODULO
 
+
 <!-- estrutura-modulo:start -->
+
+```
 ┗ 📂 Debug
+
+```
   ┗ 📂 net7.0
+```
+
 <!-- estrutura-modulo:end -->
 
+
 ## AULAS
+
 
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
 | 1 | Debug | ⏳ A iniciar |  |
 <!-- aulas:end -->
+

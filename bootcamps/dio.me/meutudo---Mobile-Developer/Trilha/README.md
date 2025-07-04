@@ -21,10 +21,18 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 ## 🗂️ Estrutura do Trilha
 
 
+
 <!-- estrutura-trilha:start -->
+
+```
 ┗ 📂 Modulo
+
+```
   ┗ 📂 Aula 1
+```
+
 <!-- estrutura-trilha:end -->
+
 
 
 ---
@@ -32,11 +40,13 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 ## 📚 Módulos do Trilha
 
 
+
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
 | Modulo | 0/0 | ⏳ A iniciar |
 <!-- módulos:end -->
+
 
 
 > Atualize esta tabela com os módulos reais conforme avança.

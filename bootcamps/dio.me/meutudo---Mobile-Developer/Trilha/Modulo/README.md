@@ -18,27 +18,27 @@ Este módulo tem como objetivo:
 ---
 
 ## 🗂️ Estrutura do Módulo
+
 <!-- estrutura-modulo:start -->
+
 ```
-📁 [Módulo - Nome]
-┣ 📂 Aula 1 - [Nome da Aula]
-┣ 📂 Aula 2 - ...
-┣ 📂 Aula 3 - ...
-┗ 📄 README.md (este arquivo)
+┗ 📂 Aula 1
 ```
+
 <!-- estrutura-modulo:end -->
+
 
 ---
 
 ## 📘 Aulas do Módulo
 
+
 <!-- aulas:start -->
-| Aula Nº | Nome da Aula               | Status       | Observações               |
-|--------:|----------------------------|--------------|----------------------------|
-| 1       | Introdução ao [Tema]       | ✅ Concluída  |                           |
-| 2       | Sintaxe e boas práticas    | 🔄 Em andamento |                           |
-| 3       | Exercício prático          | ⏳ A iniciar  | Revisar depois            |
+| Aula Nº | Nome da Aula | Status | Observações |
+|---|---|---|---|
+| 1 | Aula 1 | ⏳ A iniciar |  |
 <!-- aulas:end -->
+
 
 > Atualize a tabela conforme for completando as aulas.
 
