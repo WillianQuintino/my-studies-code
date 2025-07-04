@@ -35,38 +35,26 @@
 
 
 <!-- estrutura-trilha:start -->
-
 ```
 ┣ 📂 Models
-
 ```
 
 ```
-
 ┣ 📂 PessoaCopia
-
 ```
 
 ```
-
 ┗ 📂 obj
-
 ```
   ┗ 📂 Debug
-
 ```
     ┗ 📂 net7.0
-
 ```
 
 ```
-
 ```
-
 ```
-
 ```
-
 <!-- estrutura-trilha:end -->
 
 

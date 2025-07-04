@@ -6,64 +6,42 @@
 
 
 <!-- estrutura-bootcamp:start -->
-
 ```
 ┣ 📂 EXEMPLOFUNDAMENTOS
-
 ```
 ┃ ┣ 📂 Models
-
 ```
 
 ```
-
 ┃ ┣ 📂 PessoaCopia
-
 ```
 
 ```
-
 ┃ ┗ 📂 obj
-
 ```
 ┃   ┗ 📂 Debug
-
 ```
 ┃     ┗ 📂 net7.0
-
 ```
 
 ```
-
 ```
-
 ```
-
 ```
-
 ┗ 📂 EXEMPLOFUNDAMENTOSBKP
-
 ```
   ┗ 📂 obj
-
 ```
     ┗ 📂 Debug
-
 ```
       ┗ 📂 net7.0
-
 ```
 
 ```
-
 ```
-
 ```
-
 ```
-
 ```
-
 <!-- estrutura-bootcamp:end -->
 
 
