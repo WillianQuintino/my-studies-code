@@ -37,6 +37,7 @@ function updateReadme(targetPath, sectionId, headers, rows) {
   const sectionContent = `\n${sectionStart}\n${buildTable(headers, rows)}\n${sectionEnd}\n`;
 
   let content = '';
+  const defaultHeader = `# ${path.basename(targetPath)}\n\nEste é o diretório de **${path.basename(targetPath)}**.\n`;
   if (fs.existsSync(readmePath)) {
     content = fs.readFileSync(readmePath, 'utf-8');
     const oldSection = extractSection(content, sectionStart, sectionEnd);
@@ -49,7 +50,7 @@ function updateReadme(targetPath, sectionId, headers, rows) {
     content = `# ${path.basename(targetPath)}\n\n## ${sectionId.toUpperCase()}\n${sectionContent}`;
   }
 
-  fs.writeFileSync(readmePath, content);
+  fs.writeFileSync(readmePath, content || defaultHeader + `\n## ${sectionId.toUpperCase()}\n` + sectionContent);
 }
 
 const basePath = './';
