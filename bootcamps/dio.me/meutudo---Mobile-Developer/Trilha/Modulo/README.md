@@ -1,8 +1,8 @@
-# 📦 Módulo: *[Nome do Módulo]*
+# 📦 Módulo: *Fundamentos do Node.js*
 
-📍 **Bootcamp:** [Nome do Bootcamp]  
-📁 **Grupo:** [Nome do Grupo]  
-📦 **Módulo:** [Nome do Módulo]
+📍 **Bootcamp:** meutudo - Mobile Developer
+📁 **Grupo:** Fundamentos – Backend com Node.js
+📦 **Módulo:** Fundamentos do Node.js
 
 ---
 
@@ -10,16 +10,17 @@
 
 Este módulo tem como objetivo:
 
-- [ ] Introduzir os principais conceitos de [tema]
-- [ ] Aplicar [ferramenta ou linguagem]
-- [ ] Realizar exercícios práticos
-- [ ] Desenvolver um projeto simples de fixação
+- [ ] Introduzir os principais conceitos de Node.js
+- [ ] Aplicar ferramentas como NPM e Node Modules
+- [ ] Realizar exercícios práticos com criação de pacotes
+- [ ] Desenvolver um projeto simples de fixação com estrutura modular
 
 ---
 
 ## 🗂️ Estrutura do Módulo
 
 <!-- estrutura-modulo:start -->
+
 ```
 ┗ 📂 Aula 1
 ```
@@ -32,7 +33,9 @@ Este módulo tem como objetivo:
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
-| 1 | [Aula 1](Aula%201/README.md) | ✅ Concluída |  |
+| 1 | [Aula 1 - Instalando Ambiente](Aula%201%20-%20Instalando%20Ambiente/README.md) | ✅ Concluída |  |
+| 2 | [Aula 2 - Inicializando Projeto](Aula%202%20-%20Inicializando%20Projeto/README.md) | ✅ Concluída |  |
+| 3 | [Aula 3 - Trabalhando com Node Modules](Aula%203%20-%20Trabalhando%20com%20Node%20Modules/README.md) | ✅ Concluída |  |
 <!-- aulas:end -->
 
 > Atualize a tabela conforme for completando as aulas.
@@ -41,51 +44,93 @@ Este módulo tem como objetivo:
 
 ## 🛠️ Ferramentas / Tecnologias
 
-- Linguagem: [Ex: JavaScript]
-- Framework: [Ex: React, Spring]
-- IDE: [Ex: VSCode, IntelliJ]
-- Outros: [Ex: Git, Docker]
+- **Linguagem:** JavaScript (Node.js)
+- **Framework:** Nenhum neste módulo
+- **IDE:** Visual Studio Code (VSCode)
+- **Outros:** Git, NPM
 
 ---
 
 ## 📝 Anotações do Módulo
 
 ```md
-- Exemplo de comando: `npm start`
-- Atalho útil no VSCode: `Ctrl + Shift + P`
-- Aula 2: revisar conceito de callbacks
+- Comando para iniciar projeto: `npm init -y`
+- Rodar aplicação: `node index.js`
+- Atalho para terminal integrado no VSCode: `Ctrl + \` `
+- Aula 2: lembrar de revisar `package.json`<!-- estrutura-modulo:end -->
+
+---
+
+## 📘 Aulas do Módulo
+
+<!-- aulas:start -->
+| Aula Nº | Nome da Aula | Status | Observações |
+|---|---|---|---|
+| 1 | [Aula 1 - Instalando Ambiente](Aula%201%20-%20Instalando%20Ambiente/README.md) | ✅ Concluída |  |
+| 2 | [Aula 2 - Inicializando Projeto](Aula%202%20-%20Inicializando%20Projeto/README.md) | ✅ Concluída |  |
+| 3 | [Aula 3 - Trabalhando com Node Modules](Aula%203%20-%20Trabalhando%20com%20Node%20Modules/README.md) | ✅ Concluída |  |
+<!-- aulas:end -->
+
+> Atualize a tabela conforme for completando as aulas.
+
+---
+
+## 🛠️ Ferramentas / Tecnologias
+
+- **Linguagem:** JavaScript (Node.js)
+- **Framework:** Nenhum neste módulo
+- **IDE:** Visual Studio Code (VSCode)
+- **Outros:** Git, NPM
+
+---
+
+## 📝 Anotações do Módulo
+
+```md
+- Comando para iniciar projeto: `npm init -y`
+- Rodar aplicação: `node index.js`
+- Atalho para terminal integrado no VSCode: `Ctrl + \` `
+- Aula 2: lembrar de revisar `package.json`<!-- estrutura-modulo:end -->
+
+---
+
+## 📘 Aulas do Módulo
+
+<!-- aulas:start -->
+| Aula Nº | Nome da Aula | Status | Observações |
+|---|---|---|---|
+| 1 | [Aula 1 - Instalando Ambiente](Aula%201%20-%20Instalando%20Ambiente/README.md) | ✅ Concluída |  |
+| 2 | [Aula 2 - Inicializando Projeto](Aula%202%20-%20Inicializando%20Projeto/README.md) | ✅ Concluída |  |
+| 3 | [Aula 3 - Trabalhando com Node Modules](Aula%203%20-%20Trabalhando%20com%20Node%20Modules/README.md) | ✅ Concluída |  |
+<!-- aulas:end -->
+
+> Atualize a tabela conforme for completando as aulas.
+
+---
+
+## 🛠️ Ferramentas / Tecnologias
+
+- **Linguagem:** JavaScript (Node.js)
+- **Framework:** Nenhum neste módulo
+- **IDE:** Visual Studio Code (VSCode)
+- **Outros:** Git, NPM
+
+---
+
+## 📝 Anotações do Módulo
+
+```md
+- Comando para iniciar projeto: `npm init -y`
+- Rodar aplicação: `node index.js`
+- Atalho para terminal integrado no VSCode: `Ctrl + \` `
+- Aula 2: lembrar de revisar `package.json`
 ```
 
 ---
 
 📄 Licença
-> Este material é parte do bootcamp [Nome do Bootcamp], oferecido pela DIO.me, e de uso educacional.
+> Este material é parte do bootcamp meutudo - Mobile Developer, oferecido pela DIO.me, e de uso educacional.
 
 ---
 
 “Cada módulo concluído é um passo mais perto do domínio completo.” 🧠💻
-
----
-
-Se quiser, posso gerar automaticamente esse `README.md` com os dados reais de seus módulos, incluindo os nomes das aulas e status. Me envie a estrutura de exemplo e eu organizo tudo para você. Deseja isso?
-## ESTRUTURA MODULO
-
-
-┗ 📂 Aula 1
-
-
-## AULAS
-
-
-| Aula Nº | Nome da Aula | Status | Observações |
-|---|---|---|---|
-| 1 | Aula 1 | ⏳ A iniciar |  |
-
-
-## PROGRESSO
-
-<!-- progresso:start -->
-| Aulas Completas | Status |
-|---|---|
-| 1/1 | ✅ Concluído |
-<!-- progresso:end -->
