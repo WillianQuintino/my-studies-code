@@ -1,6 +1,8 @@
 
 name: Atualizar READMEs dos Bootcamps
 
+permissions:
+  contents: write
 on:
   push:
     branches: [main]
