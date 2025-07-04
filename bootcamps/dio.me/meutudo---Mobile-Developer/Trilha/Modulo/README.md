@@ -21,16 +21,9 @@ Este módulo tem como objetivo:
 
 
 <!-- estrutura-modulo:start -->
-
 ```
 ┗ 📂 Aula 1
-
 ```
-
-```
-
-```
-
 <!-- estrutura-modulo:end -->
 
 

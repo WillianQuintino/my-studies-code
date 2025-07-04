@@ -24,7 +24,7 @@ function extractSection(content, start, end) {
 function updateSection(content, sectionId, generatedContent) {
   const sectionStart = `<!-- ${sectionId}:start -->`;
   const sectionEnd = `<!-- ${sectionId}:end -->`;
-  const fullSection = `\n${sectionStart}\n${generatedContent}\n${sectionEnd}\n`;
+  const fullSection = `${sectionStart}\n${generatedContent}\n${sectionEnd}`;
 
   const oldSection = extractSection(content, sectionStart, sectionEnd);
   if (oldSection) {
@@ -44,10 +44,10 @@ function formatTree(dir, prefix = '') {
     const branch = isLast ? '┗' : '┣';
     const nextPrefix = prefix + (isLast ? '  ' : '┃ ');
     const subtree = formatTree(path.join(dir, item), nextPrefix);
-    return `${prefix}${branch} 📂 ${item}` + (subtree.length ? '\n' + subtree : '');
-  }).join('\n');
+    return `${prefix}${branch} 📂 ${item}${subtree ? '\n' + subtree : ''}`;
+  });
 
-  return `\n\`\`\`\n${treeLines}\n\`\`\`\n`;
+  return '```\n' + treeLines.join('\n') + '\n```';
 }
 
 function buildTable(headers, rows) {
@@ -76,7 +76,6 @@ function countCompleted(targetPath) {
 
   return { total, done };
 }
-
 
 function updateBootcampReadme(bootcampPath) {
   const readmePath = path.join(bootcampPath, 'README.md');
