@@ -21,7 +21,7 @@ Este módulo tem como objetivo:
 
 <!-- estrutura-modulo:start -->
 ```
-┗ 📂 Introdução ao Bootcamp meutudo - Mobile Developer
+┗ 📂 01. Introdução ao Bootcamp meutudo - Mobile Developer
 ```
 <!-- estrutura-modulo:end -->
 
@@ -32,7 +32,7 @@ Este módulo tem como objetivo:
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
-| 1 | [Introdução ao Bootcamp meutudo - Mobile Developer](Introdu%C3%A7%C3%A3o%20ao%20Bootcamp%20meutudo%20-%20Mobile%20Developer/README.md) | ✅ Concluída |  |
+| 1 | [01. Introdução ao Bootcamp meutudo - Mobile Developer](01.%20Introdu%C3%A7%C3%A3o%20ao%20Bootcamp%20meutudo%20-%20Mobile%20Developer/README.md) | ✅ Concluída |  |
 <!-- aulas:end -->
 
 > Atualize a tabela conforme for completando as aulas.

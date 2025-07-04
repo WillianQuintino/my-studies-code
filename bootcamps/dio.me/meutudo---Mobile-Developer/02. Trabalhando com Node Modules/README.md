@@ -137,16 +137,16 @@ Este módulo tem como objetivo:
 ## ESTRUTURA TRILHA
 <!-- estrutura-trilha:start -->
 ```
-┣ 📂 1. Modularização de Projetos Node.js
-┣ 📂 2. Modularização com EcmaScript Modules
-┗ 📂 3. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js
+┣ 📂 01. Modularização de Projetos Node.js
+┣ 📂 02. Modularização com EcmaScript Modules
+┗ 📂 03. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js
 ```
 <!-- estrutura-trilha:end -->
 ## MÓDULOS
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
-| [1. Modularização de Projetos Node.js](1.%20Modulariza%C3%A7%C3%A3o%20de%20Projetos%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
-| [2. Modularização com EcmaScript Modules](2.%20Modulariza%C3%A7%C3%A3o%20com%20EcmaScript%20Modules/README.md) | 0/0 | ⏳ A iniciar |
-| [3. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js](3.%20%5BDesafio%20de%20projeto%5D%20Carrinho%20de%20Compras%20da%20Shopee%20com%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
+| [01. Modularização de Projetos Node.js](01.%20Modulariza%C3%A7%C3%A3o%20de%20Projetos%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
+| [02. Modularização com EcmaScript Modules](02.%20Modulariza%C3%A7%C3%A3o%20com%20EcmaScript%20Modules/README.md) | 0/0 | ⏳ A iniciar |
+| [03. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js](03.%20%5BDesafio%20de%20projeto%5D%20Carrinho%20de%20Compras%20da%20Shopee%20com%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
 <!-- módulos:end -->

@@ -24,37 +24,38 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 
 <!-- estrutura-bootcamp:start -->
 ```
-┣ 📂 1. Fundamentos de Programação com Node
-┃ ┣ 📂 1. Desenvolvimento Mobile com a meutudo
-┃ ┃ ┗ 📂 Introdução ao Bootcamp meutudo - Mobile Developer
-┃ ┣ 📂 2. Bem-Vindo ao Mundo do Node.js
-┃ ┣ 📂 3. Introdução ao Node.js
-┃ ┣ 📂 4. Instalando Ambiente de Desenvolvimento Node.js
-┃ ┣ 📂 5. Inicializando Projetos Node.js
-┃ ┣ 📂 6. Versionamento de Código com Git e GitHub
-┃ ┣ 📂 7. Desafios de Projetos Crie Um Portfólio Vencedor
-┃ ┣ 📂 8. [Desafio de Projeto] Simulador de Corridas do Mario Kart com Node.js
-┃ ┗ 📂 9. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer
+┣ 📂 01. Fundamentos de Programação com Node
+┃ ┣ 📂 01. Desenvolvimento Mobile com a meutudo
+┃ ┃ ┗ 📂 01. Introdução ao Bootcamp meutudo - Mobile Developer
+┃ ┣ 📂 02. Bem-Vindo ao Mundo do Node.js
+┃ ┃ ┗ 📂 01. Introdução
+┃ ┣ 📂 03. Introdução ao Node.js
+┃ ┣ 📂 04. Instalando Ambiente de Desenvolvimento Node.js
+┃ ┣ 📂 05. Inicializando Projetos Node.js
+┃ ┣ 📂 06. Versionamento de Código com Git e GitHub
+┃ ┣ 📂 07. Desafios de Projetos Crie Um Portfólio Vencedor
+┃ ┣ 📂 08. [Desafio de Projeto] Simulador de Corridas do Mario Kart com Node.js
+┃ ┗ 📂 09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer
+┣ 📂 02. Trabalhando com Node Modules
+┃ ┣ 📂 01. Modularização de Projetos Node.js
+┃ ┣ 📂 02. Modularização com EcmaScript Modules
+┃ ┗ 📂 03. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js
+┣ 📂 03. Gerenciando Pacotes com Node.js com NPM
+┃ ┣ 📂 01. Gerenciando Pacotes com Node
+┃ ┣ 📂 02. NPM Scripts em Node.js
+┃ ┣ 📂 03. Gerenciando Variáveis de Ambientes com NPM
+┃ ┣ 📂 04. [Desafio de projeto] Criando um Gerador de QR Codes para E-commerces com Node.js
+┃ ┣ 📂 05. Desafios de Código Aperfeiçoe Sua Lógica e Pensamento Computacional
+┃ ┗ 📂 06. [Desafio de projeto] Classificando Clientes e Valores com JavaScript
+┣ 📂 04. Typescript para Devs Node.js
+┣ 📂 05. Introdução a Aplicações Web
+┣ 📂 06. Criando APIs com Node.js
+┣ 📂 07. Boas Práticas de Programação
+┣ 📂 08. Introdução a React Native
+┣ 📂 09. Fundamentos de Apps React Native
 ┣ 📂 10. Navegabilidade no React Native
 ┣ 📂 11. Gerenciando Componentes React Native
-┣ 📂 12. Desenvolvimento IA Powered
-┣ 📂 2. Trabalhando com Node Modules
-┃ ┣ 📂 1. Modularização de Projetos Node.js
-┃ ┣ 📂 2. Modularização com EcmaScript Modules
-┃ ┗ 📂 3. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js
-┣ 📂 3. Gerenciando Pacotes com Node.js com NPM
-┃ ┣ 📂 1. Gerenciando Pacotes com Node
-┃ ┣ 📂 2. NPM Scripts em Node.js
-┃ ┣ 📂 3. Gerenciando Variáveis de Ambientes com NPM
-┃ ┣ 📂 4. [Desafio de projeto] Criando um Gerador de QR Codes para E-commerces com Node.js
-┃ ┣ 📂 5. Desafios de Código Aperfeiçoe Sua Lógica e Pensamento Computacional
-┃ ┗ 📂 6. [Desafio de projeto] Classificando Clientes e Valores com JavaScript
-┣ 📂 4. Typescript para Devs Node.js
-┣ 📂 5. Introdução a Aplicações Web
-┣ 📂 6. Criando APIs com Node.js
-┣ 📂 7. Boas Práticas de Programação
-┣ 📂 8. Introdução a React Native
-┗ 📂 9. Fundamentos de Apps React Native
+┗ 📂 12. Desenvolvimento IA Powered
 ```
 <!-- estrutura-bootcamp:end -->
 
@@ -67,18 +68,18 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 <!-- progresso:start -->
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| [1. Fundamentos de Programação com Node](1.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 1/1 | ✅ Concluído |
+| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 1/2 | 🔄 Em andamento |
+| [02. Trabalhando com Node Modules](02.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/0 | ⏳ A iniciar |
+| [03. Gerenciando Pacotes com Node.js com NPM](03.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/0 | ⏳ A iniciar |
+| [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 0 | 0/0 | ⏳ A iniciar |
+| [05. Introdução a Aplicações Web](05.%20Introdu%C3%A7%C3%A3o%20a%20Aplica%C3%A7%C3%B5es%20Web/README.md) | 0 | 0/0 | ⏳ A iniciar |
+| [06. Criando APIs com Node.js](06.%20Criando%20APIs%20com%20Node.js/README.md) | 0 | 0/0 | ⏳ A iniciar |
+| [07. Boas Práticas de Programação](07.%20Boas%20Pr%C3%A1ticas%20de%20Programa%C3%A7%C3%A3o/README.md) | 0 | 0/0 | ⏳ A iniciar |
+| [08. Introdução a React Native](08.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
+| [09. Fundamentos de Apps React Native](09.%20Fundamentos%20de%20Apps%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
 | [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
 | [11. Gerenciando Componentes React Native](11.%20Gerenciando%20Componentes%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
 | [12. Desenvolvimento IA Powered](12.%20Desenvolvimento%20IA%20Powered/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [2. Trabalhando com Node Modules](2.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/0 | ⏳ A iniciar |
-| [3. Gerenciando Pacotes com Node.js com NPM](3.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/0 | ⏳ A iniciar |
-| [4. Typescript para Devs Node.js](4.%20Typescript%20para%20Devs%20Node.js/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [5. Introdução a Aplicações Web](5.%20Introdu%C3%A7%C3%A3o%20a%20Aplica%C3%A7%C3%B5es%20Web/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [6. Criando APIs com Node.js](6.%20Criando%20APIs%20com%20Node.js/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [7. Boas Práticas de Programação](7.%20Boas%20Pr%C3%A1ticas%20de%20Programa%C3%A7%C3%A3o/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [8. Introdução a React Native](8.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [9. Fundamentos de Apps React Native](9.%20Fundamentos%20de%20Apps%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
 <!-- progresso:end -->
 
 > ✅ Atualize conforme avança no bootcamp.
