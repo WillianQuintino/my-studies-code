@@ -20,29 +20,24 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 
 ## 🗂️ Estrutura do Trilha
 
+
 <!-- estrutura-trilha:start -->
-```
-📁 [Trilha - Nome]
-┣ 📂 Módulo 1 - [Nome do Módulo]
-┃ ┣ 📂 Aula 1
-┃ ┣ 📂 Aula 2
-┃ ┗ 📄 README.md
-┣ 📂 Módulo 2 - ...
-┗ 📄 README.md (este arquivo)
-```
+┗ 📂 Modulo
+  ┗ 📂 Aula 1
 <!-- estrutura-trilha:end -->
+
 
 ---
 
 ## 📚 Módulos do Trilha
 
+
 <!-- módulos:start -->
-| Módulo                        | Aulas Completas | Status       |
-|------------------------------|------------------|--------------|
-| Módulo 1: [Nome do Módulo]   | 3/3              | ✅ Concluído   |
-| Módulo 2: [Nome do Módulo]   | 1/4              | 🔄 Em andamento |
-| Módulo 3: [Nome do Módulo]   | 0/2              | ⏳ A iniciar   |
+| Módulo | Aulas Completas | Status |
+|---|---|---|
+| Modulo | 0/0 | ⏳ A iniciar |
 <!-- módulos:end -->
+
 
 > Atualize esta tabela com os módulos reais conforme avança.
 

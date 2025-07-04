@@ -25,15 +25,13 @@ Algumas das principais tecnologias que fazem parte deste bootcamp incluem:
 
 ## 🗂️ Estrutura do Bootcamp
 
+
 <!-- estrutura-bootcamp:start -->
-📦 [Nome do Bootcamp]
-┣ 📂 Trilha 1 - [Nome do Trilha ou Trilha]
-┃ ┣ 📂 Módulo 1 - [Nome do Módulo]
-┃ ┃ ┣ 📂 Aula 1 - [Nome da Aula]
-┃ ┃ ┣ 📂 Aula 2 - ...
-┃ ┗ 📂 Módulo 2 - ...
-┣ 📂 Trilha 2 - ...
+┗ 📂 Trilha
+  ┗ 📂 Modulo
+    ┗ 📂 Aula 1
 <!-- estrutura-bootcamp:end -->
+
 
 Cada **Grupo** contém um conjunto de **Módulos**, e cada módulo está subdividido em **Aulas**, com código-fonte, exercícios e anotações.
 
@@ -41,13 +39,13 @@ Cada **Grupo** contém um conjunto de **Módulos**, e cada módulo está subdivi
 
 ## 📈 Progresso
 
+
 <!-- progresso:start -->
-| Trilha        | Módulo       | Aulas Completas | Status     |
-|--------------|--------------|------------------|------------|
-| Frontend     | HTML & CSS   | 5/5              | ✅ Concluído |
-| Backend      | Java Spring  | 2/4              | 🔄 Em andamento |
-| Banco de Dados | SQL Avançado | 0/3             | ⏳ A iniciar |
+| Trilha | Módulo | Aulas Completas | Status |
+|---|---|---|---|
+| Trilha | Modulo | 0/0 | ⏳ A iniciar |
 <!-- progresso:end -->
+
 
 > ✅ Atualize conforme avança no bootcamp.
 

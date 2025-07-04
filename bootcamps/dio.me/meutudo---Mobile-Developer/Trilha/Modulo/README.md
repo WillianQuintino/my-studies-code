@@ -80,3 +80,16 @@ Este módulo tem como objetivo:
 ---
 
 Se quiser, posso gerar automaticamente esse `README.md` com os dados reais de seus módulos, incluindo os nomes das aulas e status. Me envie a estrutura de exemplo e eu organizo tudo para você. Deseja isso?
+## ESTRUTURA MODULO
+
+<!-- estrutura-modulo:start -->
+┗ 📂 Aula 1
+<!-- estrutura-modulo:end -->
+
+## AULAS
+
+<!-- aulas:start -->
+| Aula Nº | Nome da Aula | Status | Observações |
+|---|---|---|---|
+| 1 | Aula 1 | ⏳ A iniciar |  |
+<!-- aulas:end -->
