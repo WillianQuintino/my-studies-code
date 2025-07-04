@@ -27,9 +27,11 @@ Algumas das principais tecnologias que fazem parte deste bootcamp incluem:
 
 
 <!-- estrutura-bootcamp:start -->
+```
 ┗ 📂 Trilha
   ┗ 📂 Modulo
     ┗ 📂 Aula 1
+```
 <!-- estrutura-bootcamp:end -->
 
 

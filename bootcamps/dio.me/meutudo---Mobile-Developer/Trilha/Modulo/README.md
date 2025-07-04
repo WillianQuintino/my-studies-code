@@ -18,7 +18,7 @@ Este módulo tem como objetivo:
 ---
 
 ## 🗂️ Estrutura do Módulo
-
+<!-- estrutura-modulo:start -->
 ```
 📁 [Módulo - Nome]
 ┣ 📂 Aula 1 - [Nome da Aula]
@@ -26,16 +26,19 @@ Este módulo tem como objetivo:
 ┣ 📂 Aula 3 - ...
 ┗ 📄 README.md (este arquivo)
 ```
+<!-- estrutura-modulo:end -->
 
 ---
 
 ## 📘 Aulas do Módulo
 
+<!-- aulas:start -->
 | Aula Nº | Nome da Aula               | Status       | Observações               |
 |--------:|----------------------------|--------------|----------------------------|
 | 1       | Introdução ao [Tema]       | ✅ Concluída  |                           |
 | 2       | Sintaxe e boas práticas    | 🔄 Em andamento |                           |
 | 3       | Exercício prático          | ⏳ A iniciar  | Revisar depois            |
+<!-- aulas:end -->
 
 > Atualize a tabela conforme for completando as aulas.
 
@@ -59,16 +62,6 @@ Este módulo tem como objetivo:
 ```
 
 ---
-📌 Progresso
- Aula 1 assistida
-
- Aula 1 praticada
-
- Aula 2 assistida
-
- Aula 3 finalizada
-
----
 
 📄 Licença
 > Este material é parte do bootcamp [Nome do Bootcamp], oferecido pela DIO.me, e de uso educacional.
@@ -82,14 +75,14 @@ Este módulo tem como objetivo:
 Se quiser, posso gerar automaticamente esse `README.md` com os dados reais de seus módulos, incluindo os nomes das aulas e status. Me envie a estrutura de exemplo e eu organizo tudo para você. Deseja isso?
 ## ESTRUTURA MODULO
 
-<!-- estrutura-modulo:start -->
+
 ┗ 📂 Aula 1
-<!-- estrutura-modulo:end -->
+
 
 ## AULAS
 
-<!-- aulas:start -->
+
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
 | 1 | Aula 1 | ⏳ A iniciar |  |
-<!-- aulas:end -->
+

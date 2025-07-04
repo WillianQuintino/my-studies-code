@@ -61,16 +61,3 @@
 ### ✅ Personalização Automática
 
 Se você quiser, posso gerar automaticamente esse `README.md` com o nome da aula, grupo, módulo e bootcamp preenchidos conforme a estrutura do seu repositório. Deseja que eu monte isso com base em uma estrutura de exemplo sua? Pode colar aqui a estrutura de pastas ou me dar um exemplo real.
-
-## ESTRUTURA-TRILHA
-
-<!-- estrutura-trilha:start -->
-
-<!-- estrutura-trilha:end -->
-
-## MÓDULOS
-
-<!-- módulos:start -->
-| Módulo | Aulas Completas | Status |
-|---|---|---|
-<!-- módulos:end -->

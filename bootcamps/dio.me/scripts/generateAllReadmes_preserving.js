@@ -44,7 +44,7 @@ function formatTree(dir, prefix = '') {
     const branch = isLast ? '┗' : '┣';
     const nextPrefix = prefix + (isLast ? '  ' : '┃ ');
     const subtree = formatTree(path.join(dir, item), nextPrefix);
-    return `${prefix}${branch} 📂 ${item}` + (subtree.length ? '\n' + subtree : '');
+    return `\n\`\`\`\n${prefix}${branch} 📂 ${item}` + (subtree.length ? '\n' + subtree : '\n\`\`\`\n');
   }).join('\n');
 }
 
