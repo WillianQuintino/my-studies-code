@@ -39,15 +39,13 @@ function formatTree(dir, prefix = '') {
     fs.statSync(path.join(dir, f)).isDirectory()
   );
 
-  const treeLines = items.map((item, i) => {
+  return items.map((item, i) => {
     const isLast = i === items.length - 1;
     const branch = isLast ? '┗' : '┣';
     const nextPrefix = prefix + (isLast ? '  ' : '┃ ');
     const subtree = formatTree(path.join(dir, item), nextPrefix);
     return `${prefix}${branch} 📂 ${item}${subtree ? '\n' + subtree : ''}`;
-  });
-
-  return '```\n' + treeLines.join('\n') + '\n```';
+  }).join('\n');
 }
 
 function buildTable(headers, rows) {
@@ -105,7 +103,7 @@ function updateBootcampReadme(bootcampPath) {
 
   const estrutura = formatTree(bootcampPath);
   let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
-  content = updateSection(content, 'estrutura-bootcamp', estrutura);
+  content = updateSection(content, 'estrutura-bootcamp', '```\n' + estrutura + '\n```');
   content = updateSection(content, 'progresso', buildTable(['Trilha', 'Módulos', 'Aulas Completas', 'Status'], progressTable));
   fs.writeFileSync(readmePath, content);
 }
@@ -125,7 +123,7 @@ function updateGrupoReadme(trilhaPath) {
   });
 
   let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
-  content = updateSection(content, 'estrutura-trilha', estrutura);
+  content = updateSection(content, 'estrutura-trilha', '```\n' + estrutura + '\n```');
   content = updateSection(content, 'módulos', buildTable(['Módulo', 'Aulas Completas', 'Status'], progresso));
   fs.writeFileSync(readmePath, content);
 }
@@ -146,7 +144,7 @@ function updateModuloReadme(moduloPath) {
   });
 
   let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
-  content = updateSection(content, 'estrutura-modulo', estrutura);
+  content = updateSection(content, 'estrutura-modulo', '```\n' + estrutura + '\n```');
   content = updateSection(content, 'aulas', buildTable(['Aula Nº', 'Nome da Aula', 'Status', 'Observações'], tabelaAulas));
   content = updateSection(content, 'progresso',
     buildTable(['Aulas Completas', 'Status'], [[`${count.done}/${count.total}`, count.total === 0 ? '⏳ A iniciar' : (count.done === count.total ? '✅ Concluído' : '🔄 Em andamento')]])

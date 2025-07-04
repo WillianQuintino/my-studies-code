@@ -19,7 +19,6 @@ Este módulo tem como objetivo:
 
 ## 🗂️ Estrutura do Módulo
 
-
 <!-- estrutura-modulo:start -->
 ```
 ┗ 📂 Aula 1
@@ -29,21 +28,15 @@ Este módulo tem como objetivo:
 ```
 <!-- estrutura-modulo:end -->
 
-
-
 ---
 
 ## 📘 Aulas do Módulo
-
-
 
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
 | 1 | Aula 1 | ✅ Concluída |  |
 <!-- aulas:end -->
-
-
 
 > Atualize a tabela conforme for completando as aulas.
 
