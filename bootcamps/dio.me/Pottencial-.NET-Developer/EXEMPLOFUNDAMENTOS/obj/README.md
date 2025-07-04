@@ -26,12 +26,7 @@
 <!-- estrutura-modulo:start -->
 ```
 ┗ 📂 Debug
-```
   ┗ 📂 net7.0
-```
-
-```
-```
 ```
 <!-- estrutura-modulo:end -->
 

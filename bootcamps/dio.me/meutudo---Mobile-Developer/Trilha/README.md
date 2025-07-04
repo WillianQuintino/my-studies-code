@@ -23,12 +23,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 <!-- estrutura-trilha:start -->
 ```
 ┗ 📂 Modulo
-```
   ┗ 📂 Aula 1
-```
-
-```
-```
 ```
 <!-- estrutura-trilha:end -->
 

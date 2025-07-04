@@ -33,15 +33,8 @@
 <!-- estrutura-trilha:start -->
 ```
 ┗ 📂 obj
-```
   ┗ 📂 Debug
-```
     ┗ 📂 net7.0
-```
-
-```
-```
-```
 ```
 <!-- estrutura-trilha:end -->
 
