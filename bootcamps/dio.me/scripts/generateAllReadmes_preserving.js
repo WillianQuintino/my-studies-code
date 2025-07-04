@@ -30,7 +30,7 @@ function updateSection(content, sectionId, generatedContent) {
   if (oldSection) {
     return content.replace(oldSection, fullSection);
   } else {
-    return content + `\n## ${sectionId.toUpperCase()}\n` + fullSection;
+    return content + `\n## ${sectionId.toUpperCase().replace(/-/g, ' ')}\n` + fullSection;
   }
 }
 
@@ -54,51 +54,68 @@ function buildTable(headers, rows) {
   return [head, sep, ...rows.map(r => `| ${r.join(' | ')} |`)].join('\n');
 }
 
+// Bootcamp
 function updateBootcampReadme(bootcampPath) {
   const readmePath = path.join(bootcampPath, 'README.md');
-  const grupos = fs.readdirSync(bootcampPath).filter(f =>
+  const trilhas = fs.readdirSync(bootcampPath).filter(f =>
     fs.statSync(path.join(bootcampPath, f)).isDirectory()
   );
 
-  const progressTable = grupos.map(grupo => {
-    const grupoPath = path.join(bootcampPath, grupo);
-    const modulos = fs.readdirSync(grupoPath).filter(f =>
-      fs.statSync(path.join(grupoPath, f)).isDirectory()
+  const progressTable = trilhas.map(trilha => {
+    const trilhaPath = path.join(bootcampPath, trilha);
+    const modulos = fs.readdirSync(trilhaPath).filter(f =>
+      fs.statSync(path.join(trilhaPath, f)).isDirectory()
     );
-    return modulos.map(mod => [grupo, mod, '0/0', '⏳ A iniciar']);
+    return modulos.map(mod => [trilha, mod, '0/0', '⏳ A iniciar']);
   }).flat();
 
   const estrutura = formatTree(bootcampPath);
   let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
-
   content = updateSection(content, 'estrutura-bootcamp', estrutura);
   content = updateSection(content, 'progresso', buildTable(['Trilha', 'Módulo', 'Aulas Completas', 'Status'], progressTable));
-
   fs.writeFileSync(readmePath, content);
 }
 
-function updateGrupoReadme(grupoPath) {
-  const readmePath = path.join(grupoPath, 'README.md');
-  const modulos = fs.readdirSync(grupoPath).filter(f =>
-    fs.statSync(path.join(grupoPath, f)).isDirectory()
+// Trilha (grupo)
+function updateGrupoReadme(trilhaPath) {
+  const readmePath = path.join(trilhaPath, 'README.md');
+  const modulos = fs.readdirSync(trilhaPath).filter(f =>
+    fs.statSync(path.join(trilhaPath, f)).isDirectory()
   );
 
-  const estrutura = formatTree(grupoPath);
+  const estrutura = formatTree(trilhaPath);
   const progresso = modulos.map(modulo => [modulo, '0/0', '⏳ A iniciar']);
 
   let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
-
   content = updateSection(content, 'estrutura-trilha', estrutura);
   content = updateSection(content, 'módulos', buildTable(['Módulo', 'Aulas Completas', 'Status'], progresso));
+  fs.writeFileSync(readmePath, content);
+}
 
+// Módulo
+function updateModuloReadme(moduloPath) {
+  const readmePath = path.join(moduloPath, 'README.md');
+  const aulas = fs.readdirSync(moduloPath).filter(f =>
+    fs.statSync(path.join(moduloPath, f)).isDirectory()
+  );
+
+  const estrutura = formatTree(moduloPath);
+  const tabelaAulas = aulas.map((aula, i) => [i + 1, aula, '⏳ A iniciar', '']);
+
+  let content = fs.existsSync(readmePath) ? fs.readFileSync(readmePath, 'utf-8') : '';
+  content = updateSection(content, 'estrutura-modulo', estrutura);
+  content = updateSection(content, 'aulas', buildTable(['Aula Nº', 'Nome da Aula', 'Status', 'Observações'], tabelaAulas));
   fs.writeFileSync(readmePath, content);
 }
 
 const basePath = './';
 const structure = walk(basePath);
 
-// Atualiza README dos bootcamps
-structure.filter(x => x.depth === 1).forEach(({ path }) => updateBootcampReadme(path));
+// Bootcamp = depth 0
+structure.filter(x => x.depth === 0).forEach(({ path }) => updateBootcampReadme(path));
 
-// Atualiza README dos grupos/trilhas
-structure.filter(x => x.depth === 2).forEach(({ path }) => updateGrupoReadme(path));
+// Trilha (grupo) = depth 1
+structure.filter(x => x.depth === 1).forEach(({ path }) => updateGrupoReadme(path));
+
+// Módulo = depth 2
+structure.filter(x => x.depth === 2).forEach(({ path }) => updateModuloReadme(path));
