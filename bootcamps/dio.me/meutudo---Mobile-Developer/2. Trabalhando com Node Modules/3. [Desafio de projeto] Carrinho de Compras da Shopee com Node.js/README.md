@@ -20,9 +20,8 @@ Este módulo tem como objetivo:
 ## 🗂️ Estrutura do Módulo
 
 <!-- estrutura-modulo:start -->
-
 ```
-┗ 📂 Aula 1
+
 ```
 <!-- estrutura-modulo:end -->
 
@@ -33,9 +32,6 @@ Este módulo tem como objetivo:
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
-| 1 | [Aula 1 - Instalando Ambiente](Aula%201%20-%20Instalando%20Ambiente/README.md) | ✅ Concluída |  |
-| 2 | [Aula 2 - Inicializando Projeto](Aula%202%20-%20Inicializando%20Projeto/README.md) | ✅ Concluída |  |
-| 3 | [Aula 3 - Trabalhando com Node Modules](Aula%203%20-%20Trabalhando%20com%20Node%20Modules/README.md) | ✅ Concluída |  |
 <!-- aulas:end -->
 
 > Atualize a tabela conforme for completando as aulas.
@@ -134,3 +130,9 @@ Este módulo tem como objetivo:
 ---
 
 “Cada módulo concluído é um passo mais perto do domínio completo.” 🧠💻
+## PROGRESSO
+<!-- progresso:start -->
+| Aulas Completas | Status |
+|---|---|
+| 0/0 | ⏳ A iniciar |
+<!-- progresso:end -->
