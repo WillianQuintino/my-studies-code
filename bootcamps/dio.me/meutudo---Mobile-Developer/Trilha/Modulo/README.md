@@ -32,7 +32,7 @@ Este módulo tem como objetivo:
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
-| 1 | Aula 1 | ✅ Concluída |  |
+| 1 | [Aula 1](Aula%201/README.md) | ✅ Concluída |  |
 <!-- aulas:end -->
 
 > Atualize a tabela conforme for completando as aulas.

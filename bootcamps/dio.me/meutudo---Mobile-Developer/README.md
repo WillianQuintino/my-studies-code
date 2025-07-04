@@ -43,7 +43,7 @@ Cada **Grupo** contém um conjunto de **Módulos**, e cada módulo está subdivi
 <!-- progresso:start -->
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| Trilha | 1 | 1/1 | ✅ Concluído |
+| [Trilha](Trilha/README.md) | 1 | 1/1 | ✅ Concluído |
 <!-- progresso:end -->
 
 > ✅ Atualize conforme avança no bootcamp.

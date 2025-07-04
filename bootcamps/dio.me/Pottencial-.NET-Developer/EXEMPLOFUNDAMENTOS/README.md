@@ -53,9 +53,9 @@
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
-| Models | 0/0 | ⏳ A iniciar |
-| PessoaCopia | 0/0 | ⏳ A iniciar |
-| obj | 0/1 | 🔄 Em andamento |
+| [Models](Models/README.md) | 0/0 | ⏳ A iniciar |
+| [PessoaCopia](PessoaCopia/README.md) | 0/0 | ⏳ A iniciar |
+| [obj](obj/README.md) | 0/1 | 🔄 Em andamento |
 <!-- módulos:end -->
 
 

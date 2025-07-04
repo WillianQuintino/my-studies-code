@@ -39,7 +39,7 @@
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
-| 1 | Debug | ⏳ A iniciar |  |
+| 1 | [Debug](Debug/README.md) | ⏳ A iniciar |  |
 <!-- aulas:end -->
 
 

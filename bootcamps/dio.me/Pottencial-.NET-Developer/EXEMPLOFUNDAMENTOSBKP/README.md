@@ -47,7 +47,7 @@
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
-| obj | 0/1 | 🔄 Em andamento |
+| [obj](obj/README.md) | 0/1 | 🔄 Em andamento |
 <!-- módulos:end -->
 
 

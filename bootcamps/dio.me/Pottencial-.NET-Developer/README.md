@@ -29,8 +29,8 @@
 <!-- progresso:start -->
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| EXEMPLOFUNDAMENTOS | 3 | 0/1 | 🔄 Em andamento |
-| EXEMPLOFUNDAMENTOSBKP | 1 | 0/1 | 🔄 Em andamento |
+| [EXEMPLOFUNDAMENTOS](EXEMPLOFUNDAMENTOS/README.md) | 3 | 0/1 | 🔄 Em andamento |
+| [EXEMPLOFUNDAMENTOSBKP](EXEMPLOFUNDAMENTOSBKP/README.md) | 1 | 0/1 | 🔄 Em andamento |
 <!-- progresso:end -->
 
 

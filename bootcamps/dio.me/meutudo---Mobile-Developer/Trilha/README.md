@@ -34,7 +34,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
-| Modulo | 1/1 | ✅ Concluído |
+| [Modulo](Modulo/README.md) | 1/1 | ✅ Concluído |
 <!-- módulos:end -->
 
 > Atualize esta tabela com os módulos reais conforme avança.
