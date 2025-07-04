@@ -1,0 +1,7 @@
+{
+  "name": "dio-me-bootcamps",
+  "version": "1.0.0",
+  "scripts": {
+    "update-readmes": "node scripts/generateAllReadmes_preserving.js"
+  }
+}
