@@ -22,7 +22,13 @@ Este módulo tem como objetivo:
 
 <!-- estrutura-modulo:start -->
 ```
-┗ 📂 01. Introdução ao Bootcamp meutudo - Mobile Developer
+┣ 📂 01. Introdução
+┣ 📂 02. Pré-Requesitos
+┣ 📂 03. O que vou Aprender
+┣ 📂 04. Com Quem Vou Aprender
+┣ 📂 05. Dicas pra estudar melhor nodeJS
+┣ 📂 06. Vamos nos conhecer
+┗ 📂 07. Material de Apoio
 ```
 <!-- estrutura-modulo:end -->
 
@@ -33,7 +39,13 @@ Este módulo tem como objetivo:
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
-| 1 | [01. Introdução ao Bootcamp meutudo - Mobile Developer](01.%20Introdu%C3%A7%C3%A3o%20ao%20Bootcamp%20meutudo%20-%20Mobile%20Developer/README.md) | ✅ Concluída |  |
+| 1 | [01. Introdução](01.%20Introdu%C3%A7%C3%A3o/README.md) | ⏳ A iniciar |  |
+| 2 | [02. Pré-Requesitos](02.%20Pr%C3%A9-Requesitos/README.md) | ⏳ A iniciar |  |
+| 3 | [03. O que vou Aprender](03.%20O%20que%20vou%20Aprender/README.md) | ⏳ A iniciar |  |
+| 4 | [04. Com Quem Vou Aprender](04.%20Com%20Quem%20Vou%20Aprender/README.md) | ⏳ A iniciar |  |
+| 5 | [05. Dicas pra estudar melhor nodeJS](05.%20Dicas%20pra%20estudar%20melhor%20nodeJS/README.md) | ⏳ A iniciar |  |
+| 6 | [06. Vamos nos conhecer](06.%20Vamos%20nos%20conhecer/README.md) | ⏳ A iniciar |  |
+| 7 | [07. Material de Apoio](07.%20Material%20de%20Apoio/README.md) | ⏳ A iniciar |  |
 <!-- aulas:end -->
 
 > Atualize a tabela conforme for completando as aulas.
@@ -66,3 +78,10 @@ Este módulo tem como objetivo:
 ---
 
 “Cada módulo concluído é um passo mais perto do domínio completo.” 🧠💻
+
+## PROGRESSO
+<!-- progresso:start -->
+| Aulas Completas | Status |
+|---|---|
+| 0/7 | 🔄 Em andamento |
+<!-- progresso:end -->

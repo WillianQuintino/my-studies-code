@@ -28,8 +28,19 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┣ 📂 01. Desenvolvimento Mobile com a meutudo
 ┃ ┃ ┗ 📂 01. Introdução ao Bootcamp meutudo - Mobile Developer
 ┃ ┣ 📂 02. Bem-Vindo ao Mundo do Node.js
-┃ ┃ ┗ 📂 01. Introdução
+┃ ┃ ┣ 📂 01. Introdução
+┃ ┃ ┣ 📂 02. Pré-Requesitos
+┃ ┃ ┣ 📂 03. O que vou Aprender
+┃ ┃ ┣ 📂 04. Com Quem Vou Aprender
+┃ ┃ ┣ 📂 05. Dicas pra estudar melhor nodeJS
+┃ ┃ ┣ 📂 06. Vamos nos conhecer
+┃ ┃ ┗ 📂 07. Material de Apoio
 ┃ ┣ 📂 03. Introdução ao Node.js
+┃ ┃ ┣ 📂 01. Introdução
+┃ ┃ ┣ 📂 02. Sobre o mercado de node.js
+┃ ┃ ┣ 📂 03. Como o node Funciona
+┃ ┃ ┣ 📂 04. Encerramento
+┃ ┃ ┗ 📂 05. Materiais de Apoio e Questionário - Introdução a NodeJS
 ┃ ┣ 📂 04. Instalando Ambiente de Desenvolvimento Node.js
 ┃ ┣ 📂 05. Inicializando Projetos Node.js
 ┃ ┣ 📂 06. Versionamento de Código com Git e GitHub
@@ -48,14 +59,52 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┣ 📂 05. Desafios de Código Aperfeiçoe Sua Lógica e Pensamento Computacional
 ┃ ┗ 📂 06. [Desafio de projeto] Classificando Clientes e Valores com JavaScript
 ┣ 📂 04. Typescript para Devs Node.js
+┃ ┣ 📂 01. Introdução a TypeScript e Supersets
+┃ ┣ 📂 02. Como configurar TypeScript em Projetos Node.js
+┃ ┗ 📂 03. Debugging com Node.js
 ┣ 📂 05. Introdução a Aplicações Web
+┃ ┣ 📂 01. Como a Web Funciona&#63;
+┃ ┣ 📂 02. Como Funciona HTTP Protocol
+┃ ┣ 📂 03. Introdução ao desenvolvimento de API
+┃ ┗ 📂 04. [Desafio de código] Monitorando e Classificando Empréstimos com JavaScript
 ┣ 📂 06. Criando APIs com Node.js
+┃ ┣ 📂 01. [Desafio de projeto] Gerenciador de Podcasts - API NodeJS Com Typescript e HTTP Module
+┃ ┣ 📂 02. [Desafio de projeto] Criando uma Minimal API da Fórmula 1 com Node.js e Fastify
+┃ ┗ 📂 03. [Desafio de projeto] Recriando a API da Champions League com Node.js e Express
 ┣ 📂 07. Boas Práticas de Programação
+┃ ┣ 📂 01. Introdução a Clean Code
+┃ ┣ 📂 02. Boas Práticas Para APIs RESTful
+┃ ┗ 📂 03. [Desafio de código] Contando Dias e Calculando Médias com JavaScript
 ┣ 📂 08. Introdução a React Native
+┃ ┣ 📂 01. Introdução ao React Native
+┃ ┣ 📂 02. Configurando seu Ambiente de Desenvolvimento para React Native
+┃ ┣ 📂 03. Primeiros Passos com React Native & Expo
+┃ ┣ 📂 04. [Desafio de projeto] Sequenciador de senhas do Batman com React Native
+┃ ┗ 📂 05. [Desafio de projeto] Calculando Juros e Taxas com JavaScript
 ┣ 📂 09. Fundamentos de Apps React Native
+┃ ┣ 📂 01. Trabalhando Com Componentes no React Native
+┃ ┣ 📂 02. Flexbox e Responsividade no React Native
+┃ ┣ 📂 03. Gerenciando eventos no React Native
+┃ ┣ 📂 04. [Desafio de projeto] Desafio&#58; Recrie um app de Bat Sinal
+┃ ┗ 📂 05. [Desafio de projeto] Validando e Formatando CPF com JavaScript
 ┣ 📂 10. Navegabilidade no React Native
+┃ ┣ 📂 01.Trabalhando com Hooks no React Native
+┃ ┣ 📂 02. Trabalhando com Navigation no React Native
+┃ ┣ 📂 03. Trabalhando com Stack Navigation no React Native
+┃ ┣ 📂 04. Trabalhando com Tab Navigation no React Native
+┃ ┣ 📂 05. Trabalhando com Drawer Navigation no React Native
+┃ ┗ 📂 06. [Desafio de projeto] Criando seu App de Portfólio
 ┣ 📂 11. Gerenciando Componentes React Native
+┃ ┣ 📂 01. Casos de Usos com Hooks no React Native
+┃ ┣ 📂 02. Trabalhando com Context API no React Native
+┃ ┣ 📂 03. [Desafio de projeto] Como Consumir API em APPs React Native na Prática
+┃ ┗ 📂 04. Deploy de Aplicações React Native para Lojas com EAS
 ┗ 📂 12. Desenvolvimento IA Powered
+  ┣ 📂 01. Introdução à Engenharia de Prompts
+  ┣ 📂 02. Técnicas de Engenharia de Prompt
+  ┣ 📂 03. Conhecendo o GitHub Copilot&#58; Aumentando sua Produtividade na Programação
+  ┣ 📂 04. Configurando e Usando o GitHub Copilot
+  ┗ 📂 05. Avalie este Bootcamp 2025
 ```
 <!-- estrutura-bootcamp:end -->
 
@@ -68,18 +117,18 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 <!-- progresso:start -->
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 1/2 | 🔄 Em andamento |
+| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/13 | 🔄 Em andamento |
 | [02. Trabalhando com Node Modules](02.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [03. Gerenciando Pacotes com Node.js com NPM](03.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/0 | ⏳ A iniciar |
-| [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [05. Introdução a Aplicações Web](05.%20Introdu%C3%A7%C3%A3o%20a%20Aplica%C3%A7%C3%B5es%20Web/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [06. Criando APIs com Node.js](06.%20Criando%20APIs%20com%20Node.js/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [07. Boas Práticas de Programação](07.%20Boas%20Pr%C3%A1ticas%20de%20Programa%C3%A7%C3%A3o/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [08. Introdução a React Native](08.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [09. Fundamentos de Apps React Native](09.%20Fundamentos%20de%20Apps%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [11. Gerenciando Componentes React Native](11.%20Gerenciando%20Componentes%20React%20Native/README.md) | 0 | 0/0 | ⏳ A iniciar |
-| [12. Desenvolvimento IA Powered](12.%20Desenvolvimento%20IA%20Powered/README.md) | 0 | 0/0 | ⏳ A iniciar |
+| [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |
+| [05. Introdução a Aplicações Web](05.%20Introdu%C3%A7%C3%A3o%20a%20Aplica%C3%A7%C3%B5es%20Web/README.md) | 4 | 0/0 | ⏳ A iniciar |
+| [06. Criando APIs com Node.js](06.%20Criando%20APIs%20com%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |
+| [07. Boas Práticas de Programação](07.%20Boas%20Pr%C3%A1ticas%20de%20Programa%C3%A7%C3%A3o/README.md) | 3 | 0/0 | ⏳ A iniciar |
+| [08. Introdução a React Native](08.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 5 | 0/0 | ⏳ A iniciar |
+| [09. Fundamentos de Apps React Native](09.%20Fundamentos%20de%20Apps%20React%20Native/README.md) | 5 | 0/0 | ⏳ A iniciar |
+| [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/0 | ⏳ A iniciar |
+| [11. Gerenciando Componentes React Native](11.%20Gerenciando%20Componentes%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
+| [12. Desenvolvimento IA Powered](12.%20Desenvolvimento%20IA%20Powered/README.md) | 5 | 0/0 | ⏳ A iniciar |
 <!-- progresso:end -->
 
 > ✅ Atualize conforme avança no bootcamp.

@@ -66,3 +66,10 @@ Este módulo tem como objetivo:
 ---
 
 “Cada módulo concluído é um passo mais perto do domínio completo.” 🧠💻
+
+## PROGRESSO
+<!-- progresso:start -->
+| Aulas Completas | Status |
+|---|---|
+| 1/1 | ✅ Concluído |
+<!-- progresso:end -->
