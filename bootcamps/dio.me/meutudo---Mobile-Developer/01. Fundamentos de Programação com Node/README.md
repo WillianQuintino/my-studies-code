@@ -39,6 +39,26 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 ┃ ┣ 📂 03. Como o node Funciona
 ┃ ┣ 📂 04. Encerramento
 ┃ ┗ 📂 05. Materiais de Apoio e Questionário - Introdução a NodeJS
+┃   ┣ 📂 Questao-1
+┃   ┃ ┣ 📂 Opcao-1
+┃   ┃ ┣ 📂 Opcao-2
+┃   ┃ ┣ 📂 Opcao-3
+┃   ┃ ┗ 📂 Opcao-4
+┃   ┣ 📂 Questao-2
+┃   ┃ ┣ 📂 Opcao-1
+┃   ┃ ┣ 📂 Opcao-2
+┃   ┃ ┣ 📂 Opcao-3
+┃   ┃ ┗ 📂 Opcao-4
+┃   ┣ 📂 Questao-3
+┃   ┃ ┣ 📂 Opcao-1
+┃   ┃ ┣ 📂 Opcao-2
+┃   ┃ ┣ 📂 Opcao-3
+┃   ┃ ┗ 📂 Opcao-4
+┃   ┗ 📂 Questao-4
+┃     ┣ 📂 Opcao-1
+┃     ┣ 📂 Opcao-2
+┃     ┣ 📂 Opcao-3
+┃     ┗ 📂 Opcao-4
 ┣ 📂 04. Instalando Ambiente de Desenvolvimento Node.js
 ┣ 📂 05. Inicializando Projetos Node.js
 ┣ 📂 06. Versionamento de Código com Git e GitHub
