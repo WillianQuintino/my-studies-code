@@ -78,3 +78,16 @@ Este repositório é pessoal e os conteúdos aqui registrados seguem os termos d
 ---
 
 > *“A melhor maneira de aprender é colocando a mão no código.”* 💻✨
+
+✅ Tabela com alternativas seguras
+| Caractere | Proibido Alternativas Visuais (Unicode/HTML) | Exemplo de Uso no Markdown|
+|-|-|-|
+| ?	| `&#63;` ou ﹖(U+FE56) | Como usar ls&#63; → Como usar ls?|
+| *	| `&#42;` ou ﹡ (U+FE61) | 	Linux﹡ → Linux﹡|
+| :	| `&#58;` ou ː (U+02D0) | 	Introː Linux → Introː Linux|
+| /	| `&#47;` ou ∕ (U+2215) | 	Windows ∕ Linux → Windows ∕ Linux|
+| \	| `&#92;` ou ⧵ (U+29F5) | 	C⧵Programas → C⧵Programas|
+| <	| `&#60;` ou ‹ (U+2039) | 	‹menor → ‹menor|
+| >	| `&#62;` ou › (U+203A) | 	›maior → ›maior|
+| "	| `&#34;` ou “ ” (aspas curvas) | 	“aspas” → “aspas”|
+| \`\` | `&#124;` ou (U+01C0)||

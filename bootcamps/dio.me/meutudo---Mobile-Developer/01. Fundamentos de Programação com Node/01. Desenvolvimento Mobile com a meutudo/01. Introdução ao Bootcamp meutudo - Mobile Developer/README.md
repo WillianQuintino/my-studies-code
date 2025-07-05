@@ -1,28 +1,10 @@
-# 📘 Aula: *[Nome da Aula]*
+# 📘 Aula: *Introdução ao Bootcamp meutudo - Mobile Developer*
 ```
-📅 **Data:** DD/MM/AAAA  
-📍 **Bootcamp:** [Nome do Bootcamp]  
-🏷️ **Grupo:** [Nome do Grupo]  
-📦 **Módulo:** [Nome do Módulo]
+📅 **Data:** 04/01/2025
+📍 **Bootcamp:** meutudo - Mobile Developer
+🏷️ **Grupo:** Introdução ao Bootcamp meutudo - Mobile Developer
+📦 **Módulo:** Introdução ao Bootcamp meutudo - Mobile Developer
 ```
----
-
-## 🧠 O que foi aprendido
-
-- [ ] Conceitos abordados
-- [ ] Tecnologias usadas
-- [ ] Dicas ou atalhos importantes
-
-> ✅ Marque os itens conforme for revisando ou completando a aula.
-
----
-
-## 📂 Conteúdo da Aula
-
-- `index.html` – Exemplo prático (se aplicável)
-- `script.js` – Scripts utilizados
-- `App.java` ou `main.py` – Código de exemplo
-- `anotacoes.md` – Arquivo de anotações pessoais (opcional)
 
 ---
 
@@ -35,22 +17,9 @@
 
 ---
 
-🔗 Links e Referências
-[Documentação Oficial]()
-
-[Repositório da Aula (se houver)]()
-
-[Playlist ou Vídeo]()
-
 ✅ Status
 
 - [X] Aula assistida
-
-- [X] Exercício concluído
-
-- [X] Projeto finalizado
-
-- [X] Revisar novamente
 
 ---
 
