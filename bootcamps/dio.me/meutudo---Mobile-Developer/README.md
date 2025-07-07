@@ -41,27 +41,12 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┃ ┣ 📂 03. Como o node Funciona
 ┃ ┃ ┣ 📂 04. Encerramento
 ┃ ┃ ┗ 📂 05. Materiais de Apoio e Questionário - Introdução a NodeJS
-┃ ┃   ┣ 📂 Questao-1
-┃ ┃   ┃ ┣ 📂 Opcao-1
-┃ ┃   ┃ ┣ 📂 Opcao-2
-┃ ┃   ┃ ┣ 📂 Opcao-3
-┃ ┃   ┃ ┗ 📂 Opcao-4
-┃ ┃   ┣ 📂 Questao-2
-┃ ┃   ┃ ┣ 📂 Opcao-1
-┃ ┃   ┃ ┣ 📂 Opcao-2
-┃ ┃   ┃ ┣ 📂 Opcao-3
-┃ ┃   ┃ ┗ 📂 Opcao-4
-┃ ┃   ┣ 📂 Questao-3
-┃ ┃   ┃ ┣ 📂 Opcao-1
-┃ ┃   ┃ ┣ 📂 Opcao-2
-┃ ┃   ┃ ┣ 📂 Opcao-3
-┃ ┃   ┃ ┗ 📂 Opcao-4
-┃ ┃   ┗ 📂 Questao-4
-┃ ┃     ┣ 📂 Opcao-1
-┃ ┃     ┣ 📂 Opcao-2
-┃ ┃     ┣ 📂 Opcao-3
-┃ ┃     ┗ 📂 Opcao-4
 ┃ ┣ 📂 04. Instalando Ambiente de Desenvolvimento Node.js
+┃ ┃ ┣ 📂 01. Instalando o ambiente NodeJS
+┃ ┃ ┣ 📂 02. Instalando seu Editor de código
+┃ ┃ ┣ 📂 03. Instalando o Node e o NPM
+┃ ┃ ┗ 📂 04. Seu primeiro ola mundo
+┃ ┃   ┗ 📂 01 - helloword
 ┃ ┣ 📂 05. Inicializando Projetos Node.js
 ┃ ┣ 📂 06. Versionamento de Código com Git e GitHub
 ┃ ┣ 📂 07. Desafios de Projetos Crie Um Portfólio Vencedor
@@ -137,7 +122,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 <!-- progresso:start -->
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/13 | 🔄 Em andamento |
+| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/17 | 🔄 Em andamento |
 | [02. Trabalhando com Node Modules](02.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [03. Gerenciando Pacotes com Node.js com NPM](03.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/0 | ⏳ A iniciar |
 | [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |

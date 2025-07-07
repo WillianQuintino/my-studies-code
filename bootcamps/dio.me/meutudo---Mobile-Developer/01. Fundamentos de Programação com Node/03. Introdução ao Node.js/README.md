@@ -7,26 +7,6 @@
 ┣ 📂 03. Como o node Funciona
 ┣ 📂 04. Encerramento
 ┗ 📂 05. Materiais de Apoio e Questionário - Introdução a NodeJS
-  ┣ 📂 Questao-1
-  ┃ ┣ 📂 Opcao-1
-  ┃ ┣ 📂 Opcao-2
-  ┃ ┣ 📂 Opcao-3
-  ┃ ┗ 📂 Opcao-4
-  ┣ 📂 Questao-2
-  ┃ ┣ 📂 Opcao-1
-  ┃ ┣ 📂 Opcao-2
-  ┃ ┣ 📂 Opcao-3
-  ┃ ┗ 📂 Opcao-4
-  ┣ 📂 Questao-3
-  ┃ ┣ 📂 Opcao-1
-  ┃ ┣ 📂 Opcao-2
-  ┃ ┣ 📂 Opcao-3
-  ┃ ┗ 📂 Opcao-4
-  ┗ 📂 Questao-4
-    ┣ 📂 Opcao-1
-    ┣ 📂 Opcao-2
-    ┣ 📂 Opcao-3
-    ┗ 📂 Opcao-4
 ```
 <!-- estrutura-modulo:end -->
 ## AULAS
