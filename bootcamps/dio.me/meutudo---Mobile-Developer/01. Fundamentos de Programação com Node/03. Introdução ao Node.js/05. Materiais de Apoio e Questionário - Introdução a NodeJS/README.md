@@ -9,7 +9,7 @@ Nossos materiais complementares e de apoio têm como objetivo apresentar informa
 
  
 ## Slides
-**[Introdução ao NodeJS (Apresentação).pdf](<Introdução .pdf>)**
+**[Introdução ao NodeJS (Apresentação).pdf](Introdução.pdf)**
  
 ## Dicas/Links Úteis
 Por fim, disponibilizamos alguns links úteis para que você possa se desenvolver ainda mais através de referências oficiais das tecnologias, páginas de documentação e/ou fóruns de discussão relevantes. Nesse contexto, seguem algumas sugestões:
