@@ -1,0 +1,28 @@
+// OBJETOS: 
+// Ao declarar desta forma isso se torna um objeto no JavaScrit
+const player1 = {
+    NOME: "Mario",
+    VELOCIDADE: 4,
+    MANOBRABILIDADE: 3,
+    PODER: 3,
+    PONTOS: 0,
+};
+
+const player2 = {
+    NOME: "Luigi",
+    VELOCIDADE: 3,
+    MANOBRABILIDADE: 4,
+    PODER: 4,
+    PONTOS: 0,
+};
+
+// ASYNC FUNCTION:
+// - A classe Math trás todas as principais funções de calculo matematicos utilizadas
+// - No node as função são sincronas execuntão todas as funções ao mesmo tempo
+// - Mas não queremos executar ao mesmo tempo então tranformamos em Async
+async function rollDice(){
+    return Math.floor( // Função da classe Math para arendondar os valores quebrados
+        Math.random() // Gera um numero aletarorio de 0 á 1
+        * 6 // por precisarmos de um valor até 6 nós mutiplicamos pela quantidade 
+    ) + 1; // após arendondar ele vai arendondar para baixo então adicionamos 1 para temos o valor 6
+}
