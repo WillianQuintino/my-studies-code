@@ -1,20 +1,65 @@
 // OBJETOS: 
 // Ao declarar desta forma isso se torna um objeto no JavaScrit
-const player1 = {
-    NOME: "Mario",
-    VELOCIDADE: 4,
-    MANOBRABILIDADE: 3,
-    PODER: 3,
-    PONTOS: 0,
-};
+// const player1 = {
+//     NOME: "Mario",
+//     VELOCIDADE: 4,
+//     MANOBRABILIDADE: 3,
+//     PODER: 3,
+//     PONTOS: 0,
+// };
 
-const player2 = {
-    NOME: "Luigi",
-    VELOCIDADE: 3,
-    MANOBRABILIDADE: 4,
-    PODER: 4,
-    PONTOS: 0,
-};
+// const player2 = {
+//     NOME: "Luigi",
+//     VELOCIDADE: 3,
+//     MANOBRABILIDADE: 4,
+//     PODER: 4,
+//     PONTOS: 0,
+// };
+
+const players = [
+    {
+        NOME: "Mario 🍄",
+        VELOCIDADE: 4,
+        MANOBRABILIDADE: 3,
+        PODER: 3,
+        PONTOS: 0,
+    },
+    {
+        NOME: "Peach 👸",
+        VELOCIDADE: 3,
+        MANOBRABILIDADE: 4,
+        PODER: 2,
+        PONTOS: 0,
+    },
+    {
+        NOME: "Yoshi 🦖",
+        VELOCIDADE: 2,
+        MANOBRABILIDADE: 4,
+        PODER: 3,
+        PONTOS: 0,
+    },
+    {
+        NOME: "Bower 🐲",
+        VELOCIDADE: 5,
+        MANOBRABILIDADE: 2,
+        PODER: 5,
+        PONTOS: 0,
+    },
+    {
+        NOME: "Luigi 👨‍🔧",
+        VELOCIDADE: 3,
+        MANOBRABILIDADE: 4,
+        PODER: 4,
+        PONTOS: 0,
+    },
+    {
+        NOME: "Donkey Kong 🦍",
+        VELOCIDADE: 2,
+        MANOBRABILIDADE: 2,
+        PODER: 5,
+        PONTOS: 0,
+    },
+];
 
 // ASYNC FUNCTION:
 // - A classe Math trás todas as principais funções de calculo matematicos utilizadas
@@ -48,6 +93,23 @@ async function getRandomBlock() {
     return result;
 }
 
+
+async function getRandomAttack() {
+    let random = Math.random();
+    let result;
+
+    switch (true) {
+        case random < 0.50:
+            result = "BOMBA";
+            break;
+        default:
+            result = "CASACO";
+            break;
+    }
+
+    return result;
+}
+
 //log Roll (Encapsulate): se a função é muto repetitiva você cria uma função para isso
 // posso fazer calculos dirito no log
 async function logRollResult(characterName, block, diceResult, attribute) {
@@ -56,8 +118,8 @@ async function logRollResult(characterName, block, diceResult, attribute) {
 
 // Race Engine
 // Função em cadeia (Functions Chains) é quando chamamos uma dentro da outra e use com parcimonia
-async function playRaceEngine(character1, character2) {
-    for (let round = 1; round <= 5; round++) {
+async function playRaceEngine(character1, character2, maxRound) {
+    for (let round = 1; round <= maxRound; round++) {
         console.log(`🏁 Rodada ${round}`);
 
         // sortear bloco
@@ -99,16 +161,31 @@ async function playRaceEngine(character1, character2) {
             await logRollResult(character1.NOME, "poder", diceResult1, character1.PODER);
             await logRollResult(character2.NOME, "poder", diceResult2, character2.PODER);
 
-            if (powerResult1 > powerResult2 && character2.PONTOS > 0) {
-                console.log(`${character1.NOME} venceu o confronto! ${character2.NOME} perdeu 1 ponto 🐢`)
-                character2.PONTOS--;
-            }
-            if (powerResult2 > powerResult1 && character1.PONTOS > 0) {
-                console.log(`${character2.NOME} venceu o confronto! ${character1.NOME} perdeu 1 ponto 🐢`)
-                character1.PONTOS--;
+            const attackName = await getRandomAttack();
+            let attackForce = 0;
+
+            switch (attackName) {
+                case "BOMBA":
+                    attackForce = 2;
+                    break;
+                case "CASACO":
+                    attackForce = 1;
+                    break;
             }
 
-            console.log(powerResult1 === powerResult2 ? "Cofronto empatado! Nenhum ponto foi perdido" : "");
+            if (powerResult1 > powerResult2 && character2.PONTOS > 0) {
+                console.log(`${character1.NOME} venceu o confronto e ganhou 1 ponto de TURBO! 🚀 ${character2.NOME} perdeu ${attackForce} ponto 🐢`);
+                character1.PONTOS++;
+                character2.PONTOS -= attackForce;
+            }
+
+            if (powerResult2 > powerResult1 && character1.PONTOS > 0) {
+                console.log(`${character2.NOME} venceu o confronto e ganhou 1 ponto de TURBO! 🚀 ${character1.NOME} perdeu ${attackForce} ponto 🐢`);
+                character2.PONTOS++;
+                character1.PONTOS -= attackForce;
+            }
+
+            console.log(powerResult1 === powerResult2 ? "Confronto empatado! Nenhum ponto foi perdido ⚖️" : "");
         }
 
 
@@ -121,7 +198,8 @@ async function playRaceEngine(character1, character2) {
             character2.PONTOS++;
         }
 
-        console.log("--------------------------------")
+        console.log("--------------------------------");
+
     }
 }
 
@@ -143,13 +221,19 @@ async function declareWinner(character1, character2) {
 // MAIN:
 //criar a função principal do codigo uma função de entrada
 (async function main() {
+
+    const player1 = players[await rollDice() - 1];
+    const player2 = players[await rollDice() - 1];
+
+    const round = 5 + await rollDice();
+
     console.log(
-        `🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando... \n`
+        `🏁🚨 Corrida com ${round} rodas entre ${player1.NOME} e ${player2.NOME} começando... \n`
     );
 
-    await playRaceEngine(player1, player2);
+    await playRaceEngine(player1, player2, round);
     // usando as `` você cria um template
 
-    declareWinner(player1, player2);
+    await declareWinner(player1, player2);
 })(); // função auto invocavel
 
