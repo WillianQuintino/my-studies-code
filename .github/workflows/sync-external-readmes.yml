@@ -1,0 +1,45 @@
+name: Sync External READMEs
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Executa semanalmente aos domingos
+  workflow_dispatch:      # Permite execução manual
+
+jobs:
+  sync-readmes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Instalar jq
+        run: sudo apt-get install -y jq
+
+      - name: Baixar arquivos definidos em .github/readmes.json
+        run: |
+          json_file=".github/readmes.json"
+          if [ ! -f "$json_file" ]; then
+            echo "Arquivo $json_file não encontrado"
+            exit 1
+          fi
+
+          echo "Iniciando sincronização de READMEs externos..."
+          jq -c '.[]' "$json_file" | while read -r item; do
+            path=$(echo "$item" | jq -r '.path')
+            url=$(echo "$item" | jq -r '.raw_url')
+
+            echo "➡️ Baixando de: $url"
+            mkdir -p "$(dirname "$path")"
+            curl -sSL "$url" -o "$path"
+            echo "✅ Arquivo salvo em: $path"
+          done
+
+      - name: Commit e push se houver mudanças
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
+          git add .
+          git commit -m "Atualizar READMEs externos via sync-external-readmes.yml" || echo "Sem mudanças para commit"
+          git push
