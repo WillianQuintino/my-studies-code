@@ -88,10 +88,44 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 ┃ ┃ ┗ 📂 _project
 ┃ ┃   ┣ 📂 docs
 ┃ ┃   ┗ 📂 src
+┃ ┣ 📂 13. Testando Blocos (If)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 14. Escopo de Variaveis
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 15. Log Roll (Encapsulamento)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 16. Javascript Expressions
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 17. Winneer - (Else If's)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 18. Diminuindo Ifs (If Ternario)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 19. Condição Dupla (If Combinado)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 20. Game Over (Clean Ifs)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 21. Conclusão
 ┃ ┗ 📂 _project
 ┃   ┣ 📂 docs
 ┃   ┗ 📂 src
 ┗ 📂 09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer
+  ┗ 📂 LIVE
 ```
 <!-- estrutura-trilha:end -->
 
@@ -109,8 +143,8 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 | [05. Inicializando Projetos Node.js](05.%20Inicializando%20Projetos%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
 | [06. Versionamento de Código com Git e GitHub](06.%20Versionamento%20de%20C%C3%B3digo%20com%20Git%20e%20GitHub/README.md) | 0/0 | ⏳ A iniciar |
 | [07. Desafios de Projetos Crie Um Portfólio Vencedor](07.%20Desafios%20de%20Projetos%20Crie%20Um%20Portf%C3%B3lio%20Vencedor/README.md) | 0/0 | ⏳ A iniciar |
-| [08. [Desafio de Projeto] Mario Kart com Node.js](08.%20%5BDesafio%20de%20Projeto%5D%20Mario%20Kart%20com%20Node.js/README.md) | 0/13 | 🔄 Em andamento |
-| [09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer](09.%20%5BMentoria%20(Live)%5D%20Imagem%20do%20bootcamp%20meutudo%20-%20Mobile%20Developer/README.md) | 0/0 | ⏳ A iniciar |
+| [08. [Desafio de Projeto] Mario Kart com Node.js](08.%20%5BDesafio%20de%20Projeto%5D%20Mario%20Kart%20com%20Node.js/README.md) | 0/22 | 🔄 Em andamento |
+| [09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer](09.%20%5BMentoria%20(Live)%5D%20Imagem%20do%20bootcamp%20meutudo%20-%20Mobile%20Developer/README.md) | 0/1 | 🔄 Em andamento |
 <!-- módulos:end -->
 
 > Atualize esta tabela com os módulos reais conforme avança.

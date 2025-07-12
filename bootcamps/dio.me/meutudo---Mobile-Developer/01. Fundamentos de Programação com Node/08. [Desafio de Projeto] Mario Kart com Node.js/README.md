@@ -43,6 +43,39 @@
 ┃ ┗ 📂 _project
 ┃   ┣ 📂 docs
 ┃   ┗ 📂 src
+┣ 📂 13. Testando Blocos (If)
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
+┣ 📂 14. Escopo de Variaveis
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
+┣ 📂 15. Log Roll (Encapsulamento)
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
+┣ 📂 16. Javascript Expressions
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
+┣ 📂 17. Winneer - (Else If's)
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
+┣ 📂 18. Diminuindo Ifs (If Ternario)
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
+┣ 📂 19. Condição Dupla (If Combinado)
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
+┣ 📂 20. Game Over (Clean Ifs)
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
+┣ 📂 21. Conclusão
 ┗ 📂 _project
   ┣ 📂 docs
   ┗ 📂 src
@@ -64,11 +97,20 @@
 | 10 | [10. Rounds (For)](10.%20Rounds%20(For)/README.md) | ⏳ A iniciar |  |
 | 11 | [11. Blocks (Switch Case)](11.%20Blocks%20(Switch%20Case)/README.md) | ⏳ A iniciar |  |
 | 12 | [12. Convenções](12.%20Conven%C3%A7%C3%B5es/README.md) | ⏳ A iniciar |  |
-| 13 | [_project](_project/README.md) | ⏳ A iniciar |  |
+| 13 | [13. Testando Blocos (If)](13.%20Testando%20Blocos%20(If)/README.md) | ⏳ A iniciar |  |
+| 14 | [14. Escopo de Variaveis](14.%20Escopo%20de%20Variaveis/README.md) | ⏳ A iniciar |  |
+| 15 | [15. Log Roll (Encapsulamento)](15.%20Log%20Roll%20(Encapsulamento)/README.md) | ⏳ A iniciar |  |
+| 16 | [16. Javascript Expressions](16.%20Javascript%20Expressions/README.md) | ⏳ A iniciar |  |
+| 17 | [17. Winneer - (Else If's)](17.%20Winneer%20-%20(Else%20If's)/README.md) | ⏳ A iniciar |  |
+| 18 | [18. Diminuindo Ifs (If Ternario)](18.%20Diminuindo%20Ifs%20(If%20Ternario)/README.md) | ⏳ A iniciar |  |
+| 19 | [19. Condição Dupla (If Combinado)](19.%20Condi%C3%A7%C3%A3o%20Dupla%20(If%20Combinado)/README.md) | ⏳ A iniciar |  |
+| 20 | [20. Game Over (Clean Ifs)](20.%20Game%20Over%20(Clean%20Ifs)/README.md) | ⏳ A iniciar |  |
+| 21 | [21. Conclusão](21.%20Conclus%C3%A3o/README.md) | ⏳ A iniciar |  |
+| 22 | [_project](_project/README.md) | ⏳ A iniciar |  |
 <!-- aulas:end -->
 ## PROGRESSO
 <!-- progresso:start -->
 | Aulas Completas | Status |
 |---|---|
-| 0/13 | 🔄 Em andamento |
+| 0/22 | 🔄 Em andamento |
 <!-- progresso:end -->
