@@ -90,10 +90,44 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┃ ┃ ┗ 📂 _project
 ┃ ┃ ┃   ┣ 📂 docs
 ┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 13. Testando Blocos (If)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 14. Escopo de Variaveis
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 15. Log Roll (Encapsulamento)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 16. Javascript Expressions
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 17. Winneer - (Else If's)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 18. Diminuindo Ifs (If Ternario)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 19. Condição Dupla (If Combinado)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 20. Game Over (Clean Ifs)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 21. Conclusão
 ┃ ┃ ┗ 📂 _project
 ┃ ┃   ┣ 📂 docs
 ┃ ┃   ┗ 📂 src
 ┃ ┗ 📂 09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer
+┃   ┗ 📂 LIVE
 ┣ 📂 02. Trabalhando com Node Modules
 ┃ ┣ 📂 01. Modularização de Projetos Node.js
 ┃ ┣ 📂 02. Modularização com EcmaScript Modules
@@ -164,7 +198,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 <!-- progresso:start -->
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/30 | 🔄 Em andamento |
+| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/40 | 🔄 Em andamento |
 | [02. Trabalhando com Node Modules](02.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [03. Gerenciando Pacotes com Node.js com NPM](03.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/0 | ⏳ A iniciar |
 | [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |
