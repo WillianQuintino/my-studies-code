@@ -1,5 +1,8 @@
 name: Sync External READMEs
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: '0 0 * * 0'  # Executa semanalmente aos domingos
