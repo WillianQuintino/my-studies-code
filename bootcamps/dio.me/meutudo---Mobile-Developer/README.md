@@ -50,7 +50,49 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┣ 📂 05. Inicializando Projetos Node.js
 ┃ ┣ 📂 06. Versionamento de Código com Git e GitHub
 ┃ ┣ 📂 07. Desafios de Projetos Crie Um Portfólio Vencedor
-┃ ┣ 📂 08. [Desafio de Projeto] Simulador de Corridas do Mario Kart com Node.js
+┃ ┣ 📂 08. [Desafio de Projeto] Mario Kart com Node.js
+┃ ┃ ┣ 📂 01. Introdução
+┃ ┃ ┣ 📂 02. Regras de negócio
+┃ ┃ ┣ 📂 03. Demontração
+┃ ┃ ┣ 📂 04. Setup
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 05. Objetos
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 06. Roll Dice (Async Functions)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 07. Main (Auto Invoke)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 08. Start (Template String)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 09. Race Engine (Functions Chains)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 10. Rounds (For)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 11. Blocks (Switch Case)
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┣ 📂 12. Convenções
+┃ ┃ ┃ ┗ 📂 _project
+┃ ┃ ┃   ┣ 📂 docs
+┃ ┃ ┃   ┗ 📂 src
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
 ┃ ┗ 📂 09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer
 ┣ 📂 02. Trabalhando com Node Modules
 ┃ ┣ 📂 01. Modularização de Projetos Node.js
@@ -122,7 +164,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 <!-- progresso:start -->
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/17 | 🔄 Em andamento |
+| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/30 | 🔄 Em andamento |
 | [02. Trabalhando com Node Modules](02.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [03. Gerenciando Pacotes com Node.js com NPM](03.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/0 | ⏳ A iniciar |
 | [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |

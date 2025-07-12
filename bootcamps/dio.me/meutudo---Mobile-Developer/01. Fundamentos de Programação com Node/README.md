@@ -48,7 +48,49 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 ┣ 📂 05. Inicializando Projetos Node.js
 ┣ 📂 06. Versionamento de Código com Git e GitHub
 ┣ 📂 07. Desafios de Projetos Crie Um Portfólio Vencedor
-┣ 📂 08. [Desafio de Projeto] Simulador de Corridas do Mario Kart com Node.js
+┣ 📂 08. [Desafio de Projeto] Mario Kart com Node.js
+┃ ┣ 📂 01. Introdução
+┃ ┣ 📂 02. Regras de negócio
+┃ ┣ 📂 03. Demontração
+┃ ┣ 📂 04. Setup
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 05. Objetos
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 06. Roll Dice (Async Functions)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 07. Main (Auto Invoke)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 08. Start (Template String)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 09. Race Engine (Functions Chains)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 10. Rounds (For)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 11. Blocks (Switch Case)
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┣ 📂 12. Convenções
+┃ ┃ ┗ 📂 _project
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┗ 📂 _project
+┃   ┣ 📂 docs
+┃   ┗ 📂 src
 ┗ 📂 09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer
 ```
 <!-- estrutura-trilha:end -->
@@ -67,7 +109,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 | [05. Inicializando Projetos Node.js](05.%20Inicializando%20Projetos%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
 | [06. Versionamento de Código com Git e GitHub](06.%20Versionamento%20de%20C%C3%B3digo%20com%20Git%20e%20GitHub/README.md) | 0/0 | ⏳ A iniciar |
 | [07. Desafios de Projetos Crie Um Portfólio Vencedor](07.%20Desafios%20de%20Projetos%20Crie%20Um%20Portf%C3%B3lio%20Vencedor/README.md) | 0/0 | ⏳ A iniciar |
-| [08. [Desafio de Projeto] Simulador de Corridas do Mario Kart com Node.js](08.%20%5BDesafio%20de%20Projeto%5D%20Simulador%20de%20Corridas%20do%20Mario%20Kart%20com%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
+| [08. [Desafio de Projeto] Mario Kart com Node.js](08.%20%5BDesafio%20de%20Projeto%5D%20Mario%20Kart%20com%20Node.js/README.md) | 0/13 | 🔄 Em andamento |
 | [09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer](09.%20%5BMentoria%20(Live)%5D%20Imagem%20do%20bootcamp%20meutudo%20-%20Mobile%20Developer/README.md) | 0/0 | ⏳ A iniciar |
 <!-- módulos:end -->
 
