@@ -81,3 +81,5 @@ src/
 Você gostaria de um modelo do GitHub baseado nessa estrutura? Deixe um 🔁 nos comentários!
 
 ![clean-code](clean-code.jpeg)
+
+**Fonte:** [Rafael Santos - LinkedIn](https://www.linkedin.com/posts/activity-7347961287940763648-C_Hg/?utm_source=share&utm_medium=member_android&rcm=ACoAAAYBPzIBKffzZrF4YJedjkIZDaIitl-iiIA)
