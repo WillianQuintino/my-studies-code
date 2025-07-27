@@ -140,6 +140,9 @@ Este módulo tem como objetivo:
 ┣ 📂 01. Modularização de Projetos Node.js
 ┣ 📂 02. Modularização com EcmaScript Modules
 ┗ 📂 03. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js
+  ┗ 📂 06-shopee-cart
+    ┗ 📂 src
+      ┗ 📂 services
 ```
 <!-- estrutura-trilha:end -->
 ## MÓDULOS
@@ -148,5 +151,5 @@ Este módulo tem como objetivo:
 |---|---|---|
 | [01. Modularização de Projetos Node.js](01.%20Modulariza%C3%A7%C3%A3o%20de%20Projetos%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
 | [02. Modularização com EcmaScript Modules](02.%20Modulariza%C3%A7%C3%A3o%20com%20EcmaScript%20Modules/README.md) | 0/0 | ⏳ A iniciar |
-| [03. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js](03.%20%5BDesafio%20de%20projeto%5D%20Carrinho%20de%20Compras%20da%20Shopee%20com%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
+| [03. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js](03.%20%5BDesafio%20de%20projeto%5D%20Carrinho%20de%20Compras%20da%20Shopee%20com%20Node.js/README.md) | 0/1 | 🔄 Em andamento |
 <!-- módulos:end -->

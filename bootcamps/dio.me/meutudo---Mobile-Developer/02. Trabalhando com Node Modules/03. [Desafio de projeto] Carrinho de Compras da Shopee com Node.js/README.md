@@ -21,7 +21,9 @@ Este módulo tem como objetivo:
 
 <!-- estrutura-modulo:start -->
 ```
-
+┗ 📂 06-shopee-cart
+  ┗ 📂 src
+    ┗ 📂 services
 ```
 <!-- estrutura-modulo:end -->
 
@@ -32,6 +34,7 @@ Este módulo tem como objetivo:
 <!-- aulas:start -->
 | Aula Nº | Nome da Aula | Status | Observações |
 |---|---|---|---|
+| 1 | [06-shopee-cart](06-shopee-cart/README.md) | ⏳ A iniciar |  |
 <!-- aulas:end -->
 
 > Atualize a tabela conforme for completando as aulas.
@@ -134,5 +137,5 @@ Este módulo tem como objetivo:
 <!-- progresso:start -->
 | Aulas Completas | Status |
 |---|---|
-| 0/0 | ⏳ A iniciar |
+| 0/1 | 🔄 Em andamento |
 <!-- progresso:end -->

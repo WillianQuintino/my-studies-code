@@ -119,3 +119,21 @@ tsconfig a configuração de como vai rodar o typescript
 - docs.expo.dev
 - isso que ele vai explicar é o resumo da documentação e a experiencia dele de desenvolvedor
 - nunca ignore a documentação oficial isso podemos cair neste erro.
+
+## ESTRUTURA MODULO
+<!-- estrutura-modulo:start -->
+```
+
+```
+<!-- estrutura-modulo:end -->
+## AULAS
+<!-- aulas:start -->
+| Aula Nº | Nome da Aula | Status | Observações |
+|---|---|---|---|
+<!-- aulas:end -->
+## PROGRESSO
+<!-- progresso:start -->
+| Aulas Completas | Status |
+|---|---|
+| 0/0 | ⏳ A iniciar |
+<!-- progresso:end -->

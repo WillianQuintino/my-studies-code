@@ -132,6 +132,9 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┣ 📂 01. Modularização de Projetos Node.js
 ┃ ┣ 📂 02. Modularização com EcmaScript Modules
 ┃ ┗ 📂 03. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js
+┃   ┗ 📂 06-shopee-cart
+┃     ┗ 📂 src
+┃       ┗ 📂 services
 ┣ 📂 03. Gerenciando Pacotes com Node.js com NPM
 ┃ ┣ 📂 01. Gerenciando Pacotes com Node
 ┃ ┣ 📂 02. NPM Scripts em Node.js
@@ -157,7 +160,6 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┣ 📂 02. Boas Práticas Para APIs RESTful
 ┃ ┗ 📂 03. [Desafio de código] Contando Dias e Calculando Médias com JavaScript
 ┣ 📂 08. Introdução a React Native
-┃ ┣ 📂 01. Introdução ao React Native
 ┃ ┣ 📂 02. Configurando seu Ambiente de Desenvolvimento para React Native
 ┃ ┣ 📂 03. Primeiros Passos com React Native & Expo
 ┃ ┣ 📂 04. [Desafio de projeto] Sequenciador de senhas do Batman com React Native
@@ -199,13 +201,13 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
 | [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/40 | 🔄 Em andamento |
-| [02. Trabalhando com Node Modules](02.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/0 | ⏳ A iniciar |
+| [02. Trabalhando com Node Modules](02.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/1 | 🔄 Em andamento |
 | [03. Gerenciando Pacotes com Node.js com NPM](03.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/0 | ⏳ A iniciar |
 | [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [05. Introdução a Aplicações Web](05.%20Introdu%C3%A7%C3%A3o%20a%20Aplica%C3%A7%C3%B5es%20Web/README.md) | 4 | 0/0 | ⏳ A iniciar |
 | [06. Criando APIs com Node.js](06.%20Criando%20APIs%20com%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [07. Boas Práticas de Programação](07.%20Boas%20Pr%C3%A1ticas%20de%20Programa%C3%A7%C3%A3o/README.md) | 3 | 0/0 | ⏳ A iniciar |
-| [08. Introdução a React Native](08.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 5 | 0/0 | ⏳ A iniciar |
+| [08. Introdução a React Native](08.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
 | [09. Fundamentos de Apps React Native](09.%20Fundamentos%20de%20Apps%20React%20Native/README.md) | 5 | 0/0 | ⏳ A iniciar |
 | [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/0 | ⏳ A iniciar |
 | [11. Gerenciando Componentes React Native](11.%20Gerenciando%20Componentes%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
