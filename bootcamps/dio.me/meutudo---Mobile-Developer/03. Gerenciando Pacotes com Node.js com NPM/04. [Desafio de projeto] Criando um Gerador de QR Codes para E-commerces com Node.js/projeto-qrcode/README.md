@@ -7,8 +7,9 @@ Com este gerador, você poderá criar QR Codes personalizados para links de prod
 ## 🚀 Tecnologias Utilizadas
 
 - [Node.js](https://nodejs.org/)
-- [Inquirer](https://www.npmjs.com/package/inquirer) — para interação via terminal
-- [qrcode](https://www.npmjs.com/package/qrcode) — para geração dos QR Codes
+- [prompt](https://www.npmjs.com/package/prompt) — para interação via terminal
+- [qrcode-terminal](https://www.npmjs.com/package/qrcode-terminal) — para geração dos QR Codes
+- [chalk](https://www.npmjs.com/package/chalk) - para colorir e deixar mais atraente o terminal
 
 ## 📦 Instalação
 
