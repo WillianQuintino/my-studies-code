@@ -160,6 +160,15 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┗ 📂 04. [Desafio de código] Monitorando e Classificando Empréstimos com JavaScript
 ┣ 📂 06. Criando APIs com Node.js
 ┃ ┣ 📂 01. [Desafio de projeto] Gerenciador de Podcasts - API NodeJS Com Typescript e HTTP Module
+┃ ┃ ┗ 📂 projeto-app-flow
+┃ ┃   ┣ 📂 docs
+┃ ┃   ┗ 📂 src
+┃ ┃     ┣ 📂 controllers
+┃ ┃     ┣ 📂 models
+┃ ┃     ┣ 📂 repositories
+┃ ┃     ┣ 📂 routes
+┃ ┃     ┣ 📂 services
+┃ ┃     ┗ 📂 utils
 ┃ ┣ 📂 02. [Desafio de projeto] Criando uma Minimal API da Fórmula 1 com Node.js e Fastify
 ┃ ┗ 📂 03. [Desafio de projeto] Recriando a API da Champions League com Node.js e Express
 ┣ 📂 07. Boas Práticas de Programação
@@ -212,7 +221,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 | [03. Gerenciando Pacotes com Node.js com NPM](03.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/1 | 🔄 Em andamento |
 | [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [05. Introdução a Aplicações Web](05.%20Introdu%C3%A7%C3%A3o%20a%20Aplica%C3%A7%C3%B5es%20Web/README.md) | 4 | 0/0 | ⏳ A iniciar |
-| [06. Criando APIs com Node.js](06.%20Criando%20APIs%20com%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |
+| [06. Criando APIs com Node.js](06.%20Criando%20APIs%20com%20Node.js/README.md) | 3 | 0/1 | 🔄 Em andamento |
 | [07. Boas Práticas de Programação](07.%20Boas%20Pr%C3%A1ticas%20de%20Programa%C3%A7%C3%A3o/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [08. Introdução a React Native](08.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
 | [09. Fundamentos de Apps React Native](09.%20Fundamentos%20de%20Apps%20React%20Native/README.md) | 5 | 0/0 | ⏳ A iniciar |
