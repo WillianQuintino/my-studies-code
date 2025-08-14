@@ -93,6 +93,4 @@ Contribuições são bem-vindas!
 
 ## Licença
 
-Este projeto está licenciado sob a **MIT License**. (Ajuste conforme a real no repositório.)
-
-```
+Este projeto está licenciado sob a **MIT License**. 
