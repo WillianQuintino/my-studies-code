@@ -203,6 +203,16 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┣ 📂 04. Trabalhando com Tab Navigation no React Native
 ┃ ┣ 📂 05. Trabalhando com Drawer Navigation no React Native
 ┃ ┗ 📂 06. [Desafio de projeto] Criando seu App de Portfólio
+┃   ┗ 📂 bat-pass-app
+┃     ┣ 📂 assets
+┃     ┗ 📂 src
+┃       ┣ 📂 components
+┃       ┃ ┣ 📂 BatButton
+┃       ┃ ┣ 📂 BatLogo
+┃       ┃ ┗ 📂 BatTextInput
+┃       ┣ 📂 screens
+┃       ┃ ┗ 📂 Home
+┃       ┗ 📂 services
 ┣ 📂 11. Gerenciando Componentes React Native
 ┃ ┣ 📂 01. Casos de Usos com Hooks no React Native
 ┃ ┣ 📂 02. Trabalhando com Context API no React Native
@@ -235,7 +245,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 | [07. Boas Práticas de Programação](07.%20Boas%20Pr%C3%A1ticas%20de%20Programa%C3%A7%C3%A3o/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [08. Introdução a React Native](08.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
 | [09. Fundamentos de Apps React Native](09.%20Fundamentos%20de%20Apps%20React%20Native/README.md) | 5 | 0/0 | ⏳ A iniciar |
-| [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/0 | ⏳ A iniciar |
+| [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/1 | 🔄 Em andamento |
 | [11. Gerenciando Componentes React Native](11.%20Gerenciando%20Componentes%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
 | [12. Desenvolvimento IA Powered](12.%20Desenvolvimento%20IA%20Powered/README.md) | 5 | 0/0 | ⏳ A iniciar |
 <!-- progresso:end -->
