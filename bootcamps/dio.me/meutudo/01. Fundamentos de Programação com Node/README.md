@@ -23,14 +23,14 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 
 <!-- estrutura-trilha:start -->
 ```
-┣ 📂 01. Desenvolvimento Mobile com a meutudo
-┃ ┗ 📂 01. Introdução ao Bootcamp meutudo - Mobile Developer
-┣ 📂 02. Bem-Vindo ao Mundo do Node.js
+┣ 📂 01. Desenvolvimento Mobile
+┃ ┗ 📂 01. Introdução
+┣ 📂 02. Bem-Vindo aoNode.js
 ┃ ┣ 📂 01. Introdução
 ┃ ┣ 📂 02. Pré-Requesitos
 ┃ ┣ 📂 03. O que vou Aprender
 ┃ ┣ 📂 04. Com Quem Vou Aprender
-┃ ┣ 📂 05. Dicas pra estudar melhor nodeJS
+┃ ┣ 📂 05. Dicas de estudo
 ┃ ┣ 📂 06. Vamos nos conhecer
 ┃ ┗ 📂 07. Material de Apoio
 ┣ 📂 03. Introdução ao Node.js
@@ -38,17 +38,17 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 ┃ ┣ 📂 02. Sobre o mercado de node.js
 ┃ ┣ 📂 03. Como o node Funciona
 ┃ ┣ 📂 04. Encerramento
-┃ ┗ 📂 05. Materiais de Apoio e Questionário - Introdução a NodeJS
-┣ 📂 04. Instalando Ambiente de Desenvolvimento Node.js
-┃ ┣ 📂 01. Instalando o ambiente NodeJS
-┃ ┣ 📂 02. Instalando seu Editor de código
-┃ ┣ 📂 03. Instalando o Node e o NPM
-┃ ┗ 📂 04. Seu primeiro ola mundo
+┃ ┗ 📂 05. Materiais de Apoio
+┣ 📂 04. Instalando  Node.js
+┃ ┣ 📂 01. Instalando NodeJS
+┃ ┣ 📂 02. Instalando Editor
+┃ ┣ 📂 03. Instalando o Node
+┃ ┗ 📂 04.ola mundo
 ┃   ┗ 📂 01 - helloword
-┣ 📂 05. Inicializando Projetos Node.js
-┣ 📂 06. Versionamento de Código com Git e GitHub
-┣ 📂 07. Desafios de Projetos Crie Um Portfólio Vencedor
-┣ 📂 08. [Desafio de Projeto] Mario Kart com Node.js
+┣ 📂 05. Inicializando 
+┣ 📂 06. Git e GitHub
+┣ 📂 07.  Um Portfólio Vencedor
+┣ 📂 08. Mario Kart com Node.js
 ┃ ┣ 📂 01. Introdução
 ┃ ┣ 📂 02. Regras de negócio
 ┃ ┣ 📂 03. Demontração
@@ -124,7 +124,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 ┃ ┗ 📂 _project
 ┃   ┣ 📂 docs
 ┃   ┗ 📂 src
-┗ 📂 09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer
+┗ 📂 09.Mobile Developer
   ┗ 📂 LIVE
 ```
 <!-- estrutura-trilha:end -->
@@ -136,15 +136,15 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
-| [01. Desenvolvimento Mobile com a meutudo](01.%20Desenvolvimento%20Mobile%20com%20a%20meutudo/README.md) | 0/1 | 🔄 Em andamento |
-| [02. Bem-Vindo ao Mundo do Node.js](02.%20Bem-Vindo%20ao%20Mundo%20do%20Node.js/README.md) | 0/7 | 🔄 Em andamento |
+| [01. Desenvolvimento Mobile](01.%20Desenvolvimento%20Mobile/README.md) | 0/1 | 🔄 Em andamento |
+| [02. Bem-Vindo aoNode.js](02.%20Bem-Vindo%20aoNode.js/README.md) | 0/7 | 🔄 Em andamento |
 | [03. Introdução ao Node.js](03.%20Introdu%C3%A7%C3%A3o%20ao%20Node.js/README.md) | 0/5 | 🔄 Em andamento |
-| [04. Instalando Ambiente de Desenvolvimento Node.js](04.%20Instalando%20Ambiente%20de%20Desenvolvimento%20Node.js/README.md) | 0/4 | 🔄 Em andamento |
-| [05. Inicializando Projetos Node.js](05.%20Inicializando%20Projetos%20Node.js/README.md) | 0/0 | ⏳ A iniciar |
-| [06. Versionamento de Código com Git e GitHub](06.%20Versionamento%20de%20C%C3%B3digo%20com%20Git%20e%20GitHub/README.md) | 0/0 | ⏳ A iniciar |
-| [07. Desafios de Projetos Crie Um Portfólio Vencedor](07.%20Desafios%20de%20Projetos%20Crie%20Um%20Portf%C3%B3lio%20Vencedor/README.md) | 0/0 | ⏳ A iniciar |
-| [08. [Desafio de Projeto] Mario Kart com Node.js](08.%20%5BDesafio%20de%20Projeto%5D%20Mario%20Kart%20com%20Node.js/README.md) | 0/22 | 🔄 Em andamento |
-| [09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer](09.%20%5BMentoria%20(Live)%5D%20Imagem%20do%20bootcamp%20meutudo%20-%20Mobile%20Developer/README.md) | 0/1 | 🔄 Em andamento |
+| [04. Instalando  Node.js](04.%20Instalando%20%20Node.js/README.md) | 0/4 | 🔄 Em andamento |
+| [05. Inicializando ](05.%20Inicializando%20/README.md) | 0/0 | ⏳ A iniciar |
+| [06. Git e GitHub](06.%20Git%20e%20GitHub/README.md) | 0/0 | ⏳ A iniciar |
+| [07.  Um Portfólio Vencedor](07.%20%20Um%20Portf%C3%B3lio%20Vencedor/README.md) | 0/0 | ⏳ A iniciar |
+| [08. Mario Kart com Node.js](08.%20Mario%20Kart%20com%20Node.js/README.md) | 0/22 | 🔄 Em andamento |
+| [09.Mobile Developer](09.Mobile%20Developer/README.md) | 0/1 | 🔄 Em andamento |
 <!-- módulos:end -->
 
 > Atualize esta tabela com os módulos reais conforme avança.
