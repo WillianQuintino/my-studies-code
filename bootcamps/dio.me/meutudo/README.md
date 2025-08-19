@@ -25,7 +25,7 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 <!-- estrutura-bootcamp:start -->
 ```
 ┣ 📂 01. Fundamentos
-┃ ┣ 📂 01. Desenvolvimento Mobile
+┃ ┣ 📂 01. Mobile
 ┃ ┃ ┗ 📂 01. Introdução
 ┃ ┣ 📂 02. Bem-Vindo aoNode.js
 ┃ ┃ ┣ 📂 01. Introdução
@@ -227,9 +227,9 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┣ 📂 02. Context
 ┃ ┣ 📂 03.  Consumir API
 ┃ ┗ 📂 04. Deploy  EAS
-┗ 📂 12. IA
+┗ 📂 12.IA
   ┣ 📂 01. Introdução
-  ┣ 📂 02. Técnicas 
+  ┣ 📂 02.Tecnicas
   ┣ 📂 03. GitHub Copilot
   ┣ 📂 04. Configurando Copilot
   ┗ 📂 05. Avalie
@@ -256,7 +256,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 | [09. Fundamentos RN](09.%20Fundamentos%20RN/README.md) | 5 | 0/1 | 🔄 Em andamento |
 | [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/1 | 🔄 Em andamento |
 | [11. Gerenciando](11.%20Gerenciando/README.md) | 4 | 0/0 | ⏳ A iniciar |
-| [12. IA](12.%20IA/README.md) | 5 | 0/0 | ⏳ A iniciar |
+| [12.IA](12.IA/README.md) | 5 | 0/0 | ⏳ A iniciar |
 <!-- progresso:end -->
 
 > ✅ Atualize conforme avança no bootcamp.

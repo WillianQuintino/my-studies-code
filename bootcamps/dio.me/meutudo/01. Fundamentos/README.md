@@ -23,7 +23,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 
 <!-- estrutura-trilha:start -->
 ```
-┣ 📂 01. Desenvolvimento Mobile
+┣ 📂 01. Mobile
 ┃ ┗ 📂 01. Introdução
 ┣ 📂 02. Bem-Vindo aoNode.js
 ┃ ┣ 📂 01. Introdução
@@ -136,7 +136,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 <!-- módulos:start -->
 | Módulo | Aulas Completas | Status |
 |---|---|---|
-| [01. Desenvolvimento Mobile](01.%20Desenvolvimento%20Mobile/README.md) | 0/1 | 🔄 Em andamento |
+| [01. Mobile](01.%20Mobile/README.md) | 0/1 | 🔄 Em andamento |
 | [02. Bem-Vindo aoNode.js](02.%20Bem-Vindo%20aoNode.js/README.md) | 0/7 | 🔄 Em andamento |
 | [03. Introdução ao Node.js](03.%20Introdu%C3%A7%C3%A3o%20ao%20Node.js/README.md) | 0/5 | 🔄 Em andamento |
 | [04. Instalando  Node.js](04.%20Instalando%20%20Node.js/README.md) | 0/4 | 🔄 Em andamento |
