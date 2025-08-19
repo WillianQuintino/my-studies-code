@@ -45,7 +45,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 ┃ ┣ 📂 03. Instalando o Node
 ┃ ┗ 📂 04.ola mundo
 ┃   ┗ 📂 01 - helloword
-┣ 📂 05. Inicializando 
+┣ 📂 05. Inicializando
 ┣ 📂 06. Git e GitHub
 ┣ 📂 07.  Um Portfólio Vencedor
 ┣ 📂 08. Mario Kart com Node.js
@@ -140,7 +140,7 @@ Este grupo tem como foco principal o estudo e prática dos seguintes temas:
 | [02. Bem-Vindo aoNode.js](02.%20Bem-Vindo%20aoNode.js/README.md) | 0/7 | 🔄 Em andamento |
 | [03. Introdução ao Node.js](03.%20Introdu%C3%A7%C3%A3o%20ao%20Node.js/README.md) | 0/5 | 🔄 Em andamento |
 | [04. Instalando  Node.js](04.%20Instalando%20%20Node.js/README.md) | 0/4 | 🔄 Em andamento |
-| [05. Inicializando ](05.%20Inicializando%20/README.md) | 0/0 | ⏳ A iniciar |
+| [05. Inicializando](05.%20Inicializando/README.md) | 0/0 | ⏳ A iniciar |
 | [06. Git e GitHub](06.%20Git%20e%20GitHub/README.md) | 0/0 | ⏳ A iniciar |
 | [07.  Um Portfólio Vencedor](07.%20%20Um%20Portf%C3%B3lio%20Vencedor/README.md) | 0/0 | ⏳ A iniciar |
 | [08. Mario Kart com Node.js](08.%20Mario%20Kart%20com%20Node.js/README.md) | 0/22 | 🔄 Em andamento |

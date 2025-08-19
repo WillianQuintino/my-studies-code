@@ -24,7 +24,7 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 
 <!-- estrutura-bootcamp:start -->
 ```
-┣ 📂 01. Fundamentos de Programação com Node
+┣ 📂 01. Fundamentos
 ┃ ┣ 📂 01. Desenvolvimento Mobile
 ┃ ┃ ┗ 📂 01. Introdução
 ┃ ┣ 📂 02. Bem-Vindo aoNode.js
@@ -47,7 +47,7 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┃ ┣ 📂 03. Instalando o Node
 ┃ ┃ ┗ 📂 04.ola mundo
 ┃ ┃   ┗ 📂 01 - helloword
-┃ ┣ 📂 05. Inicializando 
+┃ ┣ 📂 05. Inicializando
 ┃ ┣ 📂 06. Git e GitHub
 ┃ ┣ 📂 07.  Um Portfólio Vencedor
 ┃ ┣ 📂 08. Mario Kart com Node.js
@@ -245,7 +245,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 <!-- progresso:start -->
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
-| [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/40 | 🔄 Em andamento |
+| [01. Fundamentos](01.%20Fundamentos/README.md) | 9 | 0/40 | 🔄 Em andamento |
 | [02. Node Modules](02.%20Node%20Modules/README.md) | 3 | 0/1 | 🔄 Em andamento |
 | [03. Gerenciando Pacotes](03.%20Gerenciando%20Pacotes/README.md) | 6 | 0/1 | 🔄 Em andamento |
 | [04. Typescript](04.%20Typescript/README.md) | 3 | 0/0 | ⏳ A iniciar |
