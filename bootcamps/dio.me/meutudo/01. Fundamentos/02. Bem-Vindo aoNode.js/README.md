@@ -26,7 +26,7 @@ Este módulo tem como objetivo:
 ┣ 📂 02. Pré-Requesitos
 ┣ 📂 03. O que vou Aprender
 ┣ 📂 04. Com Quem Vou Aprender
-┣ 📂 05. Dicas pra estudar melhor nodeJS
+┣ 📂 05. Dicas de estudo
 ┣ 📂 06. Vamos nos conhecer
 ┗ 📂 07. Material de Apoio
 ```
@@ -43,7 +43,7 @@ Este módulo tem como objetivo:
 | 2 | [02. Pré-Requesitos](02.%20Pr%C3%A9-Requesitos/README.md) | ⏳ A iniciar |  |
 | 3 | [03. O que vou Aprender](03.%20O%20que%20vou%20Aprender/README.md) | ⏳ A iniciar |  |
 | 4 | [04. Com Quem Vou Aprender](04.%20Com%20Quem%20Vou%20Aprender/README.md) | ⏳ A iniciar |  |
-| 5 | [05. Dicas pra estudar melhor nodeJS](05.%20Dicas%20pra%20estudar%20melhor%20nodeJS/README.md) | ⏳ A iniciar |  |
+| 5 | [05. Dicas de estudo](05.%20Dicas%20de%20estudo/README.md) | ⏳ A iniciar |  |
 | 6 | [06. Vamos nos conhecer](06.%20Vamos%20nos%20conhecer/README.md) | ⏳ A iniciar |  |
 | 7 | [07. Material de Apoio](07.%20Material%20de%20Apoio/README.md) | ⏳ A iniciar |  |
 <!-- aulas:end -->

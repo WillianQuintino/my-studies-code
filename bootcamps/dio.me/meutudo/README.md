@@ -25,14 +25,14 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 <!-- estrutura-bootcamp:start -->
 ```
 ┣ 📂 01. Fundamentos de Programação com Node
-┃ ┣ 📂 01. Desenvolvimento Mobile com a meutudo
-┃ ┃ ┗ 📂 01. Introdução ao Bootcamp meutudo - Mobile Developer
-┃ ┣ 📂 02. Bem-Vindo ao Mundo do Node.js
+┃ ┣ 📂 01. Desenvolvimento Mobile
+┃ ┃ ┗ 📂 01. Introdução
+┃ ┣ 📂 02. Bem-Vindo aoNode.js
 ┃ ┃ ┣ 📂 01. Introdução
 ┃ ┃ ┣ 📂 02. Pré-Requesitos
 ┃ ┃ ┣ 📂 03. O que vou Aprender
 ┃ ┃ ┣ 📂 04. Com Quem Vou Aprender
-┃ ┃ ┣ 📂 05. Dicas pra estudar melhor nodeJS
+┃ ┃ ┣ 📂 05. Dicas de estudo
 ┃ ┃ ┣ 📂 06. Vamos nos conhecer
 ┃ ┃ ┗ 📂 07. Material de Apoio
 ┃ ┣ 📂 03. Introdução ao Node.js
@@ -40,17 +40,17 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┃ ┣ 📂 02. Sobre o mercado de node.js
 ┃ ┃ ┣ 📂 03. Como o node Funciona
 ┃ ┃ ┣ 📂 04. Encerramento
-┃ ┃ ┗ 📂 05. Materiais de Apoio e Questionário - Introdução a NodeJS
-┃ ┣ 📂 04. Instalando Ambiente de Desenvolvimento Node.js
-┃ ┃ ┣ 📂 01. Instalando o ambiente NodeJS
-┃ ┃ ┣ 📂 02. Instalando seu Editor de código
-┃ ┃ ┣ 📂 03. Instalando o Node e o NPM
-┃ ┃ ┗ 📂 04. Seu primeiro ola mundo
+┃ ┃ ┗ 📂 05. Materiais de Apoio
+┃ ┣ 📂 04. Instalando  Node.js
+┃ ┃ ┣ 📂 01. Instalando NodeJS
+┃ ┃ ┣ 📂 02. Instalando Editor
+┃ ┃ ┣ 📂 03. Instalando o Node
+┃ ┃ ┗ 📂 04.ola mundo
 ┃ ┃   ┗ 📂 01 - helloword
-┃ ┣ 📂 05. Inicializando Projetos Node.js
-┃ ┣ 📂 06. Versionamento de Código com Git e GitHub
-┃ ┣ 📂 07. Desafios de Projetos Crie Um Portfólio Vencedor
-┃ ┣ 📂 08. [Desafio de Projeto] Mario Kart com Node.js
+┃ ┣ 📂 05. Inicializando 
+┃ ┣ 📂 06. Git e GitHub
+┃ ┣ 📂 07.  Um Portfólio Vencedor
+┃ ┣ 📂 08. Mario Kart com Node.js
 ┃ ┃ ┣ 📂 01. Introdução
 ┃ ┃ ┣ 📂 02. Regras de negócio
 ┃ ┃ ┣ 📂 03. Demontração
@@ -126,20 +126,20 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┃ ┗ 📂 _project
 ┃ ┃   ┣ 📂 docs
 ┃ ┃   ┗ 📂 src
-┃ ┗ 📂 09. [Mentoria (Live)] Imagem do bootcamp meutudo - Mobile Developer
+┃ ┗ 📂 09.Mobile Developer
 ┃   ┗ 📂 LIVE
-┣ 📂 02. Trabalhando com Node Modules
-┃ ┣ 📂 01. Modularização de Projetos Node.js
-┃ ┣ 📂 02. Modularização com EcmaScript Modules
-┃ ┗ 📂 03. [Desafio de projeto] Carrinho de Compras da Shopee com Node.js
+┣ 📂 02. Node Modules
+┃ ┣ 📂 01. Modularização
+┃ ┣ 📂 02. EcmaScript Modules
+┃ ┗ 📂 03. Carrinho da Shopee
 ┃   ┗ 📂 06-shopee-cart
 ┃     ┗ 📂 src
 ┃       ┗ 📂 services
-┣ 📂 03. Gerenciando Pacotes com Node.js com NPM
-┃ ┣ 📂 01. Gerenciando Pacotes com Node
-┃ ┣ 📂 02. NPM Scripts em Node.js
-┃ ┣ 📂 03. Gerenciando Variáveis de Ambientes com NPM
-┃ ┣ 📂 04. [Desafio de projeto] Criando um Gerador de QR Codes para E-commerces com Node.js
+┣ 📂 03. Gerenciando Pacotes
+┃ ┣ 📂 01. Gerenciando
+┃ ┣ 📂 02. Scripts
+┃ ┣ 📂 03. Variáveis
+┃ ┣ 📂 04. Gerador de QR Codes
 ┃ ┃ ┗ 📂 projeto-qrcode
 ┃ ┃   ┗ 📂 src
 ┃ ┃     ┣ 📂 prompts-schema
@@ -147,19 +147,19 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┃       ┣ 📂 password
 ┃ ┃       ┃ ┗ 📂 utils
 ┃ ┃       ┗ 📂 qr-code
-┃ ┣ 📂 05. Desafios de Código Aperfeiçoe Sua Lógica e Pensamento Computacional
-┃ ┗ 📂 06. [Desafio de projeto] Classificando Clientes e Valores com JavaScript
-┣ 📂 04. Typescript para Devs Node.js
-┃ ┣ 📂 01. Introdução a TypeScript e Supersets
-┃ ┣ 📂 02. Como configurar TypeScript em Projetos Node.js
-┃ ┗ 📂 03. Debugging com Node.js
-┣ 📂 05. Introdução a Aplicações Web
-┃ ┣ 📂 01. Como a Web Funciona&#63;
-┃ ┣ 📂 02. Como Funciona HTTP Protocol
-┃ ┣ 📂 03. Introdução ao desenvolvimento de API
-┃ ┗ 📂 04. [Desafio de código] Monitorando e Classificando Empréstimos com JavaScript
-┣ 📂 06. Criando APIs com Node.js
-┃ ┣ 📂 01. [Desafio de projeto] Gerenciador de Podcasts - API NodeJS Com Typescript e HTTP Module
+┃ ┣ 📂 05. Aperfeiçoe
+┃ ┗ 📂 06. Classificando
+┣ 📂 04. Typescript
+┃ ┣ 📂 01. TypeScript e Supersets
+┃ ┣ 📂 02. configurarando
+┃ ┗ 📂 03. Debugging
+┣ 📂 05. Web
+┃ ┣ 📂 01. Web
+┃ ┣ 📂 02. HTTP Protocol
+┃ ┣ 📂 03. API
+┃ ┗ 📂 04. Empréstimos
+┣ 📂 06. Criando APIs
+┃ ┣ 📂 01. Gerenciador de Podcasts
 ┃ ┃ ┗ 📂 projeto-app-flow
 ┃ ┃   ┣ 📂 docs
 ┃ ┃   ┗ 📂 src
@@ -169,10 +169,10 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┃     ┣ 📂 routes
 ┃ ┃     ┣ 📂 services
 ┃ ┃     ┗ 📂 utils
-┃ ┣ 📂 02. [Desafio de projeto] Criando uma Minimal API da Fórmula 1 com Node.js e Fastify
+┃ ┣ 📂 02. API da Fórmula 1
 ┃ ┃ ┗ 📂 project-formula-1
 ┃ ┃   ┗ 📂 src
-┃ ┗ 📂 03. [Desafio de projeto] Recriando a API da Champions League com Node.js e Express
+┃ ┗ 📂 03. API da Champions
 ┃   ┗ 📂 projeto-champions
 ┃     ┗ 📂 src
 ┃       ┣ 📂 controllers
@@ -181,21 +181,21 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃       ┣ 📂 repositories
 ┃       ┣ 📂 services
 ┃       ┗ 📂 utils
-┣ 📂 07. Boas Práticas de Programação
-┃ ┣ 📂 01. Introdução a Clean Code
-┃ ┣ 📂 02. Boas Práticas Para APIs RESTful
-┃ ┗ 📂 03. [Desafio de código] Contando Dias e Calculando Médias com JavaScript
-┣ 📂 08. Introdução a React Native
-┃ ┣ 📂 02. Configurando seu Ambiente de Desenvolvimento para React Native
-┃ ┣ 📂 03. Primeiros Passos com React Native & Expo
-┃ ┣ 📂 04. [Desafio de projeto] Sequenciador de senhas do Batman com React Native
-┃ ┗ 📂 05. [Desafio de projeto] Calculando Juros e Taxas com JavaScript
-┣ 📂 09. Fundamentos de Apps React Native
-┃ ┣ 📂 01. Trabalhando Com Componentes no React Native
-┃ ┣ 📂 02. Flexbox e Responsividade no React Native
-┃ ┣ 📂 03. Gerenciando eventos no React Native
-┃ ┣ 📂 04. [Desafio de projeto] Desafio&#58; Recrie um app de Bat Sinal
-┃ ┗ 📂 05. [Desafio de projeto] Validando e Formatando CPF com JavaScript
+┣ 📂 07. Boas Práticas
+┃ ┣ 📂 01. Clean Code
+┃ ┣ 📂 02. APIs RESTful
+┃ ┗ 📂 03.  Calculando
+┣ 📂 08. React Native
+┃ ┣ 📂 02. Configurando
+┃ ┣ 📂 03. Primeiros Passos
+┃ ┣ 📂 04. Sequenciador de senhas
+┃ ┗ 📂 05. Calculando Juros
+┣ 📂 09. Fundamentos RN
+┃ ┣ 📂 01.  Componentes
+┃ ┣ 📂 02. Responsividade
+┃ ┣ 📂 03. eventos
+┃ ┣ 📂 04. Bat Sinal
+┃ ┗ 📂 05. CPF
 ┃   ┗ 📂 bat-signal-app
 ┃     ┣ 📂 assets
 ┃     ┗ 📂 src
@@ -206,12 +206,12 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃       ┗ 📂 screens
 ┃         ┗ 📂 Home
 ┣ 📂 10. Navegabilidade no React Native
-┃ ┣ 📂 01.Trabalhando com Hooks no React Native
-┃ ┣ 📂 02. Trabalhando com Navigation no React Native
-┃ ┣ 📂 03. Trabalhando com Stack Navigation no React Native
-┃ ┣ 📂 04. Trabalhando com Tab Navigation no React Native
-┃ ┣ 📂 05. Trabalhando com Drawer Navigation no React Native
-┃ ┗ 📂 06. [Desafio de projeto] Criando seu App de Portfólio
+┃ ┣ 📂 01.Hooks
+┃ ┣ 📂 02. Navigation
+┃ ┣ 📂 03. Stack
+┃ ┣ 📂 04. Tab
+┃ ┣ 📂 05. Drawer
+┃ ┗ 📂 06.  Portfólio
 ┃   ┗ 📂 bat-pass-app
 ┃     ┣ 📂 assets
 ┃     ┗ 📂 src
@@ -222,17 +222,17 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃       ┣ 📂 screens
 ┃       ┃ ┗ 📂 Home
 ┃       ┗ 📂 services
-┣ 📂 11. Gerenciando Componentes React Native
-┃ ┣ 📂 01. Casos de Usos com Hooks no React Native
-┃ ┣ 📂 02. Trabalhando com Context API no React Native
-┃ ┣ 📂 03. [Desafio de projeto] Como Consumir API em APPs React Native na Prática
-┃ ┗ 📂 04. Deploy de Aplicações React Native para Lojas com EAS
-┗ 📂 12. Desenvolvimento IA Powered
-  ┣ 📂 01. Introdução à Engenharia de Prompts
-  ┣ 📂 02. Técnicas de Engenharia de Prompt
-  ┣ 📂 03. Conhecendo o GitHub Copilot&#58; Aumentando sua Produtividade na Programação
-  ┣ 📂 04. Configurando e Usando o GitHub Copilot
-  ┗ 📂 05. Avalie este Bootcamp 2025
+┣ 📂 11. Gerenciando
+┃ ┣ 📂 01. Hooks
+┃ ┣ 📂 02. Context
+┃ ┣ 📂 03.  Consumir API
+┃ ┗ 📂 04. Deploy  EAS
+┗ 📂 12. IA
+  ┣ 📂 01. Introdução
+  ┣ 📂 02. Técnicas 
+  ┣ 📂 03. GitHub Copilot
+  ┣ 📂 04. Configurando Copilot
+  ┗ 📂 05. Avalie
 ```
 <!-- estrutura-bootcamp:end -->
 
@@ -246,17 +246,17 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 | Trilha | Módulos | Aulas Completas | Status |
 |---|---|---|---|
 | [01. Fundamentos de Programação com Node](01.%20Fundamentos%20de%20Programa%C3%A7%C3%A3o%20com%20Node/README.md) | 9 | 0/40 | 🔄 Em andamento |
-| [02. Trabalhando com Node Modules](02.%20Trabalhando%20com%20Node%20Modules/README.md) | 3 | 0/1 | 🔄 Em andamento |
-| [03. Gerenciando Pacotes com Node.js com NPM](03.%20Gerenciando%20Pacotes%20com%20Node.js%20com%20NPM/README.md) | 6 | 0/1 | 🔄 Em andamento |
-| [04. Typescript para Devs Node.js](04.%20Typescript%20para%20Devs%20Node.js/README.md) | 3 | 0/0 | ⏳ A iniciar |
-| [05. Introdução a Aplicações Web](05.%20Introdu%C3%A7%C3%A3o%20a%20Aplica%C3%A7%C3%B5es%20Web/README.md) | 4 | 0/0 | ⏳ A iniciar |
-| [06. Criando APIs com Node.js](06.%20Criando%20APIs%20com%20Node.js/README.md) | 3 | 0/3 | 🔄 Em andamento |
-| [07. Boas Práticas de Programação](07.%20Boas%20Pr%C3%A1ticas%20de%20Programa%C3%A7%C3%A3o/README.md) | 3 | 0/0 | ⏳ A iniciar |
-| [08. Introdução a React Native](08.%20Introdu%C3%A7%C3%A3o%20a%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
-| [09. Fundamentos de Apps React Native](09.%20Fundamentos%20de%20Apps%20React%20Native/README.md) | 5 | 0/1 | 🔄 Em andamento |
+| [02. Node Modules](02.%20Node%20Modules/README.md) | 3 | 0/1 | 🔄 Em andamento |
+| [03. Gerenciando Pacotes](03.%20Gerenciando%20Pacotes/README.md) | 6 | 0/1 | 🔄 Em andamento |
+| [04. Typescript](04.%20Typescript/README.md) | 3 | 0/0 | ⏳ A iniciar |
+| [05. Web](05.%20Web/README.md) | 4 | 0/0 | ⏳ A iniciar |
+| [06. Criando APIs](06.%20Criando%20APIs/README.md) | 3 | 0/3 | 🔄 Em andamento |
+| [07. Boas Práticas](07.%20Boas%20Pr%C3%A1ticas/README.md) | 3 | 0/0 | ⏳ A iniciar |
+| [08. React Native](08.%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
+| [09. Fundamentos RN](09.%20Fundamentos%20RN/README.md) | 5 | 0/1 | 🔄 Em andamento |
 | [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/1 | 🔄 Em andamento |
-| [11. Gerenciando Componentes React Native](11.%20Gerenciando%20Componentes%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
-| [12. Desenvolvimento IA Powered](12.%20Desenvolvimento%20IA%20Powered/README.md) | 5 | 0/0 | ⏳ A iniciar |
+| [11. Gerenciando](11.%20Gerenciando/README.md) | 4 | 0/0 | ⏳ A iniciar |
+| [12. IA](12.%20IA/README.md) | 5 | 0/0 | ⏳ A iniciar |
 <!-- progresso:end -->
 
 > ✅ Atualize conforme avança no bootcamp.
