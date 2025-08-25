@@ -212,16 +212,21 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┃ ┣ 📂 04. Tab
 ┃ ┣ 📂 05. Drawer
 ┃ ┗ 📂 06.  Portfólio
-┃   ┗ 📂 bat-pass-app
+┃   ┣ 📂 bat-pass-app
+┃   ┃ ┣ 📂 assets
+┃   ┃ ┗ 📂 src
+┃   ┃   ┣ 📂 components
+┃   ┃   ┃ ┣ 📂 BatButton
+┃   ┃   ┃ ┣ 📂 BatLogo
+┃   ┃   ┃ ┗ 📂 BatTextInput
+┃   ┃   ┣ 📂 screens
+┃   ┃   ┃ ┗ 📂 Home
+┃   ┃   ┗ 📂 services
+┃   ┗ 📂 potifolio
 ┃     ┣ 📂 assets
 ┃     ┗ 📂 src
 ┃       ┣ 📂 components
-┃       ┃ ┣ 📂 BatButton
-┃       ┃ ┣ 📂 BatLogo
-┃       ┃ ┗ 📂 BatTextInput
-┃       ┣ 📂 screens
-┃       ┃ ┗ 📂 Home
-┃       ┗ 📂 services
+┃       ┗ 📂 screens
 ┣ 📂 11. Gerenciando
 ┃ ┣ 📂 01. Hooks
 ┃ ┣ 📂 02. Context
@@ -264,7 +269,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 | [07. Boas Práticas](07.%20Boas%20Pr%C3%A1ticas/README.md) | 3 | 0/0 | ⏳ A iniciar |
 | [08. React Native](08.%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
 | [09. Fundamentos RN](09.%20Fundamentos%20RN/README.md) | 5 | 0/1 | 🔄 Em andamento |
-| [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/1 | 🔄 Em andamento |
+| [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/2 | 🔄 Em andamento |
 | [11. Gerenciando](11.%20Gerenciando/README.md) | 4 | 0/1 | 🔄 Em andamento |
 | [12.IA](12.IA/README.md) | 5 | 0/0 | ⏳ A iniciar |
 <!-- progresso:end -->

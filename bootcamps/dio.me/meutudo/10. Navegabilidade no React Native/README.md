@@ -8,16 +8,21 @@
 ┣ 📂 04. Tab
 ┣ 📂 05. Drawer
 ┗ 📂 06.  Portfólio
-  ┗ 📂 bat-pass-app
+  ┣ 📂 bat-pass-app
+  ┃ ┣ 📂 assets
+  ┃ ┗ 📂 src
+  ┃   ┣ 📂 components
+  ┃   ┃ ┣ 📂 BatButton
+  ┃   ┃ ┣ 📂 BatLogo
+  ┃   ┃ ┗ 📂 BatTextInput
+  ┃   ┣ 📂 screens
+  ┃   ┃ ┗ 📂 Home
+  ┃   ┗ 📂 services
+  ┗ 📂 potifolio
     ┣ 📂 assets
     ┗ 📂 src
       ┣ 📂 components
-      ┃ ┣ 📂 BatButton
-      ┃ ┣ 📂 BatLogo
-      ┃ ┗ 📂 BatTextInput
-      ┣ 📂 screens
-      ┃ ┗ 📂 Home
-      ┗ 📂 services
+      ┗ 📂 screens
 ```
 <!-- estrutura-trilha:end -->
 ## MÓDULOS
@@ -29,5 +34,5 @@
 | [03. Stack](03.%20Stack/README.md) | 0/0 | ⏳ A iniciar |
 | [04. Tab](04.%20Tab/README.md) | 0/0 | ⏳ A iniciar |
 | [05. Drawer](05.%20Drawer/README.md) | 0/0 | ⏳ A iniciar |
-| [06.  Portfólio](06.%20%20Portf%C3%B3lio/README.md) | 0/1 | 🔄 Em andamento |
+| [06.  Portfólio](06.%20%20Portf%C3%B3lio/README.md) | 0/2 | 🔄 Em andamento |
 <!-- módulos:end -->
