@@ -225,7 +225,17 @@ O objetivo deste bootcamp é capacitar desenvolvedores para atuarem em projetos 
 ┣ 📂 11. Gerenciando
 ┃ ┣ 📂 01. Hooks
 ┃ ┣ 📂 02. Context
-┃ ┣ 📂 03.  Consumir API
+┃ ┣ 📂 03. Consumir API
+┃ ┃ ┗ 📂 lamborghini-garage
+┃ ┃   ┣ 📂 assets
+┃ ┃   ┗ 📂 src
+┃ ┃     ┣ 📂 api
+┃ ┃     ┣ 📂 components
+┃ ┃     ┃ ┣ 📂 BuyButton
+┃ ┃     ┃ ┣ 📂 CardView
+┃ ┃     ┃ ┗ 📂 Divider
+┃ ┃     ┣ 📂 constants
+┃ ┃     ┗ 📂 screens
 ┃ ┗ 📂 04. Deploy  EAS
 ┗ 📂 12.IA
   ┣ 📂 01. Introdução
@@ -255,7 +265,7 @@ Cada **Trilha** é composta por **Módulos**, que contêm **Aulas** com vídeos,
 | [08. React Native](08.%20React%20Native/README.md) | 4 | 0/0 | ⏳ A iniciar |
 | [09. Fundamentos RN](09.%20Fundamentos%20RN/README.md) | 5 | 0/1 | 🔄 Em andamento |
 | [10. Navegabilidade no React Native](10.%20Navegabilidade%20no%20React%20Native/README.md) | 6 | 0/1 | 🔄 Em andamento |
-| [11. Gerenciando](11.%20Gerenciando/README.md) | 4 | 0/0 | ⏳ A iniciar |
+| [11. Gerenciando](11.%20Gerenciando/README.md) | 4 | 0/1 | 🔄 Em andamento |
 | [12.IA](12.IA/README.md) | 5 | 0/0 | ⏳ A iniciar |
 <!-- progresso:end -->
 
